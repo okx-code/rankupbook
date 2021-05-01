@@ -3,3 +3,11 @@ authors = ["okx-code"]
 language = "en"
 multilingual = false
 src = "src"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/okx-code/Rankup3"
+
+[output.html.print]
+enable = false

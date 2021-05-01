@@ -1,11 +1,10 @@
-# Summary
-- [Home]()
+# Summary 
 - [How-to-rankups.yml-and-prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)
   - [How to Rankups]()
     - [Optionals]()
   - [How to Prestiges]()
     - [What's Special About Prestiges?]()
-
+- [Home]()
 - [Configuration Example]()
   - [Minimum Requirements]()
     - [Steps and Ladders]()

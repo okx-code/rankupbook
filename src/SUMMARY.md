@@ -57,4 +57,4 @@
 - [FAQ]()
   - [YAML Questions]()
 
-- [For Developers](https://github.com/okx-code/rankupbook/blob/master/src/For-Developers.md)
+- [For Developers](./For-Developers.md)

@@ -1,3 +1,3 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [How-to-rankups.yml-and-prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)

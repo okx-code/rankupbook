@@ -1,4 +1,5 @@
 # Summary
+- [How-to-rankups.yml-and-prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)
 ### [Home]()
 
 ### [How to rankups.yml and prestiges.yml]()
@@ -60,4 +61,3 @@
   - [YAML Questions]()
 
 ### [For Developers]()
-- [How-to-rankups.yml-and-prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)

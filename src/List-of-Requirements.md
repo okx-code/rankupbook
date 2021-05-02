@@ -8,10 +8,11 @@ Use the spigot enum pages for [entities](https://hub.spigotmc.org/javadocs/spigo
 ## List
 
 **S means "supports sub-requirements?". D means "is deductible?".**
+If a player doesn't have enough to meet any `D=yes` requirement, none will be taken.
 
 | Name | Format | S | D | Description | Example
 | ---- | ------ | ---------------- | --------- | ----------- | -------
-| `money` | number | no | yes | Checks the player's balance and takes the<br>specified amount when ranking up. | `money 1000`
+| `money` | number | no | yes | Takes the specified amount<br>from the player's balance. | `money 1000`
 | `moneyh` | number | no | no | Checks the player's balance but<br>does not take the money. | `moneyh 10000`
 | `xp-level` | number | no | yes | Takes the specified amount of<br>xp-levels from the player. | `xp-level 30`
 | `xp-levelh` | number | no | no | Checks the player's xp-levels for<br> at least the specified amount. | `xp-levelh 50`

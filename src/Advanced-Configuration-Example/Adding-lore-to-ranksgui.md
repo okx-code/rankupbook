@@ -60,3 +60,6 @@ RankName:
       fill:
         material: BLACK_STAINED_GLASS_PANE
         name: ' '
+
+### Customize your Ranksgui!
+- Make `material` for `incomplete`, `current` and `complete` the same material but different for each rank so when you open the GUI each rank has its own item. materials must match the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)**

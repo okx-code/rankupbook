@@ -1,9 +1,9 @@
 # The Landing Page
 [Home](./Home.md)
 - [How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml.md)
-    - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/how-to-rankups.md)
+    - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
     - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
-    - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/how-to-prestiges.md)
+    - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
 ---
 - [Basic Configurations](./Configuration-Example.md)
     - [Minimum Requirements](./Configuration-Example/minimum-requirements-to-use-rankup.md)

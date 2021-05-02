@@ -2,9 +2,8 @@
 [Home](./Home.md)
 - [How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml.md)
     - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/how-to-rankups.md)
-        - [Optionals](./How-to-rankups.yml-and-prestiges.yml/optionals.md)
+    - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
     - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/how-to-prestiges.md)
-        - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml/whats-special-about-prestiges.md)
 ---
 - [Basic Configurations](./Configuration-Example.md)
     - [Minimum Requirements](./Configuration-Example/minimum-requirements-to-use-rankup.md)

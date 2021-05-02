@@ -14,7 +14,7 @@
   - [Starting to Format]()
   - [An Example]()
   - [Group Management]()
-- [Wrong Message](./Configuration-Example#Wrong-message.md)
+- [Wrong Message](./Configuration-Example/Wrong-message.md)
   - [Option 1]()
   - [Option 2]()
   - [Post Options]()

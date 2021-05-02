@@ -7,7 +7,7 @@ The Rankup3 wiki is being updated and maintained by NicBOMB and flurbudurbur.
 
 This wiki will give you a quick start guide for Rankup and further information about Rankup's configuration.
 
-# [How to rankups.yml and prestiges.yml](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml)
+# [How to rankups.yml and prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)
 This is the Rank and Prestige Reference Format page and outlines exactly what the plugin's configuration sections do.  
 Here you can find the formatting of each major portion of a rankup or prestige.
 

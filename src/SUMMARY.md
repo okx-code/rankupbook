@@ -43,17 +43,17 @@
     - [GUI Offset Explanation](./Advanced-Configuration-Example/gui-offset-explanation.md)
     - [Who's That `{RANK}`](./Advanced-Configuration-Example/whos-that-rank.md)
 ---
-- [List of Requirements](https://okx.sh/rankup/List-of-Requirements.md)
+- [List of Requirements](./List-of-Requirements.md)
     - [Sub-requirements in Placeholders](./List-of-Requirements/Sub-requirements-in-placeholders.md)
     - [List of Requirements](./List-of-Requirements/List.md)
     - [Soft-dependent Requirements](./List-of-Requirements/Soft-dependent-requirements.md)
 ---
-- [Config Placeholders](https://okx.sh/rankup/Config-Placeholders.md)
+- [Config Placeholders](./Config-Placeholders.md)
 ---
-- [PAPI Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md)
-    - [PAPI in Requirements](https://okx.sh/rankup/PAPI-Placeholders.md/using-papi-in-requirements.md)
-    - [MVdW Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/mvdw-placeholders.md)
-    - [Config PAPI Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/config-papi-placeholders.md)
+- [PAPI Placeholders](./PAPI-Placeholders.md)
+    - [PAPI in Requirements](./PAPI-Placeholders.md/using-papi-in-requirements.md)
+    - [MVdW Placeholders](./PAPI-Placeholders.md/mvdw-placeholders.md)
+    - [Config PAPI Placeholders](./PAPI-Placeholders.md/config-papi-placeholders.md)
 ---
 - [FAQ](./FAQ.md)
 ---

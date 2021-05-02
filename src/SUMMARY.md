@@ -1,5 +1,6 @@
 # The Landing Page
 [Home](./Home.md)
+---
 - [How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml-and-prestiges.yml.md)
     - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
     - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)

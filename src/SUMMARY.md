@@ -5,7 +5,7 @@
  - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml.md#how-to-rankups)
    - [Optionals](./How-to-rankups.yml-and-prestiges.yml.md#optionals)
  - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml.md#how-to-prestiges)
-   - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml.md#whats-special-about-prestiges)
+   - [What's Special About Prestiges?]()
  ---
 # Basic Configurations
 [Configuration Example](https://github.com/okx-code/Rankup3/wiki/Configuration-Example)

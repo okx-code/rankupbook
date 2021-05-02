@@ -2,6 +2,25 @@
 
 **S means "supports sub-requirements?". D means "is deductible?".**
 
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Format</th>
+    <th>S</th>
+    <th>D</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>`money`</td>
+    <td>number</td>
+    <td>no</td>
+    <td>yes</td>
+    <td>Checks the player's balance and takes the specified amount when ranking up.</td>
+    <td>`money 1000`</td>
+  </tr>
+
+
 | Name | Format | S | D | Description | Example
 | ---- | ------ | ---------------- | --------- | ----------- | -------
 | `money` | number | no | yes | Checks the player's balance and takes the specified amount when ranking up. | `money 1000`

@@ -46,10 +46,9 @@
 - [Who's That `{RANK}`](./Advanced-Configuration-Example/Who-is-that-rank)
  ---
 # List of Requirements
-[List of Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements)
-- [Sub-requirements in Placeholders](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements#how-to-specify-sub-requirements-in-placeholders)
-- [List of Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements#list)
-- [Soft-dependent Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements#soft-dependent-requirements)
+- [Sub-requirements in Placeholders](./List-of-Requirements/Sub-requirements-in-placeholders.md)
+- [List of Requirements](./List-of-requirements/List.md)
+- [Soft-dependent Requirements](./List-of-Requirements/Soft-dependent-requirements.md)
 --- 
 # Config Placeholders
 [Config Placeholders](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders) 

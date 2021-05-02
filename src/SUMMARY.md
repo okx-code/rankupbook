@@ -1,7 +1,7 @@
 # The Landing Page
 [Home](./Home.md)
  ---
-[How to rankups.yml and prestiges.yml](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml)
+[How to rankups.yml and prestiges.yml](./How-to-rankups.yml-and-prestigest.yml.md)
  - [How to Rankups](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#how-to-rankups)
    - [Optionals](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#optionals)
  - [How to Prestiges](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#how-to-prestiges)

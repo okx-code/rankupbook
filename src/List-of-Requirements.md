@@ -17,8 +17,8 @@ If a player doesn't have enough to meet any `D=yes` requirement, none will be ta
 | `xp-level` | number | no | yes | Takes the specified amount of<br>xp-levels from the player. | `xp-level 30`
 | `xp-levelh` | number | no | no | Checks the player's xp-levels for<br> at least the specified amount. | `xp-levelh 50`
 | `playtime-minutes` | number | no | no | How long a player has<br>been online, in minutes.<br>Uses the Minecraft statistic. | `playtime-minutes 120`
-| `group` | text | no | no | Requires a player to be in<br>at least one of a<br>list of groups,<br>separated by spaces. | `group vip mvp`
-| `permission` | text | no | no | Requires player to have<br>at least one of a<br>list of permissions,<br>separated by spaces. | `permission permission.one permission.two`
+| `group` | text | no | no | Requires a player to be in<br>at least one of a list of<br>groups, separated by spaces. | `group vip mvp`
+| `permission` | text | no | no | Requires player to have<br>at least one of a list of<br>permissions, separated by spaces. | `permission permission.one permission.two`
 | `world` | text | no | no | Requires a player to be in<br>any of the worlds listed,<br>separated by spaces. | `world my_world_nether my_world_the_end`
 | `player-kills` | number | no | no | Players killed.<br>Uses the Minecraft statistic. | `player-kills 15`
 | `total-mob-kills` | number | no | no | The total amount of<br>mob kills a player has. | `total-mob-kills 500`
@@ -28,7 +28,7 @@ If a player doesn't have enough to meet any `D=yes` requirement, none will be ta
 | `use-item` | number | yes | no | The amount of times<br>a player has used an [item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html). | `use-item DIAMOND_SWORD 200`
 | `block-break` | number | yes | no | The amount of times<br>a player has broken a [block](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) | `block-break STONE 1000`
 | `craft-item` | number | yes | no | The amount of times<br>a player has crafted an [item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) | `craft-item STONE_BRICKS 256`
-| `advancement` | text | no | no | Checks for a<br>specific Minecraft [advancement](https://minecraft.fandom.com/wiki/Advancement#List_of_advancements) | `advancement story/obtain_armor`
+| `advancement` | text | no | no | Checks for a specific<br>Minecraft [advancement](https://minecraft.fandom.com/wiki/Advancement#List_of_advancements) | `advancement story/obtain_armor`
 
 # Soft-Dependent Requirements
 

@@ -51,9 +51,6 @@
 - [Config Placeholders](./Config-Placeholders.md)
 ---
 - [PAPI Placeholders](./PAPI-Placeholders.md)
-    - [PAPI in Requirements](./PAPI-Placeholders/using-papi-in-requirements.md)
-    - [MVdW Placeholders](./PAPI-Placeholders/mvdw-placeholders.md)
-    - [Config PAPI Placeholders](./PAPI-Placeholders/config-papi-placeholders.md)
 ---
 - [FAQ](./FAQ.md)
 ---

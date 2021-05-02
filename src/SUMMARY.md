@@ -44,7 +44,7 @@
 - [GUI Offset Explanation](./Advanced-Configuration-Example/gui-offset-explanation.md)
 - [Who's That `{RANK}`](./Advanced-Configuration-Example/whos-that-rank.md)
  ---
-[List of Requirements](./List-of-Requirements.md)
+[List of Requirements](https://okx.sh/rankup/How-to-rankups.yml-and-prestiges.yml.md)
 - [Sub-requirements in Placeholders](./List-of-Requirements/how-to-specify-sub-requirements-in-placeholders.md)
 - [List of Requirements](./List-of-Requirements/list.md)
 - [Soft-dependent Requirements](./List-of-Requirements/soft-dependent-requirements.md)

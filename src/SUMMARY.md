@@ -1,11 +1,11 @@
 # The Landing Page
 [Home](./Home.md)
  ---
-[How to rankups.yml and prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)
- - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml#how-to-rankups)
-   - [Optionals](./How-to-rankups.yml-and-prestiges.yml#optionals)
- - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml#how-to-prestiges)
-   - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml#whats-special-about-prestiges)
+How to rankups.yml and prestiges.yml
+ - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
+   - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
+ - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.md)
+   - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml/Whats-special-about-prestiges.md)
  ---
 # Basic Configurations
 [Configuration Example](./Configuration-Example.md)

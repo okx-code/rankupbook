@@ -1,12 +1,13 @@
-# Sitemap
+# The Landing Page
 [Home](./Home.md)
----
+ ---
 [How to rankups.yml and prestiges.yml](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml)
  - [How to Rankups](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#how-to-rankups)
    - [Optionals](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#optionals)
  - [How to Prestiges](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#how-to-prestiges)
    - [What's Special About Prestiges?](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#whats-special-about-prestiges)
----
+ ---
+# Basic Configurations
 [Configuration Example](https://github.com/okx-code/Rankup3/wiki/Configuration-Example)
 - [Minimum Requirements](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#minimum-requirements-to-use-rankup)
   - [Steps and Ladders](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#steps-and-ladders)
@@ -19,7 +20,8 @@
   - [Option 2](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#option-2)
   - [Post Options](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#post-options)
 - [Confirmation GUI](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#confirmation-gui)
----
+ ---
+# Advanced Configurations
 [Advanced Configuration Example](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example)
 - [How to implement CUSTOM requirements](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#how-to-implement-custom-requirements)
   - [Template](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#template)
@@ -42,18 +44,26 @@
   - [Versions](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#versions-1)
   - [What To Change When](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#what-you-need-to-change-when-you-want-to)
 - [GUI Offset Explanation](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#gui-offset-explanation)
-- [Who's That `{RANK}`](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#whos-that-rank)
-- [List of Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements)
+  - [Who's That `{RANK}`](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#whos-that-rank)
+ ---
+# List of Requirements
+[List of Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements)
 - [Sub-requirements in Placeholders](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements#how-to-specify-sub-requirements-in-placeholders)
 - [List of Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements#list)
 - [Soft-dependent Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements#soft-dependent-requirements)
-- [Config Placeholders](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders)
-- [PAPI Placeholders](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders)
+--- 
+# Config Placeholders
+[Config Placeholders](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders) 
+---
+# PAPI Placeholders
+[PAPI Placeholders](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders)
   - [PAPI in Requirements](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#using-papi-in-requirements)
   - [MVdW Placeholders](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#mvdw-placeholders)
   - [Config PAPI Placeholders](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#config-papi-placeholders)
 ---
+# FAQs
 [FAQ](https://github.com/okx-code/Rankup3/wiki/FAQ)
  - [YAML Questions](https://github.com/okx-code/Rankup3/wiki/FAQ#yaml-questions)
 ---
+# For Developers
 [For Developers](./For-Developers.md)

@@ -66,4 +66,4 @@
  - [YAML Questions](https://github.com/okx-code/Rankup3/wiki/FAQ#yaml-questions)
 ---
 # For Developers
-[For Developers](./For-Developers.md)
+[For Developers](For-Developers.md)

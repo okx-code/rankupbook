@@ -9,15 +9,15 @@
  ---
 # Basic Configurations
 - [Prerequisites](./Configuration-Example/Minimum-requirements.md)
-  - Steps and Ladders
+  - [Steps and Ladders]()
 - [Your First Rank](./Configuration-Example/Your-first-rank.md)
-  - Starting to Format
-  - An Example
-  - Group Management
+  - [Starting to Format]()
+  - [An Example]()
+  - [Group Management]()
 - [Wrong Message](./Configuration-Example/Wrong-message.md)
-  - Option 1
-  - Option 2
-  - Post Options
+  - [Option 1]()
+  - [Option 2]()
+  - [Post Options]()
 - [Confirmation GUI](./Configuration-Example/Confirmation-GUI.md)
  ---
 # Advanced Configurations

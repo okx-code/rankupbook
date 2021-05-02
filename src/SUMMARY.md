@@ -3,8 +3,8 @@
 ---
 - [Rankups & Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml-and-prestiges.yml.md)
     - [Changing The Rankups.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
-    - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
     - [Changing The Prestiges.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
+    - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
 ---
 - [Basic Configurations](./Configuration-Example.md)
     - [Minimum Requirements](./Basic-Configuration-Example/Prerequisites.md)

@@ -1,0 +1,12 @@
+# Your First Rank
+The first time you start your server **with Rankup installed** the default **[rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml)**, **[config.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml)**, and **[locale](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale)** will generate like **[this](https://github.com/okx-code/Rankup3/tree/master/src/main/resources)**. Stop your server once the plugins have loaded. The **[rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml)** file is where you will add your ranks to. We recommend you take your time to read through it and all the comments.
+#### [See this FAQ section before continuing the tutorial!](https://github.com/okx-code/Rankup3/wiki/FAQ#YAML-Questions)
+## Starting to Format
+* [Each rankup needs a `heading:`, `rank:`, `next:`, and `requirements:` to be valid.](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#these-are-the-4-required-sections-in-the-rankupsyml-file-necessary-for-a-rankup-to-be-considered-valid-individually)
+* You can only have one starter rank as multiple _"roots"_ aren't possible. Multiple roots will cause the following error:
+`[Server] ERROR [Rankup] Multiple root rankup nodes detected (a root rankup nodes is a rankup that does not have anything that ranks up to it). This may lead to inconsistent behaviour.`
+* The last rankup of a ladder (all the ranks) should refer to the last rank in `next:`. This rank should not be the `rank:` of any other step.
+* The prior also applies to prestiges' `rank:` and `next:`.  
+**IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](https://github.com/okx-code/Rankup3/wiki/FAQ#YAML-Questions).  
+
+**[LuckPerms](https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/)** is strongly recommended and will be used throughout the below examples to manage our groups.

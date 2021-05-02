@@ -1,6 +1,6 @@
 # The Landing Page
 [Home](./Home.md)
-- [How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml.md)
+- [How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml-and-prestiges.yml.md)
     - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
     - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
     - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
@@ -11,7 +11,7 @@
     - [Wrong Message](./Configuration-Example/wrong-message.md)
     - [Confirmation GUI](./Configuration-Example/confirmation-gui.md)
 ---
-- [Advanced Configuration Example](./Advanced-Configuration-Example.md)
+- [Advanced Configuration Example](./Advanced-Configuration-Example/Back-to-basics.md)
     - [How to implement CUSTOM requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)
     - [Adding lore to `ranksgui:`](./Advanced-Configuration-Example/Adding-lore-to-ranksgui.md)
     - [Progress Bars](./Advanced-Configuration-Example/Progress-bars.md)

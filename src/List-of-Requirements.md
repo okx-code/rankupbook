@@ -18,7 +18,7 @@ If a player doesn't have enough to meet any `D=yes` requirement, none will be ta
 | `xp-levelh` | number | no | no | Checks the player's xp-levels for<br> at least the specified amount. | `xp-levelh 50`
 | `playtime-minutes` | number | no | no | How long a player has<br>been online, in minutes.<br>Uses the Minecraft statistic. | `playtime-minutes 120`
 | `group` | text | no | no | Requires a player to be in<br>at least one of a list of<br>groups, separated by spaces. | `group vip mvp`
-| `permission` | text | no | no | Requires player to have at least one<br>of a list of permissions,<br>separated by spaces. | `permission permission.one permission.two`
+| `permission` | text | no | no | Requires player to have at least<br>one of a list of permissions,<br>separated by spaces. | `permission permission.one permission.two`
 | `world` | text | no | no | Requires a player to be in<br>any of the worlds listed,<br>separated by spaces. | `world my_world_nether my_world_the_end`
 | `player-kills` | number | no | no | Players killed.<br>Uses the Minecraft statistic. | `player-kills 15`
 | `total-mob-kills` | number | no | no | The total amount of<br>mob kills a player has. | `total-mob-kills 500`

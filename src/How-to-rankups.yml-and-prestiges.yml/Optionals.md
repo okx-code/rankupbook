@@ -2,6 +2,7 @@
 ## You may also add the following sections to enable further features:
 ### 1. `commands:`
 Compatability Chart:
+
 rankups.yml | prestiges.yml
 --- | ---
 yes | yes
@@ -23,6 +24,7 @@ CommandsExample: # "heading:"
 You may define as many commands as you like in the list. They support ***all [config placeholders](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders) and [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)*** as well.
 ### 2. `display-name:`
 Compatability Chart:
+
 rankups.yml | prestiges.yml
 --- | ---
 yes | no
@@ -46,6 +48,7 @@ DisplayNameExample:
 
 ### 3. `rankup:`
 Compatability Chart:
+
 rankups.yml | prestiges.yml
 --- | ---
 yes | no
@@ -63,6 +66,7 @@ member:
 
 ### 4. `prestige`
 Compatability Chart:
+
 rankups.yml | prestiges.yml
 --- | ---
 no | yes

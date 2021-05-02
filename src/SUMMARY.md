@@ -6,10 +6,10 @@
     - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
 ---
 - [Basic Configurations](./Configuration-Example.md)
-    - [Minimum Requirements](./Configuration-Example/minimum-requirements-to-use-rankup.md)
-    - [Your First Rank](./Configuration-Example/your-first-rank.md)
-    - [Wrong Message](./Configuration-Example/wrong-message.md)
-    - [Confirmation GUI](./Configuration-Example/confirmation-gui.md)
+    - [Minimum Requirements](./Basic-Configuration-Example/Prerequisites.md)
+    - [Your First Rank](./Basic-Configuration-Example/Your-first-rank.md)
+    - [Wrong Message](./Basic-Configuration-Example/Wrong-message.md)
+    - [Confirmation GUI](./Basic-Configuration-Example/Confirmation-GUI.md)
 ---
 - [Advanced Configuration Example](./Advanced-Configuration-Example/Back-to-basics.md)
     - [How to implement CUSTOM requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)

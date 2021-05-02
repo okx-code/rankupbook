@@ -8,7 +8,7 @@
    - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml/Whats-special-about-prestiges.md)
  ---
 # Basic Configurations
-- [Minimum Requirements](./Configuration-Example/Minimum-requirements.md)
+- [Prerequisites](./Configuration-Example/Minimum-requirements.md)
   - [Steps and Ladders]()
 - [Your First Rank](./Configuration-Example/Your-first-rank.md)
   - [Starting to Format]()
@@ -18,7 +18,7 @@
   - [Option 1]()
   - [Option 2]()
   - [Post Options]()
-- [Confirmation GUI](./wiki/Configuration-Example/Confirmation-GUI.md)
+- [Confirmation GUI](./Configuration-Example/Confirmation-GUI.md)
  ---
 # Advanced Configurations
 [Advanced Configuration Example](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example)

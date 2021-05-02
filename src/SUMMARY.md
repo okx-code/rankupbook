@@ -1,7 +1,7 @@
 # The Landing Page
 [Home](./Home.md)
-- [How to `rankups.yml` & `prestiges.yml`](https://okx.sh/rankup/How-to-rankups.yml-and-prestiges.yml.md)
-    - [How to Rankups](https://okx.sh/rankup/How-to-rankups.yml-and-prestiges.yml.md)
+- [How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml.md)
+    - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/how-to-rankups.md)
         - [Optionals](./How-to-rankups.yml-and-prestiges.yml/optionals.md)
     - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/how-to-prestiges.md)
         - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml/whats-special-about-prestiges.md)
@@ -56,6 +56,5 @@
     - [Config PAPI Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/config-papi-placeholders.md)
 ---
 - [FAQ](./FAQ.md)
-    - [YAML Questions](./FAQ)
 ---
 - [For Developers](./For-Developers.md)

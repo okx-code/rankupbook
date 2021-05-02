@@ -44,9 +44,9 @@
     - [Who's That `{RANK}`](./Advanced-Configuration-Example/whos-that-rank.md)
 ---
 - [List of Requirements](https://okx.sh/rankup/List-of-Requirements.md)
-    - [Sub-requirements in Placeholders](./List-of-Requirements/how-to-specify-sub-requirements-in-placeholders.md)
-    - [List of Requirements](./List-of-Requirements/list.md)
-    - [Soft-dependent Requirements](./List-of-Requirements/soft-dependent-requirements.md)
+    - [Sub-requirements in Placeholders](../Sub-requirements-in-placeholders.md)
+    - [List of Requirements](../List.md)
+    - [Soft-dependent Requirements](../Soft-dependent-requirements.md)
 ---
 - [Config Placeholders](https://okx.sh/rankup/Config-Placeholders.md)
 ---

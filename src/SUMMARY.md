@@ -22,7 +22,7 @@
  ---
 # Advanced Configurations
 - [You should know](./Advanced-Configuration-Example/Back-to-basics.md)
-- [Adding custom requirements](./Advanced-Configuration-Example#/Adding-custom-requirements.md)
+- [Adding custom requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)
   - [Template]()
   - [Operations]()
   - [Example]()

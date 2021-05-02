@@ -9,7 +9,7 @@
  ---
 # Basic Configurations
 - [Prerequisites](./Configuration-Example/Minimum-requirements.md)
-  - [Steps and Ladders](./Configuration-Example/Minimum-requirements.md#steps-and-ladders)
+  - [Steps and Ladders](./Configuration-Example/Minimum-requirements.md/#steps-and-ladders)
 - [Your First Rank](./Configuration-Example/Your-first-rank.md)
   - [Starting to Format]()
   - [An Example]()

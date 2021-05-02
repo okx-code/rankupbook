@@ -114,7 +114,8 @@ table thead {
     background: var(--table-header-bg);
 }
 table thead td {
-    /*font-weight: 700;*/
+    font-weight: 700;
+    white-space: nowrap;
     border: none;
 }
 table thead th {

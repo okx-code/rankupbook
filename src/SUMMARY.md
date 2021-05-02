@@ -54,11 +54,11 @@
     - [Soft-dependent Requirements](./List-of-Requirements/soft-dependent-requirements.md)
 
 # Placeholders
-  - [Config Placeholders](./Config-Placeholders.md)
+  - [Config Placeholders](https://okx.sh/rankup/Config-Placeholders.md)
   - [PAPI Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md)
-    - [PAPI in Requirements](./PAPI-Placeholders/using-papi-in-requirements.md)
-    - [MVdW Placeholders](./PAPI-Placeholders/mvdw-placeholders.md)
-    - [Config PAPI Placeholders](./PAPI-Placeholders/config-papi-placeholders.md)
+    - [PAPI in Requirements](https://okx.sh/rankup/PAPI-Placeholders.md/using-papi-in-requirements.md)
+    - [MVdW Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/mvdw-placeholders.md)
+    - [Config PAPI Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/config-papi-placeholders.md)
 
 # FAQ's
 - [FAQ](./FAQ)

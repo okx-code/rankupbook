@@ -1,4 +1,4 @@
-# How to implement CUSTOM requirements.
+# Adding custom requirements.
 
 > Need more customization? If you can write Java, see [Developers](https://github.com/okx-code/Rankup3/wiki/Developers)
 

@@ -55,7 +55,7 @@
     - [MVdW Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/mvdw-placeholders.md)
     - [Config PAPI Placeholders](https://okx.sh/rankup/PAPI-Placeholders.md/config-papi-placeholders.md)
 ---
-- [FAQ](./FAQ)
-    - [YAML Questions](./FAQ/yaml-questions.md)
+- [FAQ](./FAQ.md)
+    - [YAML Questions](./FAQ)
 ---
 - [For Developers](./For-Developers.md)

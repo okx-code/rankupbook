@@ -13,12 +13,12 @@ Use the spigot enum pages for [entities](https://hub.spigotmc.org/javadocs/spigo
 | ---- | ------ | ---------------- | --------- | ----------- | -------
 | `money` | number | no | yes | Checks the player's balance and takes the<br>specified amount when ranking up. | `money 1000`
 | `moneyh` | number | no | no | Checks the player's balance but<br>does not take the money. | `moneyh 10000`
-| `xp-level` | number | no | yes | Checks the player's xp-levels for<br>the specified amount and takes it. | `xp-level 30`
-| `xp-levelh` | number | no | no | Checks the player's xp-levels for<bR>the specified amount but does not take them. | `xp-levelh 50`
+| `xp-level` | number | no | yes | Takes the specified amount of<br>xp-levels from the player. | `xp-level 30`
+| `xp-levelh` | number | no | no | Checks the player's xp-levels for<br> at least the specified amount. | `xp-levelh 50`
 | `playtime-minutes` | number | no | no | How long a player has been online,<br>in minutes (uses the Minecraft statistic). | `playtime-minutes 120`
-| `group` | text | no | no | Requires a player to be in<br>at least one of a list of groups, separated by spaces. | `group vip mvp`
-| `permission` | text | no | no | Requires player to have<br>at least one of a list of permissions, separated by spaces. | `permission permission.one permission.two`
-| `world` | text | no | no | Requires a player to be in<br>any of the worlds listed, separated by spaces. | `world my_world_nether my_world_the_end`
+| `group` | text | no | no | Requires a player to be in<br>at least one of a list of groups,<br>separated by spaces. | `group vip mvp`
+| `permission` | text | no | no | Requires player to have<br>at least one of a list of permissions,<br>separated by spaces. | `permission permission.one permission.two`
+| `world` | text | no | no | Requires a player to be in<br>any of the worlds listed,<br>separated by spaces. | `world my_world_nether my_world_the_end`
 | `player-kills` | number | no | no | Players killed.<br>Uses the Minecraft statistic. | `player-kills 15`
 | `total-mob-kills` | number | no | no | The total amount of<br>mob kills a player has. | `total-mob-kills 500`
 | `mob-kills` | number | yes | no | [Mobs](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/package-summary.html) of the specified type killed.<br>Uses the Minecraft statistic. | `mob-kills Skeleton 100`

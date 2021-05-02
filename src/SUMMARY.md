@@ -2,8 +2,8 @@
 [Home](./Home.md)
 ---
 # How to `rankups.yml` & `prestiges.yml`
-[How to `rankups.yml` & `prestiges.yml`](./How-to-rankups.yml-and-prestiges.yml.md)
- - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/how-to-rankups.md)
+[How to `rankups.yml` & `prestiges.yml`](https://okx.sh/rankup/How-to-rankups.yml-and-prestiges.yml.md)
+ - [How to Rankups](https://okx.sh/rankup/How-to-rankups.yml-and-prestiges.yml.md)
    - [Optionals](./How-to-rankups.yml-and-prestiges.yml/optionals.md)
  - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/how-to-prestiges.md)
    - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml/whats-special-about-prestiges.md)
@@ -62,9 +62,7 @@
   - [MVdW Placeholders](./PAPI-Placeholders/mvdw-placeholders.md)
   - [Config PAPI Placeholders](./PAPI-Placeholders/config-papi-placeholders.md)
 ---
-# FAQs
 [FAQ](./FAQ)
  - [YAML Questions](./FAQ/yaml-questions.md)
 ---
-# For Developers
 [For Developers](./For-Developers.md)

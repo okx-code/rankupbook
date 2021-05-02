@@ -105,13 +105,16 @@ h6:target::before {
 table {
     margin: 0 auto;
     border-collapse: collapse;
+    white-space: nowrap;
 }
 table td {
     padding: 2px 10px;
     border: 1px var(--table-border-color) solid;
+    white-space: nowrap;
 }
 table thead {
     background: var(--table-header-bg);
+    white-space: nowrap;
 }
 table thead td {
     font-weight: 700;
@@ -120,9 +123,11 @@ table thead td {
 }
 table thead th {
     padding: 3px 20px;
+    white-space: nowrap;
 }
 table thead tr {
     border: 1px var(--table-header-bg) solid;
+    white-space: nowrap;
 }
 /* Alternate background colors for rows */
 table tbody tr:nth-child(2n) {

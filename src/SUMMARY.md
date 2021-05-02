@@ -4,7 +4,7 @@
 [How to rankups.yml and prestiges.yml](./How-to-rankups.yml-and-prestiges.yml.md)
  - [How to Rankups](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
    - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
- - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.md)
+ - [How to Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
    - [What's Special About Prestiges?](./How-to-rankups.yml-and-prestiges.yml/Whats-special-about-prestiges.md)
  ---
 # Basic Configurations

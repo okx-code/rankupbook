@@ -29,5 +29,5 @@ A reference page containing all a list of built-in placeholders for use in your 
 # [FAQ](https://github.com/okx-code/Rankup3/wiki/FAQ)
 The page with responses to the most relevant inquiries.
 
-# [For Developers](https://github.com/okx-code/Rankup3/wiki/Developers)
+# [For Developers](./For-Developers.md)
 Interested in contributing or making your own set of requirements? Then this is the page you want to check out!

@@ -24,6 +24,9 @@
     - [Who's That `{RANK}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
 
 ---
+- [Text Templating](./Core-Files/Text-Templating.md)
+
+---
 - [List of Requirements](./Core-Files/List-of-Requirements.md)
 
 ---

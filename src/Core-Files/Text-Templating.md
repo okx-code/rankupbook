@@ -1,5 +1,10 @@
 > Text templating is an experimental feature implemented in version 3.12. Only available on the Discord server.
 
+<details>
+  <summary>Experimental</summary>
+  <p>Text templating is an experimental feature implemented in version 3.12. Only available on the Discord server.</p>
+</details>
+
 Text templating uses [Pebble](https://pebbletemplates.io/).
 
 

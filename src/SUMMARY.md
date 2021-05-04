@@ -1,5 +1,5 @@
 # The Landing Page
-[Home](.Core-Files//Home.md)
+[Home](./Core-Files/Home.md)
 ---
 - [Rankups & Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml-and-prestiges.yml.md)
     - [Changing The Rankups.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
@@ -26,6 +26,6 @@
 ---
 - [PAPI Placeholders](./Core-Files/PAPI-Placeholders.md)
 ---
-- [FAQ](./FAQ.md)
+- [FAQ](./Core-Files/FAQ.md)
 ---
 - [For Developers](./Core-Files/For-Developers.md)

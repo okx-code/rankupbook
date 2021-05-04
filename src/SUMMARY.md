@@ -1,16 +1,19 @@
 # The Landing Page
 [Home](./Core-Files/Home.md)
+
 ---
 - [Rankups & Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml-and-prestiges.yml.md)
     - [Changing The Rankups.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
     - [Changing The Prestiges.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
     - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
+
 ---
 - [Basic Configurations](./Core-Files/Basic-Configuration-Example.md)
     - [Minimum Requirements](./Basic-Configuration-Example/Prerequisites.md)
     - [Your First Rank](./Basic-Configuration-Example/Your-first-rank.md)
     - [Wrong Message](./Basic-Configuration-Example/Wrong-message.md)
     - [Confirmation GUI](./Basic-Configuration-Example/Confirmation-GUI.md)
+
 ---
 - [Advanced Configuration Example](./Advanced-Configuration-Example/Back-to-basics.md)
     - [How to implement CUSTOM requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)
@@ -19,13 +22,18 @@
     - [Change Requirement Color When completed](./Advanced-Configuration-Example/Color-change-when-complete.md)
     - [GUI Offset Explanation](./Advanced-Configuration-Example/GUI-offset.md)
     - [Who's That `{RANK}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
+
 ---
 - [List of Requirements](./Core-Files/List-of-Requirements.md)
+
 ---
 - [Config Placeholders](./Core-Files/Config-Placeholders.md)
+
 ---
 - [PAPI Placeholders](./Core-Files/PAPI-Placeholders.md)
+
 ---
 - [FAQ](./Core-Files/FAQ.md)
+
 ---
 - [For Developers](./Core-Files/For-Developers.md)

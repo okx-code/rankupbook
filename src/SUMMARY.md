@@ -21,9 +21,6 @@
     - [Who's That `{RANK}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
 ---
 - [List of Requirements](./List-of-Requirements.md)
-    - [Sub-requirements in Placeholders](./List-of-Requirements/Sub-requirements-in-placeholders.md)
-    - [List of Requirements](./List-of-Requirements/List.md)
-    - [Soft-dependent Requirements](./List-of-Requirements/Soft-dependent-requirements.md)
 ---
 - [Config Placeholders](./Config-Placeholders.md)
 ---

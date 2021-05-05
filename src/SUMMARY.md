@@ -9,7 +9,7 @@
 
 ---
 - [Basic Configurations](./Core-Files/Basic-Configuration-Example.md)
-    - [Minimum Requirements](./Basic-Configuration-Example/Prerequisites.md)
+    - [Prerequisites](./Basic-Configuration-Example/Prerequisites.md)
     - [Your First Rank](./Basic-Configuration-Example/Your-first-rank.md)
     - [Wrong Message](./Basic-Configuration-Example/Wrong-message.md)
     - [Confirmation GUI](./Basic-Configuration-Example/Confirmation-GUI.md)

@@ -42,7 +42,7 @@ first: # heading:
 ```
 In this example, when a player completes B rank, they will be able to /prestige to P1. If you are using group-based rankups ([`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47), they will be removed from group B (the `from:` group), and added to the group A (the `to:` group) and the P1 group (the `next:` group).
 ## Message Me!
-Similar to customizing locale messages with `rankup:`, prestiges use the `prestige:` to customize messages per-prestige by following the same structure of the section by the same name in the locale. All message fields accept [config placeholders](../Core-Files/Config-Placeholders) and all [PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders) placeholders! `prestige:` is not available in rankups [(see above)](#3-rankup).
+Similar to customizing locale messages with `rankup:`, prestiges use the `prestige:` to customize messages per-prestige by following the same structure of the section by the same name in the locale. All message fields accept [config placeholders](../Core-Files/Config-Placeholders.md) and all [PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders) placeholders! `prestige:` is not available in rankups [(see above)](#3-rankup).
 
 ```yaml
 prestige2: # heading:

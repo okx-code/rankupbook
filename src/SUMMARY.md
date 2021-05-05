@@ -16,8 +16,8 @@
 
 ---
 - [Advanced Configuration Example](./Advanced-Configuration-Example/Back-to-basics.md)
-    - [Adding custom requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)
-    - [Adding lore to `ranksgui:`](./Advanced-Configuration-Example/Adding-lore-to-ranksgui.md)
+    - [Adding Custom Requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)
+    - [Adding Lore To `ranksgui:`](./Advanced-Configuration-Example/Adding-lore-to-ranksgui.md)
     - [Progress Bars](./Advanced-Configuration-Example/Progress-bars.md)
     - [Change Requirement Color When completed](./Advanced-Configuration-Example/Color-change-when-complete.md)
     - [GUI Offset Explanation](./Advanced-Configuration-Example/Gui-offset.md)

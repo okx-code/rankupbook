@@ -2,7 +2,7 @@
 [Home](./Core-Files/Home.md)
 
 ---
-- [Rankups & Prestiges](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml-and-prestiges.yml.md)
+- [Rankups & Prestiges](./Core-Files/Rankups-and-prestiges.md)
     - [Changing The Rankups.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
     - [Changing The Prestiges.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
     - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)

@@ -15,7 +15,7 @@ The config that you see above. all in the `rankups.yml`!
 ```
 
 #### The important bit:
-**Note: This placeholder uses the `money` requirement.** Here are the instructions to **[change it](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#change-the-requirement-itself)**.
+**Note: This placeholder uses the `money` requirement.** Here are the instructions to **[change it](#change-the-requirement-itself)**.
 ```yaml
 %progress_bar_{AMOUNT_DONE money}_p:&b{AMOUNT_DONE money}_l:1_m:{AMOUNT money}_fullbar:&d{AMOUNT money}%&d/&d{AMOUNT money}
 ```
@@ -29,12 +29,12 @@ The config that you see above. all in the `rankups.yml`!
 ###### - Execute `/papi reload`.
 
 ## Versions
-### If you use Rankup's [internal/config](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#config-papi-placeholders) for that instead.
+### If you use Rankup's [internal/config](../Core-Files/Config-Placeholders.md) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](../Core-Files/PAPI-Placeholders.md#config-papi-placeholders) for that instead.
 #### Rankup's config placeholder version
 > `%progress_bar_{AMOUNT_DONE money}_p:&b{AMOUNT_DONE money}_l:1_m:{AMOUNT money}_fullbar:&d{AMOUNT money}%&d/&d{AMOUNT money}`
 #### Rankup's PAPI placeholder version
 > `%progress_bar_{rankup_requirement_money_done}_p:&b{rankup_requirement_money_done}_l:1_m:{rankup_requirement_money}_fullbar:&d{rankup_requirement_money}%&d/&d%rankup_requirement_money%`
-#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
+#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](../Core-Files/PAPI-Placeholders.md#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
 
 ### What you need to change when you want to...
 **important:  Look for the `>>> <<<`. If you copy paste the following placeholders, be sure to remove the `>>> <<<`.**

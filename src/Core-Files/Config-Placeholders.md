@@ -7,7 +7,7 @@ These placeholders will only work inside the context of Rankup! This means that 
 | Placeholder | Derived From | Description
 | ----------- | ----------- | -----------
 | `{PLAYER}`  | N/A | The player name.
-| `{OLD_RANK}` | [`rank`](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#2-rank) | The rank the player is currently on.
+| `{OLD_RANK}` | [`rank`](../Rankups-and-prestiges/How-to-rankups.yml.md#2-rank) | The rank the player is currently on.
 | `{RANK}` | [`next`](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#3-next) | The rank the player is ranking up to.
 | `{FROM}` | [`from`](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#on-from-and-to) | The player's current prestige level.
 | `{TO}` | [`to`](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#on-from-and-to) | The player's next prestige level.

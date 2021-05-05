@@ -23,11 +23,10 @@ defaultToMember:
 ```
 #### First Example Line By Line Breakdown:
 1. [`defaultToMember:`](../Rankups-and-prestiges/How-to-rankups.yml.md#1-heading) Indicates the subsequent indendented subsections are part of a rankup step on the ladder. The text `defaultToMember` must only be unique from all other `heading:` sections.
-2. [`rank: 'default'`](../Rankups-and-prestiges/How-to-rankups.yml.md#2-rank) Sets the group players must be in to be able to use this rankup step from "default". (`default` is our example current group in {OLD_RANK})
-3. [`next: 'member'`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-next) Sets the group assigned to the player when they've met the requirements and use `/rankup` to complete this rankup to "member". (`'member'` is our example next group in {RANK})
+2. [`rank: 'default'`](../Rankups-and-prestiges/How-to-rankups.yml.md#2-rank) Sets the group players must be in to be able to use this rankup step from "default". (`default` is our example current group in `{{ rank.rank }}`)
+3. [`next: 'member'`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-next) Sets the group assigned to the player when they've met the requirements and use `/rankup` to complete this rankup to "member". (`'member'` is our example next group in `{{ rank.next }}`)
 4. [`requirements:`](../Rankups-and-prestiges/How-to-rankups.yml.md#4-requirements) This begins the list of requirements section.
-5. [`- xp-level 5`](../Core-Files/List-of-Requirements.md) This example assumes the only requirement we want for a player to rankup is 5 xp levels as deducted (as a sort of payment). If we wanted to let players keep their xp levels when ranking up, we could check how many xp levels they _have_ with `xp-levelh` (compare) instead of `xp-level` (deduct). Rankup will only take the given number of any requirement (`xp-level 5` here) away once a player successfully ranks up. We only used one requirement for this example, but you can have many different kinds of **[requirements](../Core-Files/List-of-Requirements.md
-6. )** by following the above format.  
+5. [`- xp-level 5`](../Core-Files/List-of-Requirements.md) This example assumes the only requirement we want for a player to rankup is 5 xp levels as deducted (as a sort of payment). If we wanted to let players keep their xp levels when ranking up, we could check how many xp levels they _have_ with `xp-levelh` (compare) instead of `xp-level` (deduct). Rankup will only take the given number of any requirement (`xp-level 5` here) away once a player successfully ranks up. We only used one requirement for this example, but you can have many different kinds of **[requirements](../Core-Files/List-of-Requirements.md)** by following the above format.  
 
 Follow the links provided in 1 through 5 to see more detailed descriptions of these sections.  
 
@@ -43,6 +42,6 @@ To create our group we'll be using the **[LuckPerms creategroup](https://luckper
 Now, make sure your primary group in LP is `default` and then type /rankup to rankup the ladder to member.  
 Let's say you **don't have** the xp levels needed. It will say in chat:
 ```
-You need {MONEY} money to rankup.
+You need {{ rank.requirement('money').total | money }} money to rankup.
 ```
 You might think something went wrong, but that's not the case! This is the default message when you don't meet some requirements.

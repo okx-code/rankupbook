@@ -1,6 +1,6 @@
 # Adding Custom Requirements
 
-> Need more customization? If you can write Java, see [Developers](https://github.com/okx-code/Rankup3/wiki/Developers)
+> Need more customization? If you can write Java, see [Developers](../Core-Files/For-Developers.md)
 
 #### **IMPORTANT:** Make sure the plugin you want to use supports **PlaceholderAPI** (PAPI), if it doesn't you won't be able to use it.
 

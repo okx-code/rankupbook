@@ -11,7 +11,7 @@ These placeholders will only work inside the context of Rankup! This means that 
 | `{RANK}` | [`next`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-next) | The rank the player is ranking up to.
 | `{FROM}` | [`from`](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to) | The player's current prestige level.
 | `{TO}` | [`to`](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to) | The player's next prestige level.
-| `{OLD_RANK_NAME}` | [`display-name`]() | The `display-name` for the current rank.
+| `{OLD_RANK_NAME}` | [`display-name`](../Rankups-and-prestiges/Optionals.md#2-display-name) | The `display-name` for the current rank.
 | `{RANK_NAME}` | [`display-name`](../Rankups-and-prestiges/Optionals.md#2-display-name) | The `display-name` for the next rank.
 | `{MONEY}` | [`- money <amount>`](../Core-Files/List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](../Core-Files/List-of-Requirements.md#list)<br>by first in order | The money requirement of the rankup or prestige.
 | `{MONEY_NEEDED}` | ([`- money <amount>`](../Core-Files/List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](../Core-Files/List-of-Requirements.md#list)<br>by first in order)<br>- Vault Balance<br>until <= 0 | The amount more money a player needs to rankup or prestige.

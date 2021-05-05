@@ -19,7 +19,7 @@ When a player successfully ranks up from A to B, one of three things will happen
 2. They will be charged $200 when they have prestiged to p1  
 3. They will be charged $300 when they have prestiged to p2
 
-This is the most significant difference between [prestiges: false` and `prestiges: true](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47)
+This is the most significant difference between [prestiges: false and prestiges: true](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47)
 ---
 # How to Prestiges
 ## Each heading: in prestiges.yml defines a Prestige from the current rank: group to the next: group, transitionary from: group to: group sections, and some requirements:.  

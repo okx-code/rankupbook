@@ -19,7 +19,7 @@ beginner:
     requirements-not-met: "&cYou have {AMOUNT_DONE xp-level}, and need {AMOUNT xp-level} xp levels to rankup!"
 ```  
 Let's analyze the last 2 lines:  
-1. [`rankup:`](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#3-rankup) tells Rankup which section of the locale's messages we are overwriting for this step. The path used to overwrite custom messages in rankups **must** follow the same subsection construction as in our locale file. For example, changing the prestiges' messages requires [`prestige:`](https://github.com/okx-code/Rankup3/wiki/How-to-rankups.yml-and-prestiges.yml#message-me) instead of `rankup:`.  
+1. [`rankup:`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-rankup) tells Rankup which section of the locale's messages we are overwriting for this step. The path used to overwrite custom messages in rankups **must** follow the same subsection construction as in our locale file. For example, changing the prestiges' messages requires [`prestige:`](../Rankups-and-prestiges/How-to-prestiges.yml.md#message-me) instead of `rankup:`.  
 2. `requirements-not-met: <text>` is the message we're overwriting from the `locale`. Properly _indent_ overwritten messages as well.
 ### Option 2:  
 [Open the `locale` folder and open your language of choice](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale), in our case [`en.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml).  
@@ -32,11 +32,11 @@ Let's review the message on a per-placeholder basis this time:
 * `{AMOUNT xp-level}` is the placeholder for how many levels the rankup step requires, as defined in the rankup step's `requirements:` section.
 * `{AMOUNT_DONE xp-level}` is the placeholder for how many levels the player _already has_.
 * `{AMOUNT_NEEDED xp-level}` is the placeholder for how many levels the player _needs_.
-A **[List of Requirements](https://github.com/okx-code/Rankup3/wiki/List-of-Requirements)** and **[Config Placeholders](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders)** will be useful for creating your ranks' requirements and messages.  
+A **[List of Requirements](../Core-Files/List-of-Requirements.md)** and **[Config Placeholders](../Core-Files/Config-Placeholders.md)** will be useful for creating your ranks' requirements and messages.  
 
 This method allows for modification of canned (default) messages.  
 ### Post-Options
-Now that you've implemented **one or both of [the options](#wrong-message)**, let's try the new message! Assuming you have 0 xp, it will look like this:
+Now that you've implemented **one or both of the options, let's try the new message! Assuming you have 0 xp, it will look like this:
 ```
 You have 0, and need 5 xp levels to rankup!
 ```
@@ -47,4 +47,4 @@ That looks much better! Now let's try again with 5 xp levels.
 /rankup
 ```
 You should either successfully rankup, be required to type to confirm then rankup, or move to the next section about the Confirmation GUI.  
-If you don't [enable the Confirmation GUI](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L49-L51) the below section is not applicable.
+If you don't [enable the Confirmation GUI](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L49-L51) the next section is not applicable.

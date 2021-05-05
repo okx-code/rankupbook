@@ -3,7 +3,7 @@ Firstly, to get an instance of the plugin, use
 ```java
 JavaPlugin.getPlugin(sh.okx.rankup.Rankup.class)
 ```
-[Rankups](https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/ranks/RankList.java) can be retrieved though `Rankup#getRankups()`
+[Rankups](https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/ranks/RankList.java) can be retrieved through `Rankup#getRankups()`
 
 ## Events
 

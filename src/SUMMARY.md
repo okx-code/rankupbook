@@ -8,7 +8,7 @@
     - [Optionals](./Rankups-and-prestiges/Optionals.md)
 
 ---
-- [Basic Configurations](./Core-Files/Basic-Configuration-Example.md)
+- [Basic Configurations Example](./Core-Files/Basic-Configuration-Example.md)
     - [Prerequisites](./Basic-Configuration-Example/Prerequisites.md)
     - [Your First Rank](./Basic-Configuration-Example/Your-first-rank.md)
     - [Wrong Message](./Basic-Configuration-Example/Wrong-message.md)

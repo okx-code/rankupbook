@@ -14,7 +14,7 @@ Here you can find the formatting of each major portion of a rankup or prestige.
 # [Basic Configuration Example](./Basic-Configuration-Example.md)
 The Configuration Example will get you started on the basics of making a rank.
 
-# [Advanced Configuration Example](./Advanced-Configuration-Example/Back-to-basics.md)
+# [Advanced Configuration Example](../Advanced-Configuration-Example/Back-to-basics.md)
 The Advanced Configuration Example has specific answers for utilizing configuration options together.
 
 # [Requirements](./List-of-Requirements.md)

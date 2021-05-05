@@ -20,7 +20,7 @@
     - [Adding lore to `ranksgui:`](./Advanced-Configuration-Example/Adding-lore-to-ranksgui.md)
     - [Progress Bars](./Advanced-Configuration-Example/Progress-bars.md)
     - [Change Requirement Color When completed](./Advanced-Configuration-Example/Color-change-when-complete.md)
-    - [GUI Offset Explanation](./Advanced-Configuration-Example/GUI-offset.md)
+    - [GUI Offset Explanation](./Advanced-Configuration-Example/GUI-Offset.md)
     - [Who's That `{RANK}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
 
 ---

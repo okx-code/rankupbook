@@ -1,9 +1,9 @@
 ### What Rankup version do I need for Minecraft version 1.16/1.15/1.14/1.13/1.12/1.11/1.10/1.9/1.8/1.7?
 > The latest Rankup version supports all Minecraft Spigot server versions. Only Minecraft Versions 1.13+ support all Rankup features. Rankup remained compatible with 1.15 and 1.16 on release and is expected to maintain compatibility with 1.17 when Spigot and other dependencies become available. Always keep plugins like Rankup up-to-date.
 ### Where should I start using this plugin?
-> Review the [YAML Questions](#YAML-Questions) and then [follow the step by step configuration example!](https://github.com/okx-code/Rankup3/wiki/Configuration-Example)
+> Review the [YAML Questions](#YAML-Questions) and then [follow the step by step configuration example!](../Basic-Configuration-Example/Your-first-rank.md)
 ### What Servers Can I Use With Rankup?
-> Do not use CraftBukkit with Rankup. Rankup is made by Okx specifically for [Spigot](https://www.spigotmc.org/). The popular Spigot fork [Paper](https://papermc.io/) is _usually_ compatible. [Tuinity](https://github.com/Spottedleaf/Tuinity) and other forks are not recommended due to the volatility of rolling release server patchers. That's not an insult to server patchers or their authors, it's simply a byproduct of that release model. Though Rankup _may_ operate on rolling release server patchers, they are too numerous to test individually for real-time compatibility. Only Spigot is guaranteed by Okx. Paper is _expected_ **not guaranteed**. If your files are 100% valid but the plugin encounters errors or has unusual behavior while running on a server other than Spigot or Paper, you should revert to Spigot and test your files. Always keep your server up-to-date, but especially so when running Paper or another rolling release server patcher.
+> Do not use CraftBukkit with Rankup. Rankup is made by Okx specifically for [Spigot](https://www.spigotmc.org/). The popular Spigot fork [Paper](https://papermc.io/) is _usually_ compatible. [Tuinity](https://github.com/Spottedleaf/Tuinity) and other forks are not recommended due to the volatility of rolling release server patchers. That's not an insult to server patchers or their authors, it's simply a byproduct of that release model. Though Rankup _may_ operate on rolling release server patchers, they are too numerous to test individually for real-time compatibility. Only Spigot is guaranteed by Okx. Paper is _expected_, **not guaranteed**. If your files are 100% valid but the plugin encounters errors or has unusual behavior while running on a server other than Spigot or Paper, you should revert to Spigot and test your files. Always keep your server up-to-date, but especially so when running Paper or another rolling release server patcher.
 ### Where can I find the latest default files for updating?
 > [You can see the default config here.](https://github.com/okx-code/Rankup3/tree/master/src/main/resources)
 ### Where are a players' rankups stored in Rankup?
@@ -13,8 +13,8 @@
 > When migrating, first you should make a copy of all the files in your `/plugins/rankup` directory to use on the new host.  
 > Then use the migration information included with your permission plugin to maintain players' rankups on the new host.
 ### When I /rankup it still says `You need {MONEY} money to rankup.`
-> You can read about why this message is displayed in [this section of the Configuration Example](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#your-first-rank).  
-> You can read about how to change the message's contents in [this section of the Configuration Example](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#wrong-message).
+> You can read about why this message is displayed in [this section of the Configuration Example](../Basic-Configuration-Example/Your-first-rank.md).  
+> You can read about how to change the message's contents in [this section of the Configuration Example](../Basic-Configuration-Example#Wrong-message.md).
 ### Do I need to add a command to manually change a player's group?
 > No, Rankup automatically changes a player's groups when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).
 ### Does this clear a player's other groups or just change their rankup group?
@@ -31,7 +31,7 @@
 > `Caused by: java.lang.ClassNotFoundException: me.clip.placeholderapi.PlaceholderAPI`
 Update your version of Rankup.
 ### Can I have a GUI for `/ranks`?
-> Yes, [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L23-L25) is available in Rankup 3.10 or newer. `/prestiges` do not have a dedicated gui. However, both Ranks and Prestiges can use the [ConfirmationGUI](https://github.com/okx-code/Rankup3/wiki/Configuration-Example#confirmation-gui) when [enabled](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L49-L51).
+> Yes, [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L23-L25) is available in Rankup 3.10 or newer. `/prestiges` do not have a dedicated gui. However, both Ranks and Prestiges can use the [ConfirmationGUI](../Basic-Configuration-Example/Confirmation-gui) when [enabled](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L49-L51).
 # YAML Questions
 ### How should I make changes to the plugin files?
 > Use a source code editor like Sublime Text, Notepad++, Visual Studio, IntelliJ IDEA, Emacs, Vim, etc. when editing the files to "syntax highlight" or color the functional code. You should edit the plugin's files in a code editor with YAML syntax highlighting whenever possible.

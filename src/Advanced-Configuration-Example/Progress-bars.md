@@ -8,20 +8,20 @@
 #### I will not explain how to make your own progress bar. Instead, I will provide you with the link to the **[Progress wiki](https://github.com/aBooDyy/Progress-Expansion)** so you can learn to make your own.
 
 ## Installation Process.
-#### 1. Install PlaceholderAPI (PAPI).
-###### - **[PlaceholderAPI Spigot page](https://www.spigotmc.org/resources/placeholderapi.6245/)**.
-#### 2. Install Progress extension.
-###### - Execute `/papi ecloud download progress`.
-#### 3. Reload PlaceholderAPI.
-###### - Execute `/papi reload`.
+1. Install PlaceholderAPI (PAPI).
+ - **[PlaceholderAPI Spigot page](https://www.spigotmc.org/resources/placeholderapi.6245/)**.
+2. Install Progress extension.
+ - Execute `/papi ecloud download progress`.
+3. Reload PlaceholderAPI.
+ - Execute `/papi reload`.
 
 ### Important Notes:
 - You can't use decimals.
 - As long as you use percentages, the maximum should always be `100`.
 - Placeholder (external) requirements require a different usage.
-  - [Explanation.](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#progress-bars-with-placeholders)
+  - [Explanation.](#progress-bars-with-placeholders)
 - Rankup requirements that require sub-requirements will need their sub-requirements specified.
-  - [Explanation.](https://github.com/okx-code/Rankup3/wiki/Advanced-Configuration-Example#progress-bars-with-sub-requirements)
+  - [Explanation.](#progress-bars-with-sub-requirements)
 
 ##### The configuration below produced [the text in the first Progress Bar image](#progress-bars).
 ```yaml
@@ -42,12 +42,12 @@ rankName:
 ```
 
 ## Versions
-### If you use Rankup's [internal/config](https://github.com/okx-code/Rankup3/wiki/Config-Placeholders) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#config-papi-placeholders) for that instead.
+### If you use Rankup's [internal/config](../Core-Files/Config-Placeholders.md) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](../Core-Files/PAPI-Placeholders.md#config-papi-placeholders) for that instead.
 #### Rankup's config placeholder version
 > `%progress_bar_{PERCENT_DONE money}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
 #### Rankup's PAPI placeholder version
 > `%progress_bar_{rankup_requirement_money_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
-#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](https://github.com/okx-code/Rankup3/wiki/PAPI-Placeholders#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
+#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](../Core-Files/PAPI-Placeholders.md#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
 
 ### Progress Bars with Placeholders.
 External requirements require a different approach.

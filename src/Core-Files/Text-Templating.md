@@ -76,11 +76,11 @@ Placeholder | type | Description
 <details>
   <summary>Raw Summary</summary>
   <p>
-    name: String
-    done: Boolean
-    total: Double
-    progress: Double
-    remaining: Double - equal to total minus progress
+    name: String<br>
+    done: Boolean<br>
+    total: Double<br>
+    progress: Double<br>
+    remaining: Double - equal to total minus progress<br>
     percent: Double - goes from 0 to 1, for actual percent do {{ (requirement.percent * 100) }}
   </p>
 </details>

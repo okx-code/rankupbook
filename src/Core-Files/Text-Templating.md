@@ -66,10 +66,10 @@ Contains all fields from ranks
   </p>
 </details>
 
-String | Placeholder | type | Description
---- | --- | --- | ---
-<br> | `{{ from }}` | string | Rank the player prestiges from.
-<br> | `{{ to }}` | string | Rank the player prestiges to.
+Placeholder | type | Description
+--- | --- | ---
+`{{ from }}` | string | Rank the player prestiges from.
+`{{ to }}` | string | Rank the player prestiges to.
 
 #### Requirement
 

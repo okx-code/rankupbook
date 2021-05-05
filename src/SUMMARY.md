@@ -3,9 +3,9 @@
 
 ---
 - [Rankups & Prestiges](./Core-Files/Rankups-and-prestiges.md)
-    - [Changing The Rankups.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-rankups.yml.md)
-    - [Changing The Prestiges.yml](./How-to-rankups.yml-and-prestiges.yml/How-to-prestiges.yml.md)
-    - [Optionals](./How-to-rankups.yml-and-prestiges.yml/Optionals.md)
+    - [Changing The Rankups.yml](./Rankups-and-prestiges/How-to-rankups.yml.md)
+    - [Changing The Prestiges.yml](./Rankups-and-prestiges/How-to-prestiges.yml.md)
+    - [Optionals](./Rankups-and-prestiges/Optionals.md)
 
 ---
 - [Basic Configurations](./Core-Files/Basic-Configuration-Example.md)

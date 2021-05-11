@@ -16,10 +16,13 @@
         {{> head}}
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="content" content="test">
         <meta name="description" content="{{ description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
+        
+        {{#if home_md}}
+        <link rel="home" href="{{ path_to_root }}Home-desc.md">
+        {{/if}}
 
         {{#if favicon_svg}}
         <link rel="icon" href="{{ path_to_root }}favicon.svg">

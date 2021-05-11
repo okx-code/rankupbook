@@ -1,3 +1,7 @@
+ <head>
+  <meta name="description" content="Learn About Rankups and Prestiges">
+</head>
+
 # Rankups & Prestiges
 
 In this chapter you will be introduced to all the options you have within each file and how to get the proper syntax. We recommend you read everything carefully.

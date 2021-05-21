@@ -181,3 +181,11 @@ blockquote {
     margin: 5px 0px;
     font-weight: bold;
 }
+
+summary {
+    width: max-content;
+}
+
+summary:hover {
+    cursor: pointer;
+}

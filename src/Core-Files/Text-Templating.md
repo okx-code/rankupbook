@@ -49,7 +49,7 @@ In the following example, `{{ rank }}` is the example `rank` type.
 
 String | Placeholder | type | Description | Example
 --- | --- | --- | --- | ---
-<br> | `{{ rank.rank }}` | string | The group name of the rank the player is in.
+<br> | `{{ rank.rank }}` | string | The group name of the rank the player is in.<br/>Optional - `{{ rank }}` is equal to `{{ rank.rank }}`
 <br> | `{{ rank.name }}` | string | The display name of the rank the player is in.
 <br> | `{{ rank.requirements[] }}` | array | A full list of requirements for the rank the player is on.<br/>Alternatively you can get a single requirement with `{{ rank.requirements[0] }}`, replacing 0 with the index of the requirement.
 <br> | `{{ rank.requirement('<requirement>') }}` | string | Get a specific requirement for<br>the rank the player is on. | `{{ requirement('money') }}`

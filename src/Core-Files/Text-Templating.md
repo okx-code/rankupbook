@@ -53,7 +53,6 @@ String | Placeholder | type | Description | Example
 <br> | `{{ rank.name }}` | string | The display name of the rank the player is in.
 <br> | `{{ rank.requirements[] }}` | array | A full list of requirements for<br>the rank the player is on. Alternatively you can get a single requirement with `{{ rank.requirements[0] }}`, replacing 0 with the index of the requirement.
 <br> | `{{ rank.requirement('<requirement>') }}` | string | Get a specific requirement for<br>the rank the player is on. | `{{ requirement('money') }}`
-`.done` | | boolean | Amount of a requirement done | `{{ requirement('money').done }}`
 
 #### Prestige
 

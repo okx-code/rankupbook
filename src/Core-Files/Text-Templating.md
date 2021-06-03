@@ -1,7 +1,7 @@
 # Placeholder Engine
 
 ### Text templating uses [Pebble](https://pebbletemplates.io/). All functions and variables found on there will work in Rankup as well.
-> #### note: the following examples use spaces between the placeholder and the curly brackets. The spaces are not necessary, but we included them for easier readability. Feel free to remove them in your config.
+> #### The following examples use spaces between the placeholder and the curly brackets. The spaces are not necessary, but we included them for easier readability. Feel free to remove them in your config.
 
 ## Context Reference
 

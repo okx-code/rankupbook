@@ -1,94 +1,46 @@
-> Text templating is an experimental feature implemented in version 3.12. Only available on the Discord server.
+# Placeholder Engine
 
-Text templating uses [Pebble](https://pebbletemplates.io/).
+### Text templating uses [Pebble](https://pebbletemplates.io/). All functions and variables found on there will work in Rankup as well.
+> #### note: the following examples use spaces between the placeholder and the curly brackets. The spaces are not necessary, but we included them for easier readability. Feel free to remove them in your config.
 
 ## Context Reference
 
 Most of the following values are available as the context, if it makes sense for the message.
-<details>
-  <summary>Raw Summary</summary>
-  <p>
-    player: String<br>
-    ranks: Rank[] - a list of all ranks<br>
-    rank: Rank or Prestige<br>
-    next: Rank or Prestige<br>
-    seconds: Int<br>
-    seconds_left: Int<br>
-  </p>
-</details>
+Placeholder | Alias | Description
+----------- | ----- | -----------
+`{{ player }}` | N/A | Username of the player.
+`{{ rank.rank }}` | `{{ rank }}` | The current rank of the player.
+`{{ next.rank }}` | `{{ next }}` | The next rank of the player.
+`{{ rank.name }}` | N/A | The `display-name` for the current rank the player is on.
+`{{ next.name }}` | N/A | The `display-name` for the next rank the player is on.
+`{{ rank.from }}` | `{{ from }}` | The current prestige of the player.
+`{{ rank.to }}` | `{{ to }}` | The next prestige of the player.
+`{{ ranks }}` | N/A | A list of all ranks seperated by commas.
+`{{ ranks[<index>] }}` | N/A | Similar to `{{ ranks }}` but for a specific rank. `<index>` must be a number.
+`{{ rank.requirement('<requirement>') }}` | N/A | Get a specific requirement for the rank the player is on.
+`{{ requirements[] }}` | N/A | A full list of requirements for the rank the player is on.
+`{{ seconds }}` | N/A | Total cooldown in seconds before you can rankup again.
+`{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again.
 
-Placeholder | Type | Description | Example
---- | --- | --- | ---
-`{{ player }}` | text<br>(`string`) | Username of the player | "Beep" ranks up, announcement is `{{ player }} ranked up`.<br>Chat says "Beep ranked up".
-`{{ rank[] }}` | text<br>(`string`) | A list of all ranks | Ranks are "Guest", "Member", and "Elder".<br>Message is `All ranks are {{ rank[] }}`.<br>Chat says "All ranks are Guest Member Elder".
-`{{ rank[<index>] }}` | text<br>(`string`) | Similar to `{{ rank[] }}` but for a specific rank. | Ranks are "Guest", "Member", and "Elder".<br>Message is `Highest rank is {{ rank[2] }}`.<br>Chat says "Highest rank is Elder".
-`{{ rank }}` | text<br>(`string`) | The current rank of the player.<br>Works for rankup and prestige messages. | "Beep" is rank "Member". Message is<br>`Your rank is {{ rank }}`.<br>Chat says "Your rank is Member".
-`{{ next }}` | text<br>(`string`) | The next rank of the player.<br>Works for rankup and prestige messages. | Beep's next rank is "Elder". Message is<br>`Your next rank is {{ next }}`.<br>Chat says "Your next rank is Elder".
-`{{ seconds }}` | number<br>(`int`) | Total cooldown length in seconds for when you can rank up again.
-`{{ seconds_left }}` | number<br>(`int`) | Cooldown in seconds for when you can rank up again.
+## Requirement Suffixes
 
-## Types References
+Suffixes tell the placeholder engine what part of the result you want.
 
-Below is a list of types and how you can use them.
+Suffix | Description | Example
+--- | --- | --- 
+`done` | True or false depending on if the requirement is complete. | `{{ rank.requirement('money').done }}`
+`total` | Displays total amount required. | `{{ rank.requirement('money').total }}`
+`progress` | Amount done of a requirement. | `{{ rank.requirement('money').progress }}`
+`remaining` | Amount left of a requirement. | `{{ rank.requirement('money').remaining }}`
+`percent` | Goes from 0 to 1. For actual percentage apply as tunnel. | `{{ rank.requirement('money').percent }}`
+`name` | Get the `display-name` of the specified rank. | `{{ rank[2].name }}`
 
-#### Rank
+## Tunnels
 
-<details>
-  <summary>Raw Summary</summary>
-  <p>
-    rank: String - the group name of the rank<br>
-    name: String - the display name of the rank<br>
-    requirements: Requirement[] - a list of all the rank's requirements<br>
-    requirement('name'): Requirement - get the specified requirement by its name<br>
-    done: Boolean - true if the player has completed all requirements<br>
-    index: Int - Position in list of ranks<br>
-  </p>
-</details>
+Tunnels serve to format the original result to fit your purpose better.
 
-String | Placeholder | type | Description | Example
---- | --- | --- | --- | ---
-<br> | `{{ rank }}` | string | The group name of the rank the player is in.
-<br> | `{{ name }}` | string | The display name of the rank the player is in.
-<br> | `{{ requirements[] }}` | array | A full list of requirements for<br>the rank the player is on.
-<br> | `{{ requirement('<requirement>') }}` | string | Get a specific requirement for<br>the rank the player is on. | `{{ requirement('money') }}`
-`.done` | | boolean | Amount of a requirement done | `{{ requirement('money').done }}`
-<br> | `{{ rank[<index>] }}` | int | Position in a list of ranks | `{{ rank[2] }}`
-
-#### Prestige
-
-Contains all fields from ranks
-
-<details>
-  <summary>Raw Summary</summary>
-  <p>
-    from: String<br>
-    to: String
-  </p>
-</details>
-
-Placeholder | type | Description
---- | --- | ---
-`{{ from }}` | string | Rank the player prestiges from.
-`{{ to }}` | string | Rank the player prestiges to.
-
-#### Requirement
-
-<details>
-  <summary>Raw Summary</summary>
-  <p>
-    name: String<br>
-    done: Boolean<br>
-    total: Double<br>
-    progress: Double<br>
-    remaining: Double - equal to total minus progress<br>
-    percent: Double - goes from 0 to 1, for actual percent do {{ (requirement.percent * 100) }}
-  </p>
-</details>
-
-String | type | Description | Example
---- | --- | --- | --- 
-`done` | boolean | True or false depending on if the requirement is complete. | `{{ rank.requirement('money').done }}`
-`total` | double | Displays total amount required. | `{{ rank.requirement('money').total }}`
-`progress` | double | Amount done of a requirement | `{{ rank.requirement('money').progress }}`
-`remaining` | double | Amount left of a requirement | `{{ rank.requirement('money').remaining }}`
-`percent` | double | Goes from 0 to 1. For actual percentage multiply by 100 | `{{ rank.requirement('money').percent }}`
+Tunnel | Description | Example
+------ | ----------- | -------
+`percent` | Formats result to be ##.#. Use with `percent` suffix. | `{{ rank.requirement('money').percent | percent }}`
+`money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total | money }}`
+`simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total | simple }}`

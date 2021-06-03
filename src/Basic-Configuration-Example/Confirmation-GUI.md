@@ -14,7 +14,7 @@ Go back to your `locale/` file and find the `gui:` section under `rankup:`.
       index: 0-3
       name: '&a&lConfirm'
       # lore is optional
-      lore: '&6Rankup to &b{RANK}'
+      lore: '&6Rankup to &b{{ rank.next }}'
     cancel:
       material: REDSTONE_BLOCK
       index: 6-8
@@ -35,15 +35,15 @@ beginner:
   requirements:
   - xp-level 5
   rankup:
-    requirements-not-met: "&cYou have {AMOUNT_DONE xp-level}, and need {AMOUNT xp-level} xp levels to rankup!"
+    requirements-not-met: "&cYou have {{ rank.requirement('xp-level').progress }}, and need {{ rank.requirement('xp-level').total }} xp levels to rankup!"
     gui:
       rankup:
         material: EMERALD_BLOCK
         index: 0-3
         name: '&a&lConfirm'
         lore: |-
-          &6Rankup to &b{RANK}
-          &eCosts {AMOUNT xp-level} xp levels.
+          &6Rankup to &b{{ rank.next }}
+          &eCosts {{ rank.requirement('xp-level').total }} xp levels.
       #since we don't need to change the cancel or fill sections, we don't need them in the rankup.yml
       #cancel:
         #material: REDSTONE_BLOCK

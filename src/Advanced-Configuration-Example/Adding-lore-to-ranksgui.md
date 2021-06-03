@@ -11,15 +11,15 @@ It should look like this:
     width: 7
     complete:
       material: GREEN_STAINED_GLASS_PANE
-      name: "&aRank &7{{ rank.next }} &a(completed)"
+      name: "&aRank &7{{ next.rank }} &a(completed)"
       lore: "Very Lore"
     current:
       material: ORANGE_STAINED_GLASS_PANE
-      name: "&dRankup to &7{{ rank.next }}"
+      name: "&dRankup to &7{{ next.rank }}"
       lore: "Much\nLore"
     incomplete:
       material: RED_STAINED_GLASS_PANE
-      name: "&cRank &7{{ rank.next }} &c(requires rankup)"
+      name: "&cRank &7{{ next.rank }} &c(requires rankup)"
       lore: |-
         Wow
         Lore
@@ -45,15 +45,15 @@ RankName:
       width: 7
       complete:
         material: GREEN_STAINED_GLASS_PANE
-        name: "&aRank &7{{ rank.next }} &a(completed)"
+        name: "&aRank &7{{ next.rank }} &a(completed)"
         lore: "Very Lore"
       current:
         material: ORANGE_STAINED_GLASS_PANE
-        name: "&dRankup to &7{{ rank.next }}"
+        name: "&dRankup to &7{{ next.rank }}"
         lore: "Much\nLore"
       incomplete:
         material: RED_STAINED_GLASS_PANE
-        name: "&cRank &7{{ rank.next }} &c(requires rankup)"
+        name: "&cRank &7{{ next.rank }} &c(requires rankup)"
         lore: |-
           Wow
           Lore

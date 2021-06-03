@@ -44,7 +44,7 @@ beginner:
         lore: |-
           &6Rankup to &b{{ next.rank }}
           &eCosts {{ rank.requirement('xp-level').total }} xp levels.
-      #since we don't need to change the cancel or fill sections, we don't need them in the rankup.yml
+      #since we don't need to change the cancel or fill sections, we don't need them in the rankups.yml
       #cancel:
         #material: REDSTONE_BLOCK
         #index: 6-8

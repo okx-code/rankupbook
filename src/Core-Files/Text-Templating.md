@@ -35,11 +35,12 @@ Suffix | Description | Example
 `percent` | Goes from 0 to 1. For actual percentage apply as tunnel. | `{{ rank.requirement('money').percent }}`
 `name` | Get the `display-name` of the specified rank. | `{{ rank[2].name }}`
 
-## Tunnels
+## Filters
 
-Tunnels serve to format the original result to fit your purpose better.
+Filters serve to format the original result to fit your purpose better. The following filters were custom-made for Rankup.
+> Find the built-in filters [here](https://pebbletemplates.io/wiki/filter/abbreviate/).
 
-Tunnel | Description | Example
+Filter | Description | Example
 ------ | ----------- | -------
 `percent` | Formats result to be ##.#. Use with `percent` suffix. | `{{ rank.requirement('money').percent | percent }}`
 `money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total | money }}`

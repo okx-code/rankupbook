@@ -21,7 +21,7 @@
     - [Progress Bars](./Advanced-Configuration-Example/Progress-bars.md)
     - [Change Requirement Color When completed](./Advanced-Configuration-Example/Color-change-when-complete.md)
     - [GUI Offset Explanation](./Advanced-Configuration-Example/Gui-offset.md)
-    - [Who's That `{RANK}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
+    - [Who's That `{{rank}}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
 
 ---
 - [Text Templating](./Core-Files/Text-Templating.md)

@@ -22,9 +22,9 @@ Placeholder | Alias | Description
 `{{ seconds }}` | N/A | Total cooldown in seconds before you can rankup again.
 `{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again.
 
-## Requirement Suffixes
+## Requirement Methods
 
-Suffixes tell the placeholder engine what part of the result you want.
+Methods tell the placeholder engine what part of the result you want.
 
 Suffix | Description | Example
 --- | --- | --- 

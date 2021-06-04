@@ -5,7 +5,7 @@ To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders
 > Learn how to use a PAPI placeholder as a requirement [here](../Advanced-Configuration-Example/Adding-custom-requirements.md)!
 
 ## Config PAPI Placeholders
-#### Placeholders are included with Rankup. `No download required`.
+> #### Placeholders are included with Rankup. `No download required`.
 
 | Placeholder | Description
 | ----------- | -----------

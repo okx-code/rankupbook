@@ -24,7 +24,7 @@
     - [Who's That `{{rank}}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
 
 ---
-- [Text Templating](./Core-Files/Text-Templating.md)
+- [Placeholder Engine](./Core-Files/Text-Templating.md)
 
 ---
 - [List of Requirements](./Core-Files/List-of-Requirements.md)

@@ -1,6 +1,8 @@
 [book]
+title = "Official Rankup Wiki"
 authors = ["okx-code", "NicBOMB", "flurbudurbur"]
 language = "en"
+description = "Official Rankup wiki."
 multilingual = false
 src = "src"
 

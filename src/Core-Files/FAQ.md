@@ -12,7 +12,7 @@
 ### What should I save when migrating to a new host?
 > When migrating, first you should make a copy of all the files in your `/plugins/rankup` directory to use on the new host.  
 > Then use the migration information included with your permission plugin to maintain players' rankups on the new host.
-### When I /rankup it still says `You need {MONEY} money to rankup.`
+### When I /rankup it still says `You need {{ rank.requirement('money').total | money }} money to rankup.`
 > You can read about why this message is displayed in [this section of the Configuration Example](../Basic-Configuration-Example/Your-first-rank.md).  
 > You can read about how to change the message's contents in [this section of the Configuration Example](../Basic-Configuration-Example#Wrong-message.md).
 ### Do I need to add a command to manually change a player's group?

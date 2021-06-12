@@ -17,6 +17,9 @@ The Configuration Example will get you started on the basics of making a rank.
 # [Advanced Configuration Example](../Advanced-Configuration-Example/Back-to-basics.md)
 The Advanced Configuration Example has specific answers for utilizing configuration options together.
 
+# [Placeholder Engine}(../Core-Files/Text-Templating.md)
+Learn how to use Rankup's placeholder engine to your advantage.
+
 # [Requirements](./List-of-Requirements.md)
 A reference page containing all the requirements as well as a custom requirements tutorial.
 

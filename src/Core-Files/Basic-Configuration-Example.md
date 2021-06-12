@@ -4,5 +4,5 @@ The following chapter will walkthrough a complete configuration of [**Rankups**]
 
 ## Details in this chapter...
 - Rankup [Step Examples](../Basic-Configuration-Example/Your-first-rank.md#first-example)
-- Chat Message [Customization](../Basic-Configuration-Example/Wrong-message.html)
-- Confirmation [GUI Customization](../Basic-Configuration-Example/Confirmation-GUI.html)
+- Chat Message [Customization](../Basic-Configuration-Example/Wrong-message.mf)
+- Confirmation [GUI Customization](../Basic-Configuration-Example/Confirmation-GUI.md)

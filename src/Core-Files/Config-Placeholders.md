@@ -1,8 +1,7 @@
 # Config Placeholders
 
-Where config placeholders can be used, all PlaceholderAPI placeholders can be used too.
-
-These placeholders will only work inside the context of Rankup! This means that if you use the in a message from another plugin, they won't register!
+Where config placeholders can be used, all PlaceholderAPI placeholders can be used too.  
+These placeholders only work inside Rankup's messages! See the [list of Rankup's PAPI expansion](..Core-Files/PAPI-Placeholders.html#config-papi-placeholders) for external use!
 
 | Placeholder | Derived From | Description
 | ----------- | ----------- | -----------

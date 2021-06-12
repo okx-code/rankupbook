@@ -1,9 +1,8 @@
 # Basic Configuration Example
 
-Here you will learn how to apply your new-found knowlegde you gathered from the [**Rankups & Prestiges**](../Core-Files/Rankups-and-prestiges.md) chapter.
+The following chapter will walkthrough a complete configuration of [**Rankups**](../Core-Files/Rankups-and-prestiges.md).
 
-## What you will know after reading this chapter...
-- What you need for a functional Rankup ladder.
-- How to make your own Rankup step
-- How to customize the `requirements-not-met` message in both the `locale` and `rankups.yml`.
-- How to customize the confirmation GUI in both the `locale` and `rankups.yml`
+## Details in this chapter...
+- Rankup [Step Examples](../Basic-Configuration-Example/Your-first-rank.md#first-example)
+- Chat Message Customization
+- Confirmation GUI Customization

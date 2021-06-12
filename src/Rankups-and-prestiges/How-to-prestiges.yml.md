@@ -1,6 +1,6 @@
 # How to `Prestiges`
 ## Each `heading:` in prestiges.yml defines a Prestige from the current `rank:` group to the `next:` group, transitionary `from:` group `to:` group sections, and some `requirements:`.  
-### Prestiges [when enabled in config.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L27-L35) are similar to Rankups but require 1 to 2 more headings than [the minimal Rankup example](../Rankups-and-prestiges/How-to-rankups.yml.md)#an-example-of-the-minimum-required-fields-with-a-default-configyml-and-non-empty-requirements).  
+### Prestiges [when enabled in config.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L27-L35) are similar to Rankups but require 1 to 2 more headings than [the minimal Rankup example](../Rankups-and-prestiges/How-to-rankups.yml.md#an-example-of-the-minimum-required-fields-with-a-default-configyml-and-non-empty-requirements).  
 ###### Unlike Ranks, Prestiges do not currently support the GUI list features.
 ## On `from:` and `to:`  
 If you have group-based rankup disabled ([`permission-rankup: true`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47)), these options are not mandatory and will do nothing if used.  

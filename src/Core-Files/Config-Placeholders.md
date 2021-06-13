@@ -35,6 +35,11 @@ header:
 
 Where config placeholders can be used, all PlaceholderAPI placeholders can be used too.
 
+> ### **NOTE:** Some placeholders output an unecessary decimal.
+> example requirement `xp-level 5` with placeholder `{{rank.requirement('xp-level').total}}` will output `5.0`.
+> To combat this, use the `simple` _filter_ like so:
+> `{{rank.requirement('xp-level').total | simple}}`
+
 Old Placeholder | Placeholder | Derived From | Description
 --------------- | ----------- | ----------- | -----------
 `{PLAYER}`  | `{{ player }}` | N/A | The player name.

@@ -42,6 +42,6 @@ Filters serve to format the original result to fit your purpose better. The foll
 
 Filter | Description | Example
 ------ | ----------- | -------
-`percent` | Formats result to be ##.#. Use with `percent` suffix. | `{{ rank.requirement('money').percent | percent }}`
-`money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total | money }}`
-`simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total | simple }}`
+`percent` | Formats result to be ##.#. Use with `percent` suffix. | `{{ rank.requirement('money').percent \| percent }}`
+`money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total \| money }}`
+`simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total \| simple }}`

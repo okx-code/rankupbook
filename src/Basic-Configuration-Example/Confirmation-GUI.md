@@ -43,7 +43,7 @@ beginner:
         name: '&a&lConfirm'
         lore: |-
           &6Rankup to &b{{ next.rank }}
-          &eCosts {{ rank.requirement('xp-level').total }} xp levels.
+          &eCosts {{ rank.requirement('xp-level').total | simple}} xp levels.
       #since we don't need to change the cancel or fill sections, we don't need them in the rankups.yml
       #cancel:
         #material: REDSTONE_BLOCK
@@ -53,8 +53,11 @@ beginner:
         #name: ' '
         #material: BLACK_STAINED_GLASS_PANE
 ```  
-#### **NOTE:** the way `lore` is written has changed! Since we wanted 2 lines instead of one, we used **[multiline formatting](../Core-Files/FAQ.md#how-do-i-write-multi-line-messages)** and properly _indented_.  
-Save and reload the plugin, then try `/rankup` again.  
+> #### **NOTE:** the way `lore` is written has changed! Since we wanted 2 lines instead of one, we used **[multiline formatting](../Core-Files/FAQ.md#how-do-i-write-multi-line-messages)** and properly _indented_.  
+
+> #### **NOTE:** the _filter_ `simple` applied to the placeholder makes it so the placeholder outputs whole, unformatted numbers. otherwise it would output `5.0`.
+Save and reload the plugin, then try `/rankup` again.
+
 ![Now showing how much it costs](https://i.imgur.com/Fao0ueo.png)  
 This is much better!  
 That covers the basics of creating Rankup steps. For more information, look at the comments in the configuration files, check out the **[Advanced Example](../Advanced-Configuration-Example/Back-to-basics.md)** or look at other pages here on the wiki!

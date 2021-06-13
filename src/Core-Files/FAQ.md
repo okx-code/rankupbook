@@ -20,7 +20,8 @@
 > You can read about why this message is displayed in [this section of the Configuration Example](../Basic-Configuration-Example/Your-first-rank.md).  
 > You can read about how to change the message's contents in [this section of the Configuration Example](../Basic-Configuration-Example#Wrong-message.md).
 ### Do I need to add a command to manually change a player's group?
-> No, Rankup automatically changes a player's groups when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).
+> No, Rankup automatically changes a player's groups when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).<br>
+> [Learn how to use `permission-rankup: true`](../Advanced-Configuration-Example/Permission-Rankup.md)
 ### Does this clear a player's other groups or just change their rankup group?
 > Rankup only changes the groups specified by the given rankup step in your [rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml) when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).
 ### When I /rankup and/or /prestige, I don't get any rank or prestige. What do I do?

@@ -26,7 +26,7 @@ Go back to your `locale/` file and find the `gui:` section under `rankup:`.
 ```
 The `index` starts at 0 and goes to 8, as you can see in the image below.  
 ![index for ease of access](https://i.imgur.com/ObvOjki.png)  
-To change the lore on the items in the UI to tell players how many xp levels they need for this rankup specifically, we'll use [Option 1](../Basic-Configuration-Example/Wrong-message.md#option-1). We could use [Option 2](../Basic-Configuration-Example/Wrong-message.md#option-2) to edit the UI for all rankup steps in the `locale`, but subsequent ranks may not utilize the same requirements which would display incorrect text in the lore like `Costs {AMOUNT xp-level} xp levels.`, similar to `You need {MONEY} money to rankup.`.  
+To change the lore on the items in the UI to tell players how many xp levels they need for this rankup specifically, we'll use [Option 1](../Basic-Configuration-Example/Wrong-message.md#option-1). We could use [Option 2](../Basic-Configuration-Example/Wrong-message.md#option-2) to edit the UI for all rankup steps in the `locale`, but subsequent ranks may not utilize the same requirements which would display incorrect text in the lore like `Costs {rank.requirement('xp-level').total | simple }} xp levels.`, similar to `You need {{ rank.requirement('money').total | money }} money to rankup.`.  
 #### Modify your rankups.yml like so:  
 ```yaml
 beginner:

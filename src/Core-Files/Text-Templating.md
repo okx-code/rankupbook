@@ -48,7 +48,7 @@ You can use filters with a pipe symbol `|` and then the name of the filter. Here
 
 Filter | Description | Example
 ------ | ----------- | -------
-`percent` | Formats result to be ##.#. Use with `percent` suffix. | <code>{{ rank.requirement('money').percent \| percent }}</code>
+`percent` | Formats result to be ##.#. Use with `percent` method. | <code>{{ rank.requirement('money').percent \| percent }}</code>
 `money` | Formats result to be ###,###.##. | <code>{{ rank.requirement('money').total \| money }}</code>
 `simple` | Formats result to be whole numbers. | <code>{{ rank.requirement('xp-level').total \| simple }}</code>
 

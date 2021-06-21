@@ -47,7 +47,7 @@ beginner:
       #since we don't need to change the cancel or fill sections, we don't need them in the rankups.yml
       #cancel:
         #material: REDSTONE_BLOCK
-        #index: 6-8
+        #index: 5-8
         #name: '§c§lCancel'  # section sign color codes are also outdated
       #fill:
         #name: ' '

@@ -13,7 +13,7 @@ beginner:
   - 'xp-level 5'
   - 'placeholder %statistic_jump% >= 50'
   rankup:
-    requirements-not-met: "&cYou have {AMOUNT_DONE xp-level}, and need {AMOUNT xp-level} xp levels to rankup!"
+    requirements-not-met: "&cYou have {rank.requirement('xp-level').progress | simple}, and need {rank.requirement('xp-level').total | simple} xp levels to rankup!"
     gui:
       rankup:
         material: EMERALD_BLOCK

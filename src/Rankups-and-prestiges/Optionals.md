@@ -15,7 +15,7 @@ CommandsExample: # "heading:"
   requirements:
     - 'player-kills 1'
   commands:
-    - 'say {{player}} ranked up to {{rank.rank}} at %world_time_world% in world: %world_name_world%' # requires PAPI and /papi ecloud download world
+    - 'say {{player}} ranked up to {{next.rank}} at %world_time_world% in world: %world_name_world%' # requires PAPI and /papi ecloud download world
     - 'execute at {{player}} run playsound minecraft:ui.toast.challenge_complete player {{player}} ~ ~ ~' # plays a sound for the player
     - 'execute at {{player}} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal' # makes a firework particle cloud on the player
     - 'title {{player}} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen

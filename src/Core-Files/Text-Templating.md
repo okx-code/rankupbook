@@ -53,6 +53,7 @@ String | Placeholder | type | Description | Example
 <br> | `{{ rank.name }}` | string | The display name of the rank the player is in.
 <br> | `{{ rank.requirements[] }}` | array | A full list of requirements for the rank the player is on.<br/>Alternatively you can get a single requirement with `{{ rank.requirements[0] }}`, replacing 0 with the index of the requirement.
 <br> | `{{ rank.requirement('<requirement>') }}` | string | Get a specific requirement for<br>the rank the player is on. | `{{ requirement('money') }}`
+<br> | `{{ rank.req('<requirement>') }}` | string | Shorthand for above.
 
 #### Prestige
 
@@ -70,6 +71,18 @@ Placeholder | type | Description
 --- | --- | ---
 `{{ rank.from }}` | string | Rank the player prestiges from.
 `{{ rank.to }}` | string | Rank the player prestiges to.
+
+### Filters
+
+Filters are ways to convert numbers into more readable options. Rankup provides three filters, `simple`, `money` and `percent`. These use the number formatting found in the `placeholders` section of Rankup's `config.yml`.
+
+You can use filters with a pipe symbol `|` and then the name of the filter. Here are some examples:
+
+    {{ rank.req('money') | money }}
+    {{ rank.req('xp-level') | simple }}
+    {{ rank.req('playtime-minutes').percent * 100 | percent }}
+   
+Using filters is recommended for displaying any non-integer number to a player, otherwise the formatting may not be as desired (for example you can get something like 0.2000000001 or 4.0). The `simple` filter is recommended for most use cases.
 
 #### Requirement
 

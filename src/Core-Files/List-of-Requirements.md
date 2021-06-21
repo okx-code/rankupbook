@@ -1,6 +1,5 @@
 ## List
 If a player doesn't have enough to meet any `D=yes` requirement, none will be taken.
-
 #### Scroll down for soft-dependent requirements.
 
 > **`S` means "supports sub-requirements?".**<br>

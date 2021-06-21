@@ -1,7 +1,7 @@
 ## Using PAPI in Requirements
-As mentioned on the **[Wrong Message](../Basic-Configuration-Example/Wrong-message.md)** page, Rankup supports PAPI (PlaceholderAPI) which let's you use placeholders as requirements. It's a lot easier than it sounds, so here's an example. All PAPI placeholders can be found on their **[wiki](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)**.
+As mentioned on the **[Wrong Message](../Basic-Configuration-Example/Wrong-message.md)** page, Rankup supports PAPI (PlaceholderAPI) which lets you use placeholders as requirements. It's a lot easier than it sounds, so here's an example. All PAPI placeholders can be found on their **[wiki](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)**.
  
-**IMPORTANT:** You need to download the expansion pack. If it says "NO DOWNLOAD COMMAND" then it's hardcoded into the plugin you're using and it will work regardless, Like Rankup.
+**IMPORTANT:** You need to download the expansion pack. If it says "NO DOWNLOAD COMMAND" then it's hardcoded into the plugin you're using and it will work regardless, like Rankup. Rankup does not need an expansion.
  
 We'll go with how many times you've jumped. We will be building on what we had after completing the **[Basic Configuration Example](../Core-Files/Basic-Configuration-Example.md)** chapter.
  
@@ -38,9 +38,13 @@ Note that to use these placeholders in FeatherBoard (or likewise plugins using M
 | Placeholder | Description
 | ----------- | -----------
 | `%rankup_current_rank%` | The rank a player is in.
+| `%rankup_current_rank_name%` | The display name of a rank a player is in.
 | `%rankup_next_rank%` | The rank a player can rankup to.
+| `%rankup_next_rank_name%` | The display name of a rank a player can rankup to.
 | `%rankup_current_prestige%` | The prestige rank a player is in.
+| `%rankup_current_prestige_name%` | The prestige rank's display name a player is in.
 | `%rankup_next_prestige%` | The next prestige rank for the player.
+| `%rankup_next_prestige_name%` | The next prestige rank's display name for the player.
 | `%rankup_money%` | The money requirement for a player to /rankup.
 | `%rankup_money_formatted%` | As above, but formatted. By default, this might<br>look like `1,000.00` instead of `1000.0`
 | `%rankup_prestige_money%` |
@@ -49,7 +53,6 @@ Note that to use these placeholders in FeatherBoard (or likewise plugins using M
 | `%rankup_money_left_formatted%` |
 | `%rankup_percent_left%` |
 | `%rankup_percent_left_formatted%` |
-| `%rankup_percent_done_formatted%` |
 | `%rankup_percent_done_formatted%` |
 | `%rankup_requirement_<requirement>[_<done/left/percent_left/percent_done>]` | The \<requirement> to /rankup. See **[requirements](https://github.com/okx-code/Rankup3/wiki/Requirements)**.<br>`%rankup_requirement_xp-level_left%` is equivalent to<br>`{AMOUNT_NEEDED xp-level}`
 | `%rankup_rank_requirement_<rank>_<requirement>[_<left/percent_left/percent_done>]%` | As above, but for ranking up to a certain `<rank>`

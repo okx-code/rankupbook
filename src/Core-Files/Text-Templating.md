@@ -48,8 +48,8 @@ You can use filters with a pipe symbol `|` and then the name of the filter. Here
 
 Filter | Description | Example
 ------ | ----------- | -------
-`percent` | Formats result to be ##.#. Use with `percent` suffix. | `{{ rank.requirement('money').percent \| percent }}`
-`money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total \| money }}`
-`simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total \| simple }}`
+`percent` | Formats result to be ##.#. Use with `percent` suffix. | `{{ rank.requirement('money').percent | percent }}`
+`money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total | money }}`
+`simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total | simple }}`
 
 Using filters is recommended for displaying any non-integer number to a player, otherwise the formatting may not be as desired (for example you can get something like 0.2000000001 or 4.0). The `simple` filter is recommended for most use cases.

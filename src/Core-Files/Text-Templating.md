@@ -19,7 +19,7 @@ Placeholder | Alias | Description
 `{{ rank.to }}` | `{{ to }}` | The next prestige of the player.
 `{{ ranks }}` | N/A | A list of all ranks seperated by commas.
 `{{ ranks[<index>] }}` | N/A | Similar to `{{ ranks }}` but for a specific rank. `<index>` must be a number.
-`{{ rank.requirement('<requirement>') }}` | N/A | Get a specific requirement for the rank the player is on.
+`{{ rank.requirement('<requirement>') }}`<br>`rank.req('<requirement>')` | N/A | Get a specific requirement for the rank the player is on.
 `{{ requirements[] }}` | N/A | A full list of requirements for the rank the player is on.
 `{{ seconds }}` | N/A | Total cooldown in seconds before you can rankup again.
 `{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again.

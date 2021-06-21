@@ -1,7 +1,10 @@
 ## List
-
-**S means "supports sub-requirements?". D means "is deductible?".**
 If a player doesn't have enough to meet any `D=yes` requirement, none will be taken.
+
+#### Scroll down for soft-dependent requirements.
+
+> **`S` means "supports sub-requirements?".**<br>
+> **`D` means "is deductible?".**
 
 | Name | Format | S | D | Description | Example
 | ---- | ------ | ---------------- | --------- | ----------- | -------

@@ -14,7 +14,7 @@ Go back to your `locale/` file and find the `gui:` section under `rankup:`.
       index: 0-3
       name: '&a&lConfirm'
       # lore is optional
-      lore: '&6Rankup to &b{RANK}'
+      lore: '&6Rankup to &b{{ next.rank }}'
     cancel:
       material: REDSTONE_BLOCK
       index: 6-8
@@ -35,16 +35,16 @@ beginner:
   requirements:
   - xp-level 5
   rankup:
-    requirements-not-met: "&cYou have {AMOUNT_DONE xp-level}, and need {AMOUNT xp-level} xp levels to rankup!"
+    requirements-not-met: "&cYou have {{ rank.requirement('xp-level').progress }}, and need {{ rank.requirement('xp-level').total }} xp levels to rankup!"
     gui:
       rankup:
         material: EMERALD_BLOCK
         index: 0-3
         name: '&a&lConfirm'
         lore: |-
-          &6Rankup to &b{RANK}
-          &eCosts {AMOUNT xp-level} xp levels.
-      #since we don't need to change the cancel or fill sections, we don't need them in the rankup.yml
+          &6Rankup to &b{{ next.rank }}
+          &eCosts {{ rank.requirement('xp-level').total | simple}} xp levels.
+      #since we don't need to change the cancel or fill sections, we don't need them in the rankups.yml
       #cancel:
         #material: REDSTONE_BLOCK
         #index: 6-8
@@ -53,8 +53,11 @@ beginner:
         #name: ' '
         #material: BLACK_STAINED_GLASS_PANE
 ```  
-#### **NOTE:** the way `lore` is written has changed! Since we wanted 2 lines instead of one, we used **[multiline formatting](../Core-Files/FAQ.md#how-do-i-write-multi-line-messages)** and properly _indented_.  
-Save and reload the plugin, then try `/rankup` again.  
+> #### **NOTE:** the way `lore` is written has changed! Since we wanted 2 lines instead of one, we used **[multiline formatting](../Core-Files/FAQ.md#how-do-i-write-multi-line-messages)** and properly _indented_.  
+
+> #### **NOTE:** the _filter_ `simple` applied to the placeholder makes it so the placeholder outputs whole, unformatted numbers. otherwise it would output `5.0`.
+Save and reload the plugin, then try `/rankup` again.
+
 ![Now showing how much it costs](https://i.imgur.com/Fao0ueo.png)  
 This is much better!  
 That covers the basics of creating Rankup steps. For more information, look at the comments in the configuration files, check out the **[Advanced Example](../Advanced-Configuration-Example/Back-to-basics.md)** or look at other pages here on the wiki!

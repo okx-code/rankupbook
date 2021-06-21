@@ -6,7 +6,7 @@
 ### Option 1:  
 ```yaml
 rankup:
-    requirements-not-met: "&cYou have {AMOUNT_DONE xp-level}, and need {AMOUNT xp-level} xp levels to rankup!"
+    requirements-not-met: "&cYou have {{ rank.requirement('xp-level').progress | simple }}, and need {{ rank.requirement('xp-level').total | simple }} xp levels to rankup!"
 ```
 Add the section above to the rankup step in rankups.yml and be sure to properly _indent it_ (2 spaces). This option enables per rank message customization using an identical format to the structure provided in the `locale`. You can customize the messages from the locale by copying those lines into your rankups in rankups.yml, making sure to use the identical structure found in your locale or [the default locale file](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale) and **properly _indenting_**. Continuing our example, after you've pasted the provided message into `rankups.yml` your rankup step should look like this:  
 ```yaml
@@ -16,22 +16,22 @@ beginner:
   requirements:
     - xp-level 5
   rankup:
-    requirements-not-met: "&cYou have {AMOUNT_DONE xp-level}, and need {AMOUNT xp-level} xp levels to rankup!"
+    requirements-not-met: "&cYou have {{ rank.requirement('xp-level').progress | simple }}, and need {{ rank.requirement('xp-level').total | simple }} xp levels to rankup!"
 ```  
 Let's analyze the last 2 lines:  
 1. [`rankup:`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-rankup) tells Rankup which section of the locale's messages we are overwriting for this step. The path used to overwrite custom messages in rankups **must** follow the same subsection construction as in our locale file. For example, changing the prestiges' messages requires [`prestige:`](../Rankups-and-prestiges/How-to-prestiges.yml.md#message-me) instead of `rankup:`.  
 2. `requirements-not-met: <text>` is the message we're overwriting from the `locale`. Properly _indent_ overwritten messages as well.
 ### Option 2:  
 [Open the `locale` folder and open your language of choice](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale), in our case [`en.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml).  
-At the very top of the file, you can see the message we just received in chat: `requirements-not-met: "You need {MONEY} money to rankup."`. Changing the `{MONEY}` part to `{AMOUNT <requirement>}`, or in our case `xp-level`, will "fix" the problem.  
+At the very top of the file, you can see the message we just received in chat: `requirements-not-met: "You need {{ rank.requirement('money').total | money }} money to rankup."`. Changing the `{{ rank.requirement('money').total | money }}` part to `{{ rank.requirement('<requirement>').total | simple }}`, with `<requirement>` in our case being `xp-level`, will "fix" the problem.  
 Try changing the message like this:
 ```yaml
-requirements-not-met: "&cThis rank requires {AMOUNT xp-level} xp levels. You have {AMOUNT_DONE xp-level}, and need {AMOUNT_NEEDED xp-level} xp levels!"
+requirements-not-met: "&cThis rank requires {{ rank.requirement('xp-level').total | simple }} xp levels. You have {{ rank.requirement('xp-level').progress | simple }}, and need {{ rank.requirement('xp-level').remaining | simple }} xp levels!"
 ```
 Let's review the message on a per-placeholder basis this time:
-* `{AMOUNT xp-level}` is the placeholder for how many levels the rankup step requires, as defined in the rankup step's `requirements:` section.
-* `{AMOUNT_DONE xp-level}` is the placeholder for how many levels the player _already has_.
-* `{AMOUNT_NEEDED xp-level}` is the placeholder for how many levels the player _needs_.
+* `{{ rank.requirement('xp-level').total | simple }}` is the placeholder for how many levels the rankup step requires, as defined in the rankup step's `requirements:` section.
+* `{{ rank.requirement('xp-level').progress | simple }}` is the placeholder for how many levels the player _already has_.
+* `{{ rank.requirement('xp-level').remaining | simple }}` is the placeholder for how many levels the player _needs_.
 A **[List of Requirements](../Core-Files/List-of-Requirements.md)** and **[Config Placeholders](../Core-Files/Config-Placeholders.md)** will be useful for creating your ranks' requirements and messages.  
 
 This method allows for modification of canned (default) messages.  

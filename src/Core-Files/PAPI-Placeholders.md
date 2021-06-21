@@ -1,61 +1,42 @@
-## Using PAPI in Requirements
-As mentioned on the **[Wrong Message](../Basic-Configuration-Example/Wrong-message.md)** page, Rankup supports PAPI (PlaceholderAPI) which lets you use placeholders as requirements. It's a lot easier than it sounds, so here's an example. All PAPI placeholders can be found on their **[wiki](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)**.
- 
-**IMPORTANT:** You need to download the expansion pack. If it says "NO DOWNLOAD COMMAND" then it's hardcoded into the plugin you're using and it will work regardless, like Rankup. Rankup does not need an expansion.
- 
-We'll go with how many times you've jumped. We will be building on what we had after completing the **[Basic Configuration Example](../Core-Files/Basic-Configuration-Example.md)** chapter.
- 
-```yaml
-beginner:
-  rank: beginner
-  next: member
-  requirements:
-  - 'xp-level 5'
-  - 'placeholder %statistic_jump% >= 50'
-  rankup:
-    requirements-not-met: "&cYou have {{rank.requirement('xp-level').progress | simple}}, and need {{rank.requirement('xp-level').total | simple}} xp levels to rankup!"
-    gui:
-      rankup:
-        material: EMERALD_BLOCK
-        index: 0-3
-        name: '&a&lConfirm'
-        lore: |-
-          &6Rankup to &b{{rank}}
-          &eCosts {{rank.requirement('xp-level').total | simple}} xp levels.
-```
- 
-As you can see, we've added a new requirement: `- 'placeholder %statistic_jump% >= 50'`, now let's analyze it.
-* The `placeholder` part in front is necessary for Rankup to recognize that it's a placeholder.
-* The `%statistic_jump%` part is the placeholder itself. Rankup will read it as how many times you've jumped thanks to PAPI.
-* the `>= 50` part means that it should be `equal or greater than 50`. Basically 50 or more.
-
 ## MVdW Placeholders
-Note that to use these placeholders in FeatherBoard (or likewise plugins using MVdW placeholders) you must use `{placeholderapi_placeholder}` instead of `%placeholder%`. For example, you might use `{placeholderapi_rankup_current_rank}` in FeatherBoard.
+To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders) you must use `{placeholderapi_<placeholder>}` instead of `%placeholder%`. For example, you might use `{placeholderapi_rankup_current_rank}` instead of `%rankup_current_rank%` in FeatherBoard.
+
+> ## Using PAPI as a Requirement
+> Learn how to use a PAPI placeholder as a requirement [here](../Advanced-Configuration-Example/Adding-custom-requirements.md)!
 
 ## Config PAPI Placeholders
-**Note:** Placeholders are included within the Rankup plugin, a downloaded expansion is not required.
+> #### Placeholders are included with Rankup. `No download required`.
 
 | Placeholder | Description
 | ----------- | -----------
-| `%rankup_current_rank%` | The rank a player is in.
+| `%rankup_current_rank%` | Rank the player is currently in.
 | `%rankup_current_rank_name%` | The display name of a rank a player is in.
-| `%rankup_next_rank%` | The rank a player can rankup to.
+| `%rankup_next_rank%` | Rank the player will rank up to.
 | `%rankup_next_rank_name%` | The display name of a rank a player can rankup to.
-| `%rankup_current_prestige%` | The prestige rank a player is in.
+| `%rankup_current_prestige%` | Prestige the player is currently in.
 | `%rankup_current_prestige_name%` | The prestige rank's display name a player is in.
-| `%rankup_next_prestige%` | The next prestige rank for the player.
+| `%rankup_next_prestige%` | Prestige the player will prestige to.
 | `%rankup_next_prestige_name%` | The next prestige rank's display name for the player.
-| `%rankup_money%` | The money requirement for a player to /rankup.
-| `%rankup_money_formatted%` | As above, but formatted. By default, this might<br>look like `1,000.00` instead of `1000.0`
-| `%rankup_prestige_money%` |
-| `%rankup_prestige_money_formatted%` |
-| `%rankup_money_left%` |
-| `%rankup_money_left_formatted%` |
-| `%rankup_percent_left%` |
-| `%rankup_percent_left_formatted%` |
-| `%rankup_percent_done_formatted%` |
-| `%rankup_requirement_<requirement>[_<done/left/percent_left/percent_done>]` | The \<requirement> to /rankup. See **[requirements](https://github.com/okx-code/Rankup3/wiki/Requirements)**.<br>`%rankup_requirement_xp-level_left%` is equivalent to<br>`{{rank.requirement('xp-level').remaining}}`
-| `%rankup_rank_requirement_<rank>_<requirement>[_<left/percent_left/percent_done>]%` | As above, but for ranking up to a certain `<rank>`
-| `%rankup_rank_money_<rank>%` | The money requirement to rankup from **<rank>**. This is formatted.
-| `%rankup_rank_money_<rank>_left%` |
-| `%rankup_status_<rank>%` | The status of the rank of the given rank for the player.<br>By default, returns "Complete" for rankups the player<br>has completed, "Current" for the rankup the player is<br>currently in, and "Incomplete" for rankups the player<br>has not completed.
+| `%rankup_prestige_money%` | `money` requirement to prestige
+| `%rankup_prestige_money_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
+| `%rankup_money%` | Total amount of `money` requirement to rank up.
+| `%rankup_money_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
+| `%rankup_money_left%` | Amount left to complete `money` requirement.
+| `%rankup_money_left_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
+| `%rankup_percent_done%` | Exact amount done in percent for `money` requirement.
+| `%rankup_percent_left%` | Exact amount left in percent for `money` requirement.
+| `%rankup_percent_done_formatted%` | Amount done in percent for `money` requirement. Formatted to 2 decimals.
+| `%rankup_percent_left_formatted%` | Amount left in percent for `money` requirement. Formatted to 2 decimals.
+| `%rankup_requirement_<requirement>%` | Total amount of `<requirement>`. See [**requirements**](https://github.com/okx-code/Rankup3/wiki/Requirements).
+| `%rankup_requirement_<requirement>_done%` | Amount done of `<requirement>`.
+| `%rankup_requirement_<requirement>_left%` | Amount left of `<requirement>`.
+| `%rankup_requirement_<requirement>_percent_done%` | Amount done of `<requirement>` in percent.
+| `%rankup_requirement_<requirement>_percent_left%` | Amount left of `<requirement>` in percent.
+| `%rankup_rank_requirement_<rank>_<requirement>%` | Total Amount of `<requirement>` for `<rank>`.
+| `%rankup_rank_requirement_<rank>_<requirement>_done%` | Amount done of `<requirement>` for `<rank>`.
+| `%rankup_rank_requirement_<rank>_<requirement>_left%` | Amount left of `<requirement>` for `<rank>`.
+| `%rankup_rank_requirement_<rank>_<requirement>_percent_done>%` | Amount done of `<requirement>` for `<rank>` in percent.
+| `%rankup_rank_requirement_<rank>_<requirement>_percent_left%` | Amount left of `<requirement>` for `<rank>` in percent.
+| `%rankup_rank_money_<rank>%` | Amount of `money` requirement to rankup from `<rank>`, formatted.
+| `%rankup_rank_money_<rank>_left%` | Amount left of `money` requirement to rankup from `<rank>`, formatted.
+| `%rankup_status_<rank>%` | The status of the specified `<rank>` for the player. Customize [**here**](https://github.com/okx-code/Rankup3/blob/49942e5497de6da0c5fd20fe4deed2fd49620bc9/src/main/resources/config.yml#L92-L95).

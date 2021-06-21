@@ -1,5 +1,5 @@
-# Adding Lore to `ranksgui:`  
-### 1. In the `locale`
+# Adding Lore to ranksgui:
+### 1. In the locale
 Go to your **translation file** (`en.yml` by default) and scroll down to `line 41` and under each section (`complete`, `current` and `incomplete`) add under `name` **on the same level of indentation** the text `lore:`
 
 It should look like this:
@@ -11,15 +11,15 @@ It should look like this:
     width: 7
     complete:
       material: GREEN_STAINED_GLASS_PANE
-      name: "&aRank &7{RANK} &a(completed)"
+      name: "&aRank &7{{ next.rank }} &a(completed)"
       lore: "Very Lore"
     current:
       material: ORANGE_STAINED_GLASS_PANE
-      name: "&dRankup to &7{RANK}"
+      name: "&dRankup to &7{{ next.rank }}"
       lore: "Much\nLore"
     incomplete:
       material: RED_STAINED_GLASS_PANE
-      name: "&cRank &7{RANK} &c(requires rankup)"
+      name: "&cRank &7{{ next.rank }} &c(requires rankup)"
       lore: |-
         Wow
         Lore
@@ -45,21 +45,21 @@ RankName:
       width: 7
       complete:
         material: GREEN_STAINED_GLASS_PANE
-        name: "&aRank &7{RANK} &a(completed)"
+        name: "&aRank &7{{ next.rank }} &a(completed)"
         lore: "Very Lore"
       current:
         material: ORANGE_STAINED_GLASS_PANE
-        name: "&dRankup to &7{RANK}"
+        name: "&dRankup to &7{{ next.rank }}"
         lore: "Much\nLore"
       incomplete:
         material: RED_STAINED_GLASS_PANE
-        name: "&cRank &7{RANK} &c(requires rankup)"
+        name: "&cRank &7{{ next.rank }} &c(requires rankup)"
         lore: |-
           Wow
           Lore
       fill:
         material: BLACK_STAINED_GLASS_PANE
         name: ' '
-
+```
 ### Customize your Ranksgui!
 - Make `material` for `incomplete`, `current` and `complete` the same material but different for each rank so when you open the GUI each rank has its own item. materials must match the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)**

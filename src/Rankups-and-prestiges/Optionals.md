@@ -15,11 +15,11 @@ CommandsExample: # "heading:"
   requirements:
     - 'player-kills 1'
   commands:
-    - 'say {PLAYER} ranked up to {RANK} at %world_time_world% in world: %world_name_world%' # requires PAPI and /papi ecloud download world
-    - 'execute at {PLAYER} run playsound minecraft:ui.toast.challenge_complete player {PLAYER} ~ ~ ~' # plays a sound for the player
-    - 'execute at {PLAYER} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal' # makes a firework particle cloud on the player
-    - 'title {PLAYER} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen
-    - 'title {PLAYER} title {"text":"Rankup'd!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
+    - 'say {{player}} ranked up to {{rank.rank}} at %world_time_world% in world: %world_name_world%' # requires PAPI and /papi ecloud download world
+    - 'execute at {{player}} run playsound minecraft:ui.toast.challenge_complete player {{player}} ~ ~ ~' # plays a sound for the player
+    - 'execute at {{player}} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal' # makes a firework particle cloud on the player
+    - 'title {{player}} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen
+    - 'title {{player}} title {"text":"Rankup'd!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
 ```  
 You may define as many commands as you like in the list. They support ***all [config placeholders](../Core-Files//Config-Placeholders.md) and [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)*** as well.
 ### 2. display-name:
@@ -32,10 +32,10 @@ yes | no
 You may have named your ranks exactly how you wanted them, but been unable to apply formatting or color codes directly to your `rank:` or `next:`.  
 The rankup `display-name:` feature is where you can do so and is recommended for providing a unique appearance to ranks, separate from your group/permission manager. This feature does not require a toggle in the configuration to be activated. Instead, you may simply add `display-name:` to your rankups in the rankups.yml.
  
-`display-name:` provides the `{RANK_NAME}` and `{OLD_RANK_NAME}`. This is similar to `rank:` but the placeholders `{RANK}` and `{OLD_RANK}` are distinct from the prior.  
+`display-name:` provides the `{{next.name}}` and `{{name.rank}}`. This is similar to `rank:` but the placeholders `{{next.rank}}` and `{{rank.rank}}` are distinct from the prior.  
 
-`display-name:` more specifically provides the `{OLD_RANK_NAME}` placeholder to **the current `rank:`** while `{RANK_NAME}` gets the `next:` **rankup's** `display-name:`.  
-If either `{OLD_RANK_NAME}` or `{RANK_NAME}` cannot find a `display-name:` the values from their non-`_NAME` variants will appear instead.  
+`display-name:` more specifically provides the `{{rank.name}}` placeholder to **the current `rank:`** while `{{next.name}}` gets the `next:` **rankup's** `display-name:`.  
+If either `{{rank.name}}` or `{{next.name}}` cannot find a `display-name:` the values from their non-`.name` variants will appear instead.
 
 Your last rankup, however, will need a display-name [saved in the configuration file](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L96) since it will never have a `next:` rankup to get a `display-name:` from.     
 ```yaml
@@ -61,7 +61,7 @@ member:
   requirements:
     - 'money 10000'
   rankup:
-    requirements-not-met: "&cYou need ${MONEY_NEEDED} more money to rankup."
+    requirements-not-met: "&cYou need ${{ rank.requirement('money').remaining | money }} more money to rankup."
 ```
 
 ### 4. prestige

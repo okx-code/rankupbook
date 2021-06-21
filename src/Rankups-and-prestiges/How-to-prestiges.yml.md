@@ -28,7 +28,7 @@ prestige2: # heading:
   rank: 'p1'
   next: 'p2'
   prestige:
-    requirements-not-met: "&cYou need {MONEY} money to rankup."
+    requirements-not-met: "&cYou need {{ rank.requirement('money').total | money }} money to rankup."
 ```
 # What's Special About Prestiges?  
 ## Prestige-Based Requirements  

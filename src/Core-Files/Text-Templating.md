@@ -55,6 +55,8 @@ String | Placeholder | type | Description | Example
 <br> | `{{ rank.requirement('<requirement>') }}` | string | Get a specific requirement for<br>the rank the player is on. | `{{ requirement('money') }}`
 <br> | `{{ rank.req('<requirement>') }}` | string | Shorthand for above.
 
+For sub requirements, you can use either format: `{{ rank.requirement('mob-kills', 'zombie') }}` or `{{ rank.requirement('mob-kills#zombie') }}`. The shortened `req` alias for `requirement` works here as well.
+
 #### Prestige
 
 Contains all fields from the Rank type. This is returned by `{{ rank }}` if appropiate.

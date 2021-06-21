@@ -1,3 +1,5 @@
+> These placeholders are deprecated. Use [Text templating](../Core-Files/Text-Templating.md).
+
 # Config Placeholders
 
 Where config placeholders can be used, all PlaceholderAPI placeholders can be used too.  

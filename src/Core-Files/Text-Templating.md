@@ -22,7 +22,7 @@ Placeholder | Alias | Description
 `{{ rank.requirement('<requirement>') }}` | N/A | Get a specific requirement for the rank the player is on.
 `{{ requirements[] }}` | N/A | A full list of requirements for the rank the player is on.
 `{{ seconds }}` | N/A | Total cooldown in seconds before you can rankup again.
-`{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again.
+`{{ seconds.remaining }}` | N/A | What's left of the cooldown in seconds before you can rankup again.
 
 ## Requirement Methods
 

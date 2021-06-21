@@ -10,9 +10,13 @@ To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders
 | Placeholder | Description
 | ----------- | -----------
 | `%rankup_current_rank%` | Rank the player is currently in.
+| `%rankup_current_rank_name%` | The display name of a rank a player is in.
 | `%rankup_next_rank%` | Rank the player will rank up to.
+| `%rankup_next_rank_name%` | The display name of a rank a player can rankup to.
 | `%rankup_current_prestige%` | Prestige the player is currently in.
+| `%rankup_current_prestige_name%` | The prestige rank's display name a player is in.
 | `%rankup_next_prestige%` | Prestige the player will prestige to.
+| `%rankup_next_prestige_name%` | The next prestige rank's display name for the player.
 | `%rankup_prestige_money%` | `money` requirement to prestige
 | `%rankup_prestige_money_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
 | `%rankup_money%` | Total amount of `money` requirement to rank up.

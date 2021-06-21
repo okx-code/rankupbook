@@ -32,7 +32,7 @@ These requirements expect another plugin dependency to be installed as well.
 
 | Name | Format | S | D | Description | Example
 | ---- | ------ | ---------------- | --------- | ----------- | -------
-| `placeholder` | text | no | no | Operation can be any of:<br>`=`, `<`, `>`, `<=`, `>=`, `==`<br>Compares the PAPI with the<br>string via the operation.<br>`=` doesn't convert<br>the data type of<br>the string<br>or placeholder. All other operations will convert to a double first. | `placeholder %papi_placeholder% <operation> string`<br>`placeholder %server_tps% >= 19`
+| `placeholder` | text | no | no | Operation can be any of:<br>`=`, `<`, `>`, `<=`, `>=`, `==`<br>Compares the PAPI with the<br>string via the operation.<br>`=` doesn't convert<br>the data type of<br>the string<br>or placeholder.<br>All other operations will<br>convert to a double first. | `placeholder %papi_placeholder% <operation> string`<br>`placeholder %server_tps% >= 19`
 | `mcmmo` | number | yes | no | Requires a player to have<br>a certain level in an<br>[McMMO Skill](https://github.com/mcMMO-Dev/mcMMO-API/blob/master/src/main/java/com/neetgames/mcmmo/skill/CorePrimarySkillType.java) [also named here](https://docs.google.com/document/d/1qY6hEyGCO5z1PRup_OvMBxAmumydxxoO_H-pnUrVK8M/edit#heading=h.nhed81k1qlj7). | `mcmmo skillname number`<br>`mcmmo archery 1000`
 | `mcmmo-power-level` | number | no | no | Requires a player to have<br>a certain power level in McMMO. | `mcmmo-power-level 500`
 | `advancedachievements-achievement` | text | no | no | At least one<br>of certain<br>advanced achievements,<br>separated by spaces. | `advancedachievements-achievement own_shop start_town`

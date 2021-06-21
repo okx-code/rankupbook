@@ -8,19 +8,21 @@
 
 Most of the following values are available as the context, if it makes sense for the message.
 
+You may use the `{{ next }}` for the next rank placeholder interchangeably for `{{ rank }}` in the following table.
+
 Placeholder | Alias | Description
 ----------- | ----- | -----------
 `{{ player }}` | N/A | Username of the player.
 `{{ rank.rank }}` | `{{ rank }}` | The current rank of the player.
-`{{ next.rank }}` | `{{ next }}` | The next rank of the player.
 `{{ rank.name }}` | N/A | The `display-name` for the current rank the player is on.
-`{{ next.name }}` | N/A | The `display-name` for the next rank the player is on.
 `{{ rank.from }}` | `{{ from }}` | The current prestige of the player.
 `{{ rank.to }}` | `{{ to }}` | The next prestige of the player.
+`{{ rank.index }}` | N/A | The index within the rankups list. 0 means it is the first rankup..
+`{{ rank.done }}` | N/A | Returns true if all requirements are complete, otherwise false.
 `{{ ranks }}` | N/A | A list of all ranks seperated by commas.
-`{{ ranks[<index>] }}` | N/A | Similar to `{{ ranks }}` but for a specific rank. `<index>` must be a number.
-`{{ rank.requirement('<requirement>') }}`<br>`rank.req('<requirement>')` | N/A | Get a specific requirement for the rank the player is on.
-`{{ requirements[] }}` | N/A | A full list of requirements for the rank the player is on.
+`{{ ranks[<index>] }}` | N/A | Similar to `{{ ranks }}` but for a specific rank. `<index>` must be a number.<br>Returns a rank, so you can use `{{ rank }}` methods.
+`{{ rank.requirement('<requirement>') }}`<br>`{{rank.req('<requirement>') }} ` | N/A | Get a specific requirement for the rank the player is on.
+`{{ requirements[<index>] }}` | N/A | Retrieve a requirement by its index.<br/>Useful if you have multiple requirements of the same name.
 `{{ seconds }}` | N/A | Total cooldown in seconds before you can rankup again.
 `{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again.
 
@@ -35,7 +37,6 @@ Suffix | Description | Example
 `progress` | Amount done of a requirement. | `{{ rank.requirement('money').progress }}`
 `remaining` | Amount left of a requirement. | `{{ rank.requirement('money').remaining }}`
 `percent` | Goes from 0 to 1. For actual percentage apply as tunnel. | `{{ rank.requirement('money').percent }}`
-`name` | Get the `display-name` of the specified rank. | `{{ rank[2].name }}`
 
 ## Filters
 

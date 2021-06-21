@@ -7,6 +7,7 @@
 ## Context Reference
 
 Most of the following values are available as the context, if it makes sense for the message.
+
 Placeholder | Alias | Description
 ----------- | ----- | -----------
 `{{ player }}` | N/A | Username of the player.

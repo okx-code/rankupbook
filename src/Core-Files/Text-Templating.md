@@ -15,8 +15,8 @@ Placeholder | Alias | Description
 `{{ player }}` | N/A | Username of the player.
 `{{ rank.rank }}` | `{{ rank }}` | The current rank of the player.
 `{{ rank.name }}` | N/A | The `display-name` for the current rank the player is on.
-`{{ rank.from }}` | `{{ from }}` | The current prestige of the player.
-`{{ rank.to }}` | `{{ to }}` | The next prestige of the player.
+`{{ rank.from }}` | N/A | The current prestige of the player.
+`{{ rank.to }}` | N/A | The next prestige of the player.
 `{{ rank.index }}` | N/A | The index within the rankups list. 0 means it is the first rankup..
 `{{ rank.done }}` | N/A | Returns true if all requirements are complete, otherwise false.
 `{{ ranks }}` | N/A | A list of all ranks seperated by commas.

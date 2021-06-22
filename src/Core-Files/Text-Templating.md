@@ -36,7 +36,8 @@ Suffix | Description | Example
 `total` | Displays total amount required. | `{{ rank.requirement('money').total }}`
 `progress` | Amount done of a requirement. | `{{ rank.requirement('money').progress }}`
 `remaining` | Amount left of a requirement. | `{{ rank.requirement('money').remaining }}`
-`percent` | Goes from 0 to 1. For actual percentage apply as tunnel. | `{{ rank.requirement('money').percent }}`
+`percent` | Goes from 0 to 100. | `{{ rank.requirement('money').percent }}`
+`quotient` | Like percent, but goes from 0 to 1. | `{{ rank.requirement('money').quotient }}`
 
 ## Filters
 

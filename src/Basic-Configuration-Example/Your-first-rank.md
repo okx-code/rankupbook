@@ -1,6 +1,8 @@
 # Your First Rank
-The first time you start your server **with Rankup installed** the default **[rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml)**, **[config.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml)**, and **[locale](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale)** will generate like **[this](https://github.com/okx-code/Rankup3/tree/master/src/main/resources)**. Stop your server once the plugins have loaded. The **[rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml)** file is where you will add your ranks to. We recommend you take your time to read through it and all the comments.
-#### [See this FAQ section before continuing the tutorial!](../Core-Files/FAQ.md#YAML-Questions)
+### Each Rankup or Prestige is a step on their respective ladder.
+### Each Prestige can also slide players down or up the Rankup ladder.
+### `/ranks` displays the entire Rankup "Ladder" or discrete set of available Rankup steps.
+### `/prestiges` displays the entire Prestige "Ladder" [when enabled](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L21).
 ## Starting to Format
 * [Each rankup needs a `heading:`, `rank:`, `next:`, and `requirements:` to be valid.](../Rankups-and-prestiges/How-to-rankups.yml.md#these-are-the-4-required-sections-in-the-rankupsyml-file-necessary-for-a-rankup-to-be-considered-valid-individually)
 * You can only have one starter rank as multiple _"roots"_ aren't possible. Multiple roots will cause the following error:

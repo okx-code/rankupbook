@@ -1,32 +1,32 @@
 # The Landing Page
-[Home](./Core-Files/Home.md)
+[Home](./Home.md)
 
-- [Rankups & Prestiges](./Core-Files/Rankups-and-prestiges.md)
+- [Rankups & Prestiges](./Rankups-and-prestiges.md)
     - [Changing The Rankups.yml](./Rankups-and-prestiges/How-to-rankups.yml.md)
     - [Changing The Prestiges.yml](./Rankups-and-prestiges/How-to-prestiges.yml.md)
     - [Optionals](./Rankups-and-prestiges/Optionals.md)
 
-- [Basic Configuration Example](./Core-Files/Basic-Configuration-Example.md)
-    - [Prerequisites](./Basic-Configuration-Example/Prerequisites.md)
-    - [Your First Rank](./Basic-Configuration-Example/Your-first-rank.md)
-    - [Wrong Message](./Basic-Configuration-Example/Wrong-message.md)
-    - [Confirmation GUI](./Basic-Configuration-Example/Confirmation-GUI.md)
+- [Basic Configuration](./Basic-Configuration.md)
+    - [Prerequisites](./Basic-Configuration/Prerequisites.md)
+    - [Your First Rank](./Basic-Configuration/Your-first-rank.md)
+    - [Wrong Message](./Basic-Configuration/Wrong-message.md)
+    - [Confirmation GUI](./Basic-Configuration/Confirmation-GUI.md)
 
-- [Advanced Configuration Example](./Advanced-Configuration-Example/Back-to-basics.md)
-    - [Adding Custom Requirements](./Advanced-Configuration-Example/Adding-custom-requirements.md)
-    - [Adding Lore To `ranksgui:`](./Advanced-Configuration-Example/Adding-lore-to-ranksgui.md)
-    - [Change Requirement Color When completed](./Advanced-Configuration-Example/Color-change-when-complete.md)
-    - [GUI Offset Explanation](./Advanced-Configuration-Example/Gui-offset.md)
-    - [Who's That `{{rank}}`](./Advanced-Configuration-Example/Who-is-that-rank.md)
-    - [Permission-Rankup](./Advanced-Configuration-Example/Permission-Rankup.md)
-- [Placeholder Engine](./Core-Files/Text-Templating.md)
+- [Advanced Configuration](./Advanced-Configuration/Back-to-basics.md)
+    - [Adding Custom Requirements](./Advanced-Configuration/Adding-custom-requirements.md)
+    - [RanksGUI](./Advanced-Configuration/Adding-lore-to-ranksgui.md)
+    - [Color-Change When Completed](./Advanced-Configuration/Color-change-when-complete.md)
+    - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
+    - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
 
-- [List of Requirements](./Core-Files/List-of-Requirements.md)
+- [Placeholder Engine](./Text-Templating.md)
 
-- [Config Placeholders](./Core-Files/Config-Placeholders.md)
+- [List of Requirements](./List-of-Requirements.md)
 
-- [PAPI Placeholders](./Core-Files/PAPI-Placeholders.md)
+- [Config Placeholders](./Config-Placeholders.md)
 
-- [FAQ](./Core-Files/FAQ.md)
+- [PAPI Placeholders](./PAPI-Placeholders.md)
 
-- [For Developers](./Core-Files/For-Developers.md)
+- [FAQ](./FAQ.md)
+
+- [For Developers](./For-Developers.md)

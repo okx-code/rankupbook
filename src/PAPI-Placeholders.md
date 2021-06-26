@@ -2,7 +2,7 @@
 To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders) you must use `{placeholderapi_<placeholder>}` instead of `%placeholder%`. For example, you might use `{placeholderapi_rankup_current_rank}` instead of `%rankup_current_rank%` in FeatherBoard.
 
 > ## Using PAPI as a Requirement
-> Learn how to use a PAPI placeholder as a requirement [here](../Advanced-Configuration-Example/Adding-custom-requirements.md)!
+> Learn how to use a PAPI placeholder as a requirement [here](./Advanced-Configuration/Adding-custom-requirements.md)!
 
 ## Config PAPI Placeholders
 > #### Placeholders are included with Rankup. `No download required`.
@@ -27,7 +27,7 @@ To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders
 | `%rankup_percent_left%` | Exact amount left in percent for `money` requirement.
 | `%rankup_percent_done_formatted%` | Amount done in percent for `money` requirement. Formatted to 2 decimals.
 | `%rankup_percent_left_formatted%` | Amount left in percent for `money` requirement. Formatted to 2 decimals.
-| `%rankup_requirement_<requirement>%` | Total amount of `<requirement>`. See [**requirements**](https://github.com/okx-code/Rankup3/wiki/Requirements).
+| `%rankup_requirement_<requirement>%` | Total amount of `<requirement>`. See [**requirements**](./List-of-Requirements.md#List).
 | `%rankup_requirement_<requirement>_done%` | Amount done of `<requirement>`.
 | `%rankup_requirement_<requirement>_left%` | Amount left of `<requirement>`.
 | `%rankup_requirement_<requirement>_percent_done%` | Amount done of `<requirement>` in percent.

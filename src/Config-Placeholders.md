@@ -2,7 +2,7 @@
 
 Requirements that support sub-requirements are used in the format `<requirement> <sub-requirement> <amount>`. In placeholders, sub-requirements are `<requirement>#<sub-requirement>`.
 
-For example, with **[Config Placeholders](../Core-Files/Config-Placeholders.md)** can use either:
+For example, with **[Config Placeholders](./Config-Placeholders.md)** can use either:
 
 `{{ rank.requirement('block-break', 'STONE').total | simple }}`
 `{{ rank.requirement('block-break#STONE').total | simple }}`
@@ -10,7 +10,7 @@ For example, with **[Config Placeholders](../Core-Files/Config-Placeholders.md)*
 Or in [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/): 
 
 `%rankup_requirement_block-break#STONE%`
-#### Read [this page](../Core-Files/PAPI-Placeholders.md) for more information about Rankup PAPI placeholders.
+#### Read [this page](./PAPI-Placeholders.md) for more information about Rankup PAPI placeholders.
 
 Use the spigot enum pages for [entities](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/package-summary.html) and [items](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/material/package-summary.html) when declared in requirements.
 
@@ -50,12 +50,12 @@ Old Placeholder | Placeholder | Derived From | Description
 `{TO}` | `{{ rank.to }}` | [`to`](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to) | The player's next prestige level.
 `{OLD_RANK_NAME}` | `{{ name.rank }}` | [`display-name`](../Rankups-and-prestiges/Optionals.md#2-display-name) | The `display-name` for the current rank.
 `{RANK_NAME}` | `{{ name.next }}` | [`display-name`](../Rankups-and-prestiges/Optionals.md#2-display-name) | The `display-name` for the next rank.
-`{MONEY}` | <code>{{ rank.requirement('money').total \| money }}</code> | [`- money <amount>`](../Core-Files/List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](../Core-Files/List-of-Requirements.md#list)<br>by first in order | The money requirement of the rankup<br>or prestige.
-`{MONEY_NEEDED}` | <code>{{rank.requirement('money').remaining \| money }}</code> | ([`- money <amount>`](../Core-Files/List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](../Core-Files/List-of-Requirements.md#list)<br>by first in order)<br>- Vault Balance<br>until <= 0 | The amount more money a player<br>needs to rankup or prestige.
-`{AMOUNT <requirement>}` | `{{ rank.requirement('<requirement>').total }}` | [N/A](../Core-Files/List-of-Requirements.md#list) | The total amount of a requirement a<br>player needs to rankup or prestige.
-`{AMOUNT_DONE <requirement>}` | `{{ rank.requirement('<requirement>').progress }}` | [N/A](../Core-Files/List-of-Requirements.md#list) | The amount of a requirement a<br>player has fulfilled.
-`{AMOUNT_NEEDED <requirement>}` | `{{ rank.requirement('<requirement>').remaining }}` | [N/A](../Core-Files/List-of-Requirements.md#list) | The amount of the requirement a player<br>has left.
-`{PERCENT_DONE <requirement>}` | <code>{{ rank.requirement('<requirement>').percent \| percent }}</code> | [N/A](../Core-Files/List-of-Requirements.md#list) |
-`{PERCENT_LEFT <requirement>}` | <code>{{ (1 - rank.requirement('<requirement>').percent) \| percent }}</code> | [N/A](../Core-Files/List-of-Requirements.md#list) | |
+`{MONEY}` | <code>{{ rank.requirement('money').total \| money }}</code> | [`- money <amount>`](./List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](./List-of-Requirements.md#list)<br>by first in order | The money requirement of the rankup<br>or prestige.
+`{MONEY_NEEDED}` | <code>{{rank.requirement('money').remaining \| money }}</code> | ([`- money <amount>`](./List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](./List-of-Requirements.md#list)<br>by first in order)<br>- Vault Balance<br>until <= 0 | The amount more money a player<br>needs to rankup or prestige.
+`{AMOUNT <requirement>}` | `{{ rank.requirement('<requirement>').total }}` | [N/A](./List-of-Requirements.md#list) | The total amount of a requirement a<br>player needs to rankup or prestige.
+`{AMOUNT_DONE <requirement>}` | `{{ rank.requirement('<requirement>').progress }}` | [N/A](./List-of-Requirements.md#list) | The amount of a requirement a<br>player has fulfilled.
+`{AMOUNT_NEEDED <requirement>}` | `{{ rank.requirement('<requirement>').remaining }}` | [N/A](./List-of-Requirements.md#list) | The amount of the requirement a player<br>has left.
+`{PERCENT_DONE <requirement>}` | <code>{{ rank.requirement('<requirement>').percent \| percent }}</code> | [N/A](./List-of-Requirements.md#list) |
+`{PERCENT_LEFT <requirement>}` | <code>{{ (1 - rank.requirement('<requirement>').percent) \| percent }}</code> | [N/A](./List-of-Requirements.md#list) | |
 `{SECONDS_LEFT}` | `{{ seconds.remaining }}` | [N/A](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L53-L55) | The amount of seconds left on a rankup<br>or prestige cooldown.
 `{SECONDS}` | `{{ seconds }}` | [N/A](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L53-L55) | The total length of the cooldown, in<br>seconds.

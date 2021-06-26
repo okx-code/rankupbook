@@ -9,7 +9,7 @@
 `[Server] ERROR [Rankup] Multiple root rankup nodes detected (a root rankup nodes is a rankup that does not have anything that ranks up to it). This may lead to inconsistent behaviour.`
 * The last rankup of a ladder (all the ranks) should refer to the last rank in `next:`. This rank should not be the `rank:` of any other step.
 * The prior also applies to prestiges' `rank:` and `next:`.  
-**IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](../Core-Files/FAQ.md#yaml-questions).  
+**IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](../FAQ.md#yaml-questions).  
 
 **[LuckPerms](https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/)** is strongly recommended and will be used throughout the below examples to manage our groups.
 
@@ -28,11 +28,11 @@ defaultToMember:
 2. [`rank: 'default'`](../Rankups-and-prestiges/How-to-rankups.yml.md#2-rank) Sets the group players must be in to be able to use this rankup step from "default". (`default` is our example current group in `{{ rank.rank }}`)
 3. [`next: 'member'`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-next) Sets the group assigned to the player when they've met the requirements and use `/rankup` to complete this rankup to "member". (`'member'` is our example next group in `{{ next.rank }}`)
 4. [`requirements:`](../Rankups-and-prestiges/How-to-rankups.yml.md#4-requirements) This begins the list of requirements section.
-5. [`- xp-level 5`](../Core-Files/List-of-Requirements.md) This example assumes the only requirement we want for a player to rankup is 5 xp levels as deducted (as a sort of payment). If we wanted to let players keep their xp levels when ranking up, we could check how many xp levels they _have_ with `xp-levelh` (compare) instead of `xp-level` (deduct). Rankup will only take the given number of any requirement (`xp-level 5` here) away once a player successfully ranks up. We only used one requirement for this example, but you can have many different kinds of **[requirements](../Core-Files/List-of-Requirements.md)** by following the above format.  
+5. [`- xp-level 5`](../List-of-Requirements.md) This example assumes the only requirement we want for a player to rankup is 5 xp levels as deducted (as a sort of payment). If we wanted to let players keep their xp levels when ranking up, we could check how many xp levels they _have_ with `xp-levelh` (compare) instead of `xp-level` (deduct). Rankup will only take the given number of any requirement (`xp-level 5` here) away once a player successfully ranks up. We only used one requirement for this example, but you can have many different kinds of **[requirements](../List-of-Requirements.md)** by following the above format.  
 
 Follow the links provided in 1 through 5 to see more detailed descriptions of these sections.  
 
-After replacing the default example in rankups.yml with the [first example](../Basic-Configuration-Example/Your-first-rank.md#first-example), now we're ready to `/pru reload` or `/rankup3 reload` to apply the changes while the server is running.
+After replacing the default example in rankups.yml with the [first example](../Basic-Configuration/Your-first-rank.md#first-example), now we're ready to `/pru reload` or `/rankup3 reload` to apply the changes while the server is running.
 ###### The plugin used to be called PrisonRankup, which is why [pru is still an alias](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/plugin.yml#L13-L16).
 ## Group Management
 Assuming all users start with the 'default' group, anyone should be able to immediately see the rankup as `Current` or in-progress!  

@@ -14,7 +14,7 @@
 
 - [Advanced Configuration](./Advanced-Configuration/Back-to-basics.md)
     - [Adding Custom Requirements](./Advanced-Configuration/Adding-custom-requirements.md)
-    - [RanksGUI](./Advanced-Configuration/Adding-lore-to-ranksgui.md)
+    - [RanksGUI](./Advanced-Configuration/RanksGUI.md)
     - [Color-Change When Completed](./Advanced-Configuration/Color-change-when-complete.md)
     - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
     - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)

@@ -8,14 +8,14 @@
 
 - [Basic Configuration](./Basic-Configuration.md)
     - [Prerequisites](./Basic-Configuration/Prerequisites.md)
-    - [Your First Rank](./Basic-Configuration/Your-first-rank.md)
-    - [Wrong Message](./Basic-Configuration/Wrong-message.md)
+    - [Your First Rank](./Basic-Configuration/Your-First-Rank.md)
+    - [Wrong Message](./Basic-Configuration/Wrong-Message.md)
     - [Confirmation GUI](./Basic-Configuration/Confirmation-GUI.md)
 
 - [Advanced Configuration](./Advanced-Configuration/Back-to-basics.md)
-    - [Adding Custom Requirements](./Advanced-Configuration/Adding-custom-requirements.md)
+    - [Adding Custom Requirements](./Advanced-Configuration/Adding-Custom-Requirements.md)
     - [RanksGUI](./Advanced-Configuration/RanksGUI.md)
-    - [Color-Change When Completed](./Advanced-Configuration/Color-change-when-complete.md)
+    - [Color-Change When Completed](./Advanced-Configuration/Color-Change-When-Complete.md)
     - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
     - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
 

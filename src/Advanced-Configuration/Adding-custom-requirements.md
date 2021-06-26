@@ -11,7 +11,7 @@ For example, if the placeholder outputs it like this it won't work:
 
 Only __whole, unformatted numbers__ will work.
 
-Now onto the syntax. This is the template:
+Now onto the syntax. This is the template
 ###### Template
 ```yaml
 RankName:

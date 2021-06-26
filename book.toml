@@ -13,3 +13,16 @@ git-repository-url = "https://github.com/okx-code/Rankup3"
 
 [output.html.print]
 enable = false
+
+[output.html.redirect]
+"/appendices/bibliography.html" = "https://rustc-dev-guide.rust-lang.org/appendix/bibliography.html"
+"/other-installation-methods.html" = "../infra/other-installation-methods.html"
+"/Core-Files/Config-Placeholders.html" = "/Config-Placeholders.html"
+"/Core-Files/FAQ.html" = "/FAQ.html"
+"/Core-Files/For-Developers.html" = "/For-Developers.html"
+"/Core-Files/Home.html" = "/Home.html"
+"/Core-Files/List-of-Requirements.html" = "/List-of-Requirements.html"
+"/Core-Files/PAPI-Placeholders.html" = "/PAPI-Placeholders.html"
+"/Core-Files/Rankups-and-Prestiges.html" = "/Rankups-and-Prestiges.html"
+"/Core-Files/Rankups-and-prestiges.html" = "/Rankups-and-Prestiges.html"
+"/Core-Files/Text-Templating.html" = "/Text-Templating.html"

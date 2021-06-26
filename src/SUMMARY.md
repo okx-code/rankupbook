@@ -1,7 +1,7 @@
 # The Landing Page
-[Home](./Core-Files/Home.md)
+[Home](./Home.md)
 
-- [Rankups & Prestiges](./Core-Files/Rankups-and-prestiges.md)
+- [Rankups & Prestiges](./Rankups-and-prestiges.md)
     - [Changing The Rankups.yml](./Rankups-and-prestiges/How-to-rankups.yml.md)
     - [Changing The Prestiges.yml](./Rankups-and-prestiges/How-to-prestiges.yml.md)
     - [Optionals](./Rankups-and-prestiges/Optionals.md)

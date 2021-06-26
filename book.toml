@@ -16,8 +16,6 @@ input-404 = "404.md"
 enable = false
 
 [output.html.redirect]
-"/appendices/bibliography.html" = "https://rustc-dev-guide.rust-lang.org/appendix/bibliography.html"
-"/other-installation-methods.html" = "../infra/other-installation-methods.html"
 "/Core-Files/Config-Placeholders.html" = "/Config-Placeholders.html"
 "/Core-Files/FAQ.html" = "/FAQ.html"
 "/Core-Files/For-Developers.html" = "/For-Developers.html"
@@ -28,7 +26,6 @@ enable = false
 "/Core-Files/Rankups-and-prestiges.html" = "/Rankups-and-Prestiges.html"
 "/Core-Files/Text-Templating.html" = "/Text-Templating.html"
 "/Advanced-Configuration/Adding-custom-requirements.html" = "/Advanced-Configuration/Adding-Custom-Requirements.html"
-"/Advanced-Configuration/Back-to-basics.html" = "/Advanced-Configuration/Back-to-Basics.html"
 "/Advanced-Configuration/Color-change-when-complete.html" = "/Advanced-Configuration/Color-Change-When-Complete.html"
 "/Advanced-Configuration/Progress-bars.html" = "/Advanced-Configuration/Progress-Bars.html"
 "/Advanced-Configuration/Ranksgui.html" = "/Advanced-Configuration/RanksGUI.html"

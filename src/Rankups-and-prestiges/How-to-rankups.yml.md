@@ -19,7 +19,7 @@ If you are using [`permission-rankup: true`](https://github.com/okx-code/Rankup3
 ### 4. `requirements:`
 The `requirements:` section defines a list of required parameters the player needs to satify in order to move up the ladder (Rankup or Prestige) from *rank* to *next*.  
 The list of requirements can be disabled with `requirements: []`.  
-A requirement in the list can be any one or more from [The List of Requirements](../Core-Files/List-of-Requirements.md#list).  
+A requirement in the list can be any one or more from [The List of Requirements](../List-of-Requirements.md#list).  
 #### An example of the minimum required fields with a default config.yml and non-empty requirements:
 ```yaml
 # text following a "# " is a comment in yaml

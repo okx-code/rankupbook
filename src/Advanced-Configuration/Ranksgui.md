@@ -25,8 +25,8 @@ Width is how many ranks are on each `row`. The default is 7, but the range can b
 ![](https://i.imgur.com/rlLlcrp.png)
 
 # How To Add Lore
-- In [`rankups.yml`](../Advanced-Configuration/Ranksgui.md#Rankupsyml)
-- In the [`locale`](../Advanced-Configuration/Ranksgui.md#Rankupsyml)
+- In [`rankups.yml`](../Advanced-Configuration/Ranksgui.md#In-the-Rankupsyml)
+- In the [`locale`](../Advanced-Configuration/Ranksgui.md#In-the-locale)
 
 ### In the `Rankups.yml`.
 Usually the preferred method.
@@ -72,7 +72,7 @@ Header:
         name: "&cRank &7{{ next.rank }} &c(requires rankup)"
         lore:
 ```
-### 2. In the locale
+### In the locale
 
 ### Usecases
 - Global changed for the GUI

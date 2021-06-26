@@ -32,7 +32,7 @@ Let's review the message on a per-placeholder basis this time:
 * `{{ rank.requirement('xp-level').total | simple }}` is the placeholder for how many levels the rankup step requires, as defined in the rankup step's `requirements:` section.
 * `{{ rank.requirement('xp-level').progress | simple }}` is the placeholder for how many levels the player _already has_.
 * `{{ rank.requirement('xp-level').remaining | simple }}` is the placeholder for how many levels the player _needs_.
-A **[List of Requirements](../Core-Files/List-of-Requirements.md)** and **[Config Placeholders](../Core-Files/Config-Placeholders.md)** will be useful for creating your ranks' requirements and messages.  
+A **[List of Requirements](../List-of-Requirements.md)** and **[Config Placeholders](../Config-Placeholders.md)** will be useful for creating your ranks' requirements and messages.  
 
 This method allows for modification of canned (default) messages.  
 ### Post-Options

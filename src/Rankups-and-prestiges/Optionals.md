@@ -21,7 +21,7 @@ CommandsExample: # "heading:"
     - 'title {{player}} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen
     - 'title {{player}} title {"text":"Rankup'd!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
 ```  
-You may define as many commands as you like in the list. They support ***all [config placeholders](../Core-Files//Config-Placeholders.md) and [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)*** as well.
+You may define as many commands as you like in the list. They support ***all [config placeholders](../Config-Placeholders.md) and [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)*** as well.
 ### 2. display-name:
 Compatability Chart:
 
@@ -53,7 +53,7 @@ rankups.yml | prestiges.yml
 --- | ---
 yes | no
 
-`rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept [config placeholders](../Core-Files/Config-Placeholders.md) and all [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)! `rankup:` is not available in prestiges [(see below)](./How-to-prestiges.yml.md#message-me).  
+`rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept [config placeholders](../Config-Placeholders.md) and all [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)! `rankup:` is not available in prestiges [(see below)](./How-to-prestiges.yml.md#message-me).  
 ```yaml
 member:
   rank: 'guest'

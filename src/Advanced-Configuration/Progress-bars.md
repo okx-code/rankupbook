@@ -19,11 +19,11 @@
 - You can't use decimals.
 - As long as you use percentages, the maximum should always be `100`.
 - Placeholder (external) requirements require a different usage.
-  - [Explanation.](#progress-bars-with-placeholders)
+  - [Explanation.](../Advanced-Configuration/Progress-bars.md#progress-bars-with-placeholders)
 - Rankup requirements that require sub-requirements will need their sub-requirements specified.
-  - [Explanation.](#progress-bars-with-sub-requirements)
+  - [Explanation.](../Advanced-Configuration/Progress-bars.md#progress-bars-with-sub-requirements)
 
-##### The configuration below produced [the text in the first Progress Bar image](#progress-bars).
+##### The configuration below produced [the text in the first Progress Bar image](../Advanced-Configuration/Progress-bars.md#progress-bars).
 ```yaml
 rankName:
   rank: 'currentRank'
@@ -42,12 +42,12 @@ rankName:
 ```
 
 ## Versions
-### If you use Rankup's [internal/config](../Core-Files/Config-Placeholders.md) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](../Core-Files/PAPI-Placeholders.md#config-papi-placeholders) for that instead.
+### If you use Rankup's [internal/config](../Config-Placeholders.md) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](../PAPI-Placeholders.md#config-papi-placeholders) for that instead.
 #### Rankup's config placeholder version
 > `%progress_bar_{PERCENT_DONE money}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
 #### Rankup's PAPI placeholder version
 > `%progress_bar_{rankup_requirement_money_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
-#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](../Core-Files/PAPI-Placeholders.md#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
+#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](../PAPI-Placeholders.md#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
 
 ### Progress Bars with Placeholders.
 External requirements require a different approach.

@@ -1,4 +1,4 @@
-# Who's that {{rank}}!
+# Who's That {{rank}}!
 > This setup is extremely specific and for advanced users and niche scenarios only. When setup incorrectly, it may require manual correction of any affected users' groups.
 You've got your ranks, prestiges, and are able to rankup in testing but need your players in distinct rank AND prestige permission groups. This section will detail exactly how to get rankless players not only into a rank, but also a prestige without `commands:`.
 #### When you've configured [`permission-rankup: true`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47), all of the `Commandless-escapeFrom-Rankless:` information is irrelevant as you **must** use `commands:` to change a player's permission groups.

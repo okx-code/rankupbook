@@ -39,7 +39,7 @@ Update your version of Rankup.
 > Yes, [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L23-L25) is available in Rankup 3.10 or newer. `/prestiges` do not have a dedicated gui. However, both Ranks and Prestiges can use the [ConfirmationGUI](./Basic-Configuration/Confirmation-GUI.md) when [enabled](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L49-L51).
 # YAML Questions
 ### How should I make changes to the plugin files?
-> Use a source code editor like Sublime Text, Notepad++, Visual Studio, IntelliJ IDEA, Emacs, Vim, etc. when editing the files to "syntax highlight" or color the functional code. You should edit the plugin's files in a code editor with YAML syntax highlighting whenever possible.
+> Use a text editor like Vim when editing the files to "syntax highlight" or colour the functional code. You should edit the plugin's files in a text editor with YAML syntax highlighting whenever possible.
 ### What sections of the provided rankups.yml or prestiges.yml should be replaced/removed?
 > You should remove or replace any functional code from the examples.  
 > Code following a "#" is known as a `comment`. _Comments_ are non-functional code which the plugin will ignore and are used to embed notes in the files.  

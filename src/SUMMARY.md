@@ -12,7 +12,7 @@
     - [Wrong Message](./Basic-Configuration/Wrong-Message.md)
     - [Confirmation GUI](./Basic-Configuration/Confirmation-GUI.md)
 
-- [Advanced Configuration](./Advanced-Configuration/Back-to-basics.md)
+- [Advanced Configuration](./Advanced-Configuration/Back-to-Basics.md)
     - [Adding Custom Requirements](./Advanced-Configuration/Adding-Custom-Requirements.md)
     - [RanksGUI](./Advanced-Configuration/RanksGUI.md)
     - [Color-Change When Completed](./Advanced-Configuration/Color-Change-When-Complete.md)

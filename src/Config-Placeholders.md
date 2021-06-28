@@ -44,12 +44,12 @@ Where config placeholders can be used, all PlaceholderAPI placeholders can be us
 Old Placeholder | Placeholder | Derived From | Description
 --------------- | ----------- | ----------- | -----------
 `{PLAYER}`  | `{{ player }}` | N/A | The player name.
-`{OLD_RANK}` | `{{ rank.rank }}` | [`rank`](../Rankups-and-prestiges/How-to-rankups.yml.md#2-rank) | The rank the player is currently on.
-`{RANK}` | `{{ next.rank }}` | [`next`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-next) | The rank the player is ranking up to.
-`{FROM}` | `{{ rank.from }}` | [`from`](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to) | The player's current prestige level.
-`{TO}` | `{{ rank.to }}` | [`to`](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to) | The player's next prestige level.
-`{OLD_RANK_NAME}` | `{{ name.rank }}` | [`display-name`](../Rankups-and-prestiges/Optionals.md#2-display-name) | The `display-name` for the current rank.
-`{RANK_NAME}` | `{{ name.next }}` | [`display-name`](../Rankups-and-prestiges/Optionals.md#2-display-name) | The `display-name` for the next rank.
+`{OLD_RANK}` | `{{ rank.rank }}` | [`rank`](../Rankups-and-Prestiges/How-to-Rankups.yml.md#2-rank) | The rank the player is currently on.
+`{RANK}` | `{{ next.rank }}` | [`next`](../Rankups-and-Prestiges/How-to-Rankups.yml.md#3-next) | The rank the player is ranking up to.
+`{FROM}` | `{{ rank.from }}` | [`from`](../Rankups-and-Prestiges/How-to-Prestiges.yml.md#on-from-and-to) | The player's current prestige level.
+`{TO}` | `{{ rank.to }}` | [`to`](../Rankups-and-Prestiges/How-to-Prestiges.yml.md#on-from-and-to) | The player's next prestige level.
+`{OLD_RANK_NAME}` | `{{ name.rank }}` | [`display-name`](../Rankups-and-Prestiges/Optionals.md#2-display-name) | The `display-name` for the current rank.
+`{RANK_NAME}` | `{{ name.next }}` | [`display-name`](../Rankups-and-Prestiges/Optionals.md#2-display-name) | The `display-name` for the next rank.
 `{MONEY}` | <code>{{ rank.requirement('money').total \| money }}</code> | [`- money <amount>`](./List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](./List-of-Requirements.md#list)<br>by first in order | The money requirement of the rankup<br>or prestige.
 `{MONEY_NEEDED}` | <code>{{rank.requirement('money').remaining \| money }}</code> | ([`- money <amount>`](./List-of-Requirements.md#list)<br>OR<br>[`- moneyh <amount>`](./List-of-Requirements.md#list)<br>by first in order)<br>- Vault Balance<br>until <= 0 | The amount more money a player<br>needs to rankup or prestige.
 `{AMOUNT <requirement>}` | `{{ rank.requirement('<requirement>').total }}` | [N/A](./List-of-Requirements.md#list) | The total amount of a requirement a<br>player needs to rankup or prestige.

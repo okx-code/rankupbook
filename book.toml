@@ -11,6 +11,7 @@ default-theme = "ayu"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/okx-code/Rankup3"
 input-404 = "404.md"
+site-url = "/rankup/"
 
 [output.html.print]
 enable = false

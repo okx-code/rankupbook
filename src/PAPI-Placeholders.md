@@ -2,7 +2,7 @@
 To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders) you must use `{placeholderapi_<placeholder>}` instead of `%placeholder%`. For example, you might use `{placeholderapi_rankup_current_rank}` instead of `%rankup_current_rank%` in FeatherBoard.
 
 > ## Using PAPI as a Requirement
-> Learn how to use a PAPI placeholder as a requirement [here](./Advanced-Configuration/Adding-custom-requirements.md)!
+> Learn how to use a PAPI placeholder as a requirement [here](./Advanced-Configuration/Adding-Custom-Requirements.md)!
 
 ## Config PAPI Placeholders
 > #### Placeholders are included with Rankup. `No download required`.

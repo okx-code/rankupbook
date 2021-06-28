@@ -2,7 +2,7 @@
 
 Requirements that support sub-requirements are used in the format `<requirement> <sub-requirement> <amount>`. In placeholders, sub-requirements are `<requirement>#<sub-requirement>`.
 
-For example, with **[Config Placeholders](./Config-Placeholders.md)** can use either:
+For example, with **[Config Placeholders](./Config-Placeholders.md#config-placeholders)** can use either:
 
 `{{ rank.requirement('block-break', 'STONE').total | simple }}`
 `{{ rank.requirement('block-break#STONE').total | simple }}`

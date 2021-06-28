@@ -19,7 +19,7 @@ beginner:
     requirements-not-met: "&cYou have {{ rank.requirement('xp-level').progress | simple }}, and need {{ rank.requirement('xp-level').total | simple }} xp levels to rankup!"
 ```  
 Let's analyze the last 2 lines:  
-1. [`rankup:`](../Rankups-and-prestiges/How-to-rankups.yml.md#3-rankup) tells Rankup which section of the locale's messages we are overwriting for this step. The path used to overwrite custom messages in rankups **must** follow the same subsection construction as in our locale file. For example, changing the prestiges' messages requires [`prestige:`](../Rankups-and-prestiges/How-to-prestiges.yml.md#message-me) instead of `rankup:`.  
+1. [`rankup:`](../Rankups-and-Prestiges/How-to-Rankups.yml.md#3-rankup) tells Rankup which section of the locale's messages we are overwriting for this step. The path used to overwrite custom messages in rankups **must** follow the same subsection construction as in our locale file. For example, changing the prestiges' messages requires [`prestige:`](../Rankups-and-Prestiges/How-to-Prestiges.yml.md#message-me) instead of `rankup:`.  
 2. `requirements-not-met: <text>` is the message we're overwriting from the `locale`. Properly _indent_ overwritten messages as well.
 ### Option 2:  
 [Open the `locale` folder and open your language of choice](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale), in our case [`en.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml).  

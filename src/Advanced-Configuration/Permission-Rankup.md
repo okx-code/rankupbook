@@ -18,7 +18,7 @@ Now that you know what Rankup checks for when `permission-rankup` is set to `tru
 #### Necessary information
 - each rank has its own permission node Rankup will check for.
   <details><summary>permission node format: <code>rankup.rank.rank-name</code>.</summary>rank: <code>Member</code><br>permission node: <code>rankup.rank.Member</code></details>
-- how to use [**commands**](../Rankups-and-prestiges/Optionals.md#1-commands).
+- how to use [**commands**](../Rankups-and-Prestiges/Optionals.md#1-commands).
 
 ### Implementation
 > ##### Example will use permissions.

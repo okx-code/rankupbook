@@ -25,8 +25,8 @@ Width is how many ranks are on each `row`. The default is 7, but the range can b
 ![](https://i.imgur.com/rlLlcrp.png)
 
 # How To Add Lore
-- In [`rankups.yml`](../Advanced-Configuration/Ranksgui.md#In-the-Rankupsyml)
-- In the [`locale`](../Advanced-Configuration/Ranksgui.md#In-the-locale)
+- In [`rankups.yml`](../Advanced-Configuration/RanksGUI.md#In-the-Rankupsyml)
+- In the [`locale`](../Advanced-Configuration/RanksGUI.md#In-the-locale)
 
 ### In the `Rankups.yml`.
 Usually the preferred method.

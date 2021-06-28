@@ -3,10 +3,10 @@
 You've got your ranks, prestiges, and are able to rankup in testing but need your players in distinct rank AND prestige permission groups. This section will detail exactly how to get rankless players not only into a rank, but also a prestige without `commands:`.
 #### When you've configured [`permission-rankup: true`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47), all of the `Commandless-escapeFrom-Rankless:` information is irrelevant as you **must** use `commands:` to change a player's permission groups.
 ### Relevant Necessary Information to Understand `Commandless-escapeFrom-Rankless:`
-1. [heading](../Rankups-and-prestiges/How-to-rankups.yml.md#1-heading)
-2. [from](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to)
-3. [to](../Rankups-and-prestiges/How-to-prestiges.yml.md#on-from-and-to)
-4. [next](../Rankups-and-prestiges/How-to-rankups.yml.md#3-next)
+1. [heading](../Rankups-and-Prestiges/How-to-Rankups.yml.md#1-heading)
+2. [from](../Rankups-and-Prestiges/How-to-Prestiges.yml.md#on-from-and-to)
+3. [to](../Rankups-and-Prestiges/How-to-Prestiges.yml.md#on-from-and-to)
+4. [next](../Rankups-and-Prestiges/How-to-Rankups.yml.md#3-next)
 ### Making A Zero Prestige to Escape from Rankless/Prestigeless without `commands:`
 If your prefix, permissions, or another plugin setup requires your players to have multiple groups or be on several tracks at once in order to function optimally, this method will allow you to give players two starting groups without using `commands:` or inefficient plugins like LuckPerms' [default assignments extension](https://luckperms.net/wiki/Extensions#extension-default-assignments) [(see also this page for reasons why not to use it)](https://luckperms.net/wiki/Default-Groups#configure-default-assignments).  
 The zero-ith or first prestige is different from any rankup or latter prestiges because it can assign two groups _**without the use of the**_ `commands:` section while requiring players have only 1 group. This tutorial is entirely dedicated to the importance of this distinction as it allows for unique, likely unintended, customization options. Using the lack of a `rank:` and the sole requirement being a single permission group `from:` your permission manager via Vault, you can create a system to grant 2 distinct permission groups in your Vault Compatible permission plugin of choice (like LuckPerms) without running permission plugin specific `commands:` to add them.

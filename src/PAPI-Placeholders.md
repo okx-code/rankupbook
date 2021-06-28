@@ -39,4 +39,4 @@ To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders
 | `%rankup_rank_requirement_<rank>_<requirement>_percent_left%` | Amount left of `<requirement>` for `<rank>` in percent.
 | `%rankup_rank_money_<rank>%` | Amount of `money` requirement to rankup from `<rank>`, formatted.
 | `%rankup_rank_money_<rank>_left%` | Amount left of `money` requirement to rankup from `<rank>`, formatted.
-| `%rankup_status_<rank>%` | The status of the specified `<rank>` for the player. Customize [**here**](https://github.com/okx-code/Rankup3/blob/49942e5497de6da0c5fd20fe4deed2fd49620bc9/src/main/resources/config.yml#L92-L95).
+| `%rankup_status_<rank>%` | The status of the specified `<rank>` for the player. Customize [**here**](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L92-L95).

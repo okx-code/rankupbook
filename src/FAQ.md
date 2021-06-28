@@ -5,7 +5,7 @@
 > Always keep plugins like Rankup up-to-date.  
 > Try to update to the latest version of Minecraft to maintain compatibility.
 ### Where should I start using this plugin?
-> Review the [YAML Questions](#YAML-Questions) and then [follow the step by step configuration example!](./Basic-Configuration/Your-first-rank.md)
+> Review the [YAML Questions](#YAML-Questions) and then [follow the step by step configuration example!](./Basic-Configuration/Your-First-Rank.md)
 ### What Servers Can I Use With Rankup?
 > Rankup supports [Spigot](https://www.spigotmc.org/) and [Paper](https://papermc.io/). Ensure you are on the latest version before asking for support. CraftBukkit is known to not work with Rankup, and other forks are not guaranteed to be compatible.
 ### Where can I find the latest default files for updating?
@@ -17,8 +17,8 @@
 > When migrating, first you should make a copy of all the files in your `/plugins/rankup` directory to use on the new host.  
 > Then use the migration information included with your permission plugin to maintain players' rankups on the new host.
 ### When I /rankup it still says `You need {{ rank.requirement('money').total | money }} money to rankup.`
-> You can read about why this message is displayed in [this section of the Configuration Example](./Basic-Configuration/Your-first-rank.md).  
-> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration#Wrong-message.md).
+> You can read about why this message is displayed in [this section of the Configuration Example](./Basic-Configuration/Your-First-Rank.md).  
+> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration#Wrong-Message.md).
 ### Do I need to add a command to manually change a player's group?
 > No, Rankup automatically changes a player's groups when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).<br>
 > [Learn how to use `permission-rankup: true`](./Advanced-Configuration/Permission-Rankup.md)

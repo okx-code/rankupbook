@@ -19,11 +19,11 @@
 - You can't use decimals.
 - As long as you use percentages, the maximum should always be `100`.
 - Placeholder (external) requirements require a different usage.
-  - [Explanation.](../Advanced-Configuration/Progress-bars.md#progress-bars-with-placeholders)
+  - [Explanation.](../Advanced-Configuration/Progress-Bars.md#progress-bars-with-placeholders)
 - Rankup requirements that require sub-requirements will need their sub-requirements specified.
-  - [Explanation.](../Advanced-Configuration/Progress-bars.md#progress-bars-with-sub-requirements)
+  - [Explanation.](../Advanced-Configuration/Progress-Bars.md#progress-bars-with-sub-requirements)
 
-##### The configuration below produced [the text in the first Progress Bar image](../Advanced-Configuration/Progress-bars.md#progress-bars).
+##### The configuration below produced [the text in the first Progress Bar image](../Advanced-Configuration/Progress-Bars.md#progress-bars).
 ```yaml
 rankName:
   rank: 'currentRank'

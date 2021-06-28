@@ -7,7 +7,7 @@
 ### Where should I start using this plugin?
 > Review the [YAML Questions](#YAML-Questions) and then [follow the step by step configuration example!](./Basic-Configuration/Your-first-rank.md)
 ### What Servers Can I Use With Rankup?
-> Do not use CraftBukkit with Rankup. Rankup is made by Okx specifically for [Spigot](https://www.spigotmc.org/). The popular Spigot fork [Paper](https://papermc.io/) is _usually_ compatible. [Tuinity](https://github.com/Spottedleaf/Tuinity) and other forks are not recommended due to the volatility of rolling release server patchers. That's not an insult to server patchers or their authors, it's simply a byproduct of that release model. Though Rankup _may_ operate on rolling release server patchers, they are too numerous to test individually for real-time compatibility. Only Spigot is guaranteed by Okx. Paper is _expected_ **not guaranteed**. If your files are 100% valid but the plugin encounters errors or has unusual behavior while running on a server other than Spigot or Paper, you should revert to Spigot and test your files. Always keep your server up-to-date, but especially so when running Paper or another rolling release server patcher.
+> Rankup supports [Spigot](https://www.spigotmc.org/) and [Paper](https://papermc.io/). Ensure you are on the latest version before asking for support. CraftBukkit is known to not work with Rankup, and other forks are not guaranteed to be compatible.
 ### Where can I find the latest default files for updating?
 > [You can see the default config here.](https://github.com/okx-code/Rankup3/tree/master/src/main/resources)
 ### Where are a players' rankups stored in Rankup?

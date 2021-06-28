@@ -2,8 +2,8 @@
 [Home](./Home.md)
 
 - [Rankups & Prestiges](./Rankups-and-Prestiges.md)
-    - [Changing The Rankups.yml](./Rankups-and-Prestiges/How-to-Prestiges.yml.md)
-    - [Changing The Prestiges.yml](./Rankups-and-Prestiges/How-to-Rankups.yml.md)
+    - [Changing The Rankups.yml](./Rankups-and-Prestiges/How-to-Rankups.yml.md)
+    - [Changing The Prestiges.yml](./Rankups-and-Prestiges/How-to-Prestiges.yml.md)
     - [Optionals](./Rankups-and-Prestiges/Optionals.md)
 
 - [Basic Configuration](./Basic-Configuration.md)

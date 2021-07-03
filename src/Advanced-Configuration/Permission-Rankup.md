@@ -3,7 +3,13 @@
 > ### This page assumes that you are using LuckPerms. Use the equivalent of the command provided by the plugin you use!
 
 ## What is it?
-[`permission-rankup`](https://github.com/okx-code/Rankup3/blob/49942e5497de6da0c5fd20fe4deed2fd49620bc9/src/main/resources/config.yml#L41-L47) is a setting in the [`config.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml) for when either the permission plugin you're using doesn't support Vault correctly, you want global ranks on BungeeCord or you can't or don't want to create the groups.
+[`permission-rankup`](https://github.com/okx-code/Rankup3/blob/49942e5497de6da0c5fd20fe4deed2fd49620bc9/src/main/resources/config.yml#L41-L47) is a setting in the [`config.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml).
+
+## Usecases
+- Your permission plugin doesn't (properly) support Vault. 
+  - GroupManager.
+- Per-Server rankups for BungeeCord servers.
+- You don't want to create groups.
 
 ## What does it do?
 > By default, `permission-rankup` is set to `false`.

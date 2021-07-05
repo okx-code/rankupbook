@@ -1,17 +1,18 @@
 # Welcome!
 Welcome to the Rankup3 wiki created by Okx!
 
-
 The Rankup3 wiki is being updated and maintained by NicBOMB and flurbudurbur.
 
-
 This wiki will give you a quick start guide for Rankup and further information about Rankup's configuration.
+
+### Important!
+> **This wiki was designed to be read in order**. The absolute essentials are in chapters [Rankups & Prestiges](./Rankups-and-Prestiges.md) and [Basic Configuration](./Basic-Configuration.md) so be sure to read those.
 
 # [Rankups & Prestiges](./Rankups-and-Prestiges.md)
 This is the Rank and Prestige Reference Format page and outlines exactly what the plugin's configuration sections do.  
 Here you can find the formatting of each major portion of a rankup or prestige.
 
-# [Basic Configuration](./Basic-Configuration-Example.md)
+# [Basic Configuration](./Basic-Configuration.md)
 A comprehensive step-by-step walk-through about how to get started with your rankups!
 
 # [Advanced Configuration](./Advanced-Configuration/Back-to-Basics.md)

@@ -2,11 +2,12 @@
 ## Each `heading:` in rankups.yml defines a Rankup from the current `rank:` group to the `next:` group which has some `requirements:`.  
 ### These are the **4 required sections** in the rankups.yml file necessary for a Rankup to be considered valid individually.  
 ### 1. `heading:`
-Since you must name each heading to start a new rankup/prestige this is required.  
-The heading or "the name of the configuration section" is considered `completely unused` because it is never seen reproduced in any message text unless it's a console error. What you name the step is unimportant as long as it's unique from every other heading. If two headings have the same name, which one is selected may vary randomly.
-It holds **all** of the subsections of each distinct rankup/prestige.  
-**An important note**: it can be named anything, not just "heading".  
-Examples throughout the wiki will change the name of this heading.  
+Each heading is "a name in the configuration section" and holds **all** of the subsections for each distinct rankup/prestige.  
+Since you must name each step to start a new rankup/prestige, headings are required.  
+However, the heading is considered `completely unused` because it is never seen reproduced in any message text unless it's a console error.  
+The step's name is unimportant, but **must be unique from every other heading**. If two headings have the same name, only one is used, typically the first.  
+**An important note**: headings may be named anything, not just "heading".  
+Throughout the wiki various heading names are used for different examples.  
 ### 2. `rank:`
 `rank:` defines the permission group a player must currently have to access this rankup, is mandatory in all Rankups **and Prestiges** except for the first prestige, and provides the placeholder `{{ rank.rank }}`.
 ### 3. `next:`

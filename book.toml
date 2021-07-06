@@ -10,7 +10,7 @@ src = "src"
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/okx-code/Rankup3"
-input-404 = "404.md"
+input-404 = "Error.md"
 site-url = "/rankup/"
 
 [output.html.print]

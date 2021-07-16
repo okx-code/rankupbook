@@ -1,13 +1,49 @@
 <html>
   <head>
     <meta name="description" content="On this page you will learn all the optional parameters you can put in a Rankup step.">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname">
+    <style>
+      .sidebar {
+        width: 130px;
+        position: fixed;
+        z-index: 1;
+        top: 20px;
+        left: 10px;
+        background: #eee;
+        overflow-x: hidden;
+        padding: 8px 0;
+      }
+
+      .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #2196F3;
+        display: block;
+      }
+
+      .sidebar a:hover {
+        color: #064579;
+      }
+
+      .main {
+        margin-left: 140px; /* Same width as the sidebar + left position in px */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+    </style>
   </head>
-  <div style="Float: right;">
+  <div class="sidebar">
     <h3>Table of Contents</h3>
-    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a><br>
-    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a><br>
-    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#3-rankup">Rankup</a><br>
-    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#4-prestige">Prestige</a><br>
+    <a href="#1-commands">Commands</a><br>
+    <a href="#2-display-name">Display-Name</a><br>
+    <a href="#3-rankup">Rankup</a><br>
+    <a href="#4-prestige">Prestige</a><br>
   </div>
 </html>
 

@@ -1,10 +1,15 @@
-<div style="float: right;">
-<h3>Table of Contents</h3>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a><br>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a><br>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#3-rankup">Rankup</a><br>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#4-prestige">Prestige</a><br>
-</div>
+<html>
+  <head>
+    <meta name="description" content="On this page you will learn all the optional parameters you can put in a Rankup step.">
+  </head>
+  <div style="Float: right;">
+    <h3>Table of Contents</h3>
+    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a><br>
+    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a><br>
+    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#3-rankup">Rankup</a><br>
+    <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#4-prestige">Prestige</a><br>
+  </div>
+</html>
 
 # Optionals
 ## You may also add the following sections to enable further features:

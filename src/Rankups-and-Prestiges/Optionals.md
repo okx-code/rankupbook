@@ -1,6 +1,9 @@
-<div style="float: right" class="position-relative">
+<div style="float: right">
 <h3>Table of Contents</h3>
-<p>Test</p>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#3-rankup">Rankup</a>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#4-prestige">Prestige</a>
 </div>
 
 

@@ -1,9 +1,9 @@
 <div style="float: right">
 <h3>Table of Contents</h3>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#3-rankup">Rankup</a>
-<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#4-prestige">Prestige</a>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a><br>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a><br>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#3-rankup">Rankup</a><br>
+<a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#4-prestige">Prestige</a><br>
 </div>
 
 

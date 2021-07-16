@@ -1,7 +1,8 @@
-<div style="float: right">
+<div style="float: right" class="position-relative">
 <h3>Table of Contents</h3>
 <p>Test</p>
 </div>
+
 
 # Optionals
 ## You may also add the following sections to enable further features:

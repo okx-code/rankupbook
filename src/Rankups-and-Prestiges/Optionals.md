@@ -1,4 +1,4 @@
-<div style="float: right">
+<div style="float: right; background: Black; opacity: 10%;">
 <h3>Table of Contents</h3>
 <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#1-commands">Commands</a><br>
 <a href="https://okx.sh/rankup/Rankups-and-Prestiges/Optionals.html#2-display-name">Display-Name</a><br>

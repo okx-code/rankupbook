@@ -2,43 +2,8 @@
   <head>
     <meta name="description" content="On this page you will learn all the optional parameters you can put in a Rankup step.">
     <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname">
-    <style>
-      .sidebar {
-        width: 130px;
-        position: fixed;
-        z-index: 1;
-        top: 20px;
-        left: 10px;
-        background: #eee;
-        overflow-x: hidden;
-        padding: 8px 0;
-      }
-
-      .sidebar a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #2196F3;
-        display: block;
-      }
-
-      .sidebar a:hover {
-        color: #064579;
-      }
-
-      .main {
-        margin-left: 140px; /* Same width as the sidebar + left position in px */
-        font-size: 28px; /* Increased text to enable scrolling */
-        padding: 0px 10px;
-      }
-
-      @media screen and (max-height: 450px) {
-        .sidebar {padding-top: 15px;}
-        .sidebar a {font-size: 18px;}
-      }
-    </style>
   </head>
-  <div class="sidebar">
+  <div style="float: right">
     <h3>Table of Contents</h3>
     <a href="#1-commands">Commands</a><br>
     <a href="#2-display-name">Display-Name</a><br>

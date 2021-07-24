@@ -3,6 +3,7 @@
 The `set` tag allows you to define a variable. You can practically create your own placeholders with it!
 
 Notable things:
+- You should NOT use a variable name provided by Rankup.
 - You can redefine something if you use the same variable name.
 - You can show the variable as a placeholder if you encase it in curly brackets.
 

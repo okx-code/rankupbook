@@ -1,12 +1,8 @@
-# What Is This?
+## If Statements
 
-As you read in the previous page, Rankup's placeholder engine works on a Java templating engine called Pebble. This engine provides many useful features which are accessible to you. With this you can create many things withing Rankup which were previously impossible, like IF statements,
+### What is an `if` statement?
 
-## IF Statements
-
-### what is an IF statement?
-
-An IF statement compares two values with eachother using an operator. If the result is `true`, then it will execute the code within a certain codeblock.
+An `if` evaluates a logic statement as either true or false. An example logic statement includes comparison of two values with an operator. If the result is `true`, then it will execute the code within the next block. When the statements evaluates to `false` the `elseif` will be evaluated. Only when all `if` and following `elseif` fail will the `else` code block be executed.
 
 An example
 ```yml
@@ -55,32 +51,3 @@ ElseIfExample:
       &b{{ rank.req('money').progress | simple }}
       {% endif %}
 ```
-
-## Set
-
-The `set` tag allows you to define a variable. You can practically create your own placeholders with it!
-
-Notable things:
-- You can redefine something if you use the same variable name.
-- You can show the variable as a placeholder if you encase it in curly brackets.
-
-```yml
-SetExample:
-  rank: 'Intermediate'
-  next: 'Advanced'
-  display-name: '&dIntermediate'
-  requirements:
-    - 'money 175000'
-  rankup:
-    requirements-not-met: |-
-      {% if rank.req('money').done == true %}
-      {% set moneyColor = '&5' %}
-      {% elseif rank.req('money').percent >= 0.5 %}
-      {% set moneyColor = '&d' %}
-      {% else %}
-      {% set moneyColor = '&b' %}
-      {% endif %}
-      
-      {{ moneyColor }}{{ rank.req('money').progress | simple }}
-```
-

@@ -2,7 +2,7 @@
 
 ### What is an `if` statement?
 
-An `if` evaluates a logic statement as either true or false. An example logic statement includes comparison of two values with an operator. If the result is `true`, then it will execute the code within the next block. When the statements evaluates to `false` the `elseif` will be evaluated. Only when all `if` and following `elseif` fail will the `else` code block be executed.
+An `if` evaluates a logical expression as either `true` or `false`. An example expression includes comparison of two values with an operator. If the expression's result is `true`, then the code within the block following the `if` will execute. When the expression evaluates to `false` the `elseif` will be similarly evaluated. Only when all `if` and following `elseif` fail will the `else` code block be executed.
 
 An example
 ```yml

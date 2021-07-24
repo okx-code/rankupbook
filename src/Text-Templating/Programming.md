@@ -38,7 +38,7 @@ You can put anything inside an IF statement, even another IF statement!
 
 This is for when you want to go through several comparisons inside a single IF statement.
 
-```
+```yml
 ElseIfExample:
   rank: 'Intermediate'
   next: 'Advanced'

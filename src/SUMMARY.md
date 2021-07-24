@@ -20,6 +20,7 @@
     - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
 
 - [Placeholder Engine](./Text-Templating.md)
+    - [Programming](./Text-Templating/Programming.md)
 
 - [List of Requirements](./List-of-Requirements.md)
 

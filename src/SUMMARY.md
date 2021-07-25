@@ -20,8 +20,7 @@
     - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
 
 - [Placeholder Engine](./Text-Templating.md)
-    - [Requirements](./Text-Templating/Requirements.md)
-    - [Filters](./Text-Templating/Filters.md)
+    - [Formatting](./Text-Templating/Formatting.md)
     - [If Statements](./Text-Templating/If-Statements.md)
     - [Set](./Text-Templating/Set.md)
 

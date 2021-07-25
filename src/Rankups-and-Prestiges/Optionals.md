@@ -33,7 +33,7 @@ CommandsExample: # "heading:"
     - 'execute at {{player}} run playsound minecraft:ui.toast.challenge_complete player {{player}} ~ ~ ~' # plays a sound for the player
     - 'execute at {{player}} run particle minecraft:firework ~ ~1 ~ 1 1 1 0 30 normal' # makes a firework particle cloud on the player
     - 'title {{player}} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen
-    - 'title {{player}} title {"text":"Rankup'd!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
+    - 'title {{player}} title {"text":"Rankup!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
 ```  
 You may define as many commands as you like in the list. They support ***all [config placeholders](../Config-Placeholders.md) and [PlaceholderAPI placeholders](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders)*** as well.
 ### 2. display-name:

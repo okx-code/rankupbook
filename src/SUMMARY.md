@@ -22,8 +22,8 @@
 - [Placeholder Engine](./Text-Templating.md)
     - [Requirements](./Text-Templating/Requirements.md)
     - [Filters](./Text-Templating/Filters.md)
-    - [Set](./Text-Templating/Set.md)
     - [If Statements](./Text-Templating/If-Statements.md)
+    - [Set](./Text-Templating/Set.md)
 
 - [List of Requirements](./List-of-Requirements.md)
 

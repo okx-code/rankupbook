@@ -18,11 +18,11 @@ To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders
 | `%rankup_next_prestige%` | Prestige the player will prestige to.
 | `%rankup_next_prestige_name%` | The next prestige rank's display name for the player.
 | `%rankup_prestige_money%` | `money` requirement to prestige
-| `%rankup_prestige_money_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
+| `%rankup_prestige_money_formatted%` | As above, but formatted.<br>`1000` becomes `1K`.
 | `%rankup_money%` | Total amount of `money` requirement to rank up.
-| `%rankup_money_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
+| `%rankup_money_formatted%` | As above, but formatted.<br>`1000` becomes `1K`.
 | `%rankup_money_left%` | Amount left to complete `money` requirement.
-| `%rankup_money_left_formatted%` | As above, but formatted.<br>`1000` becomes `1,000.00`.
+| `%rankup_money_left_formatted%` | As above, but formatted.<br>`1000` becomes `1K`.
 | `%rankup_percent_done%` | Exact amount done in percent for `money` requirement.
 | `%rankup_percent_left%` | Exact amount left in percent for `money` requirement.
 | `%rankup_percent_done_formatted%` | Amount done in percent for `money` requirement. Formatted to 2 decimals.

@@ -21,10 +21,7 @@
 
 - [Placeholder Engine](./Text-Templating.md)
     - [Formatting](./Text-Templating/Formatting.md)
-    - [If Statements](./Text-Templating/If-Statements.md)
-    - [Set](./Text-Templating/Set.md)
-    - [Logic](./Text-Templating/Logic.md)
-    - [Math](./Text-Templating/Math.md)
+    - [References](./Text-Templating/Pebbles.md)
 
 - [List of Requirements](./List-of-Requirements.md)
 

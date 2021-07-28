@@ -2,19 +2,26 @@
 
 Pebble supports logic. We'll go through all the operators here.
 
-## Equals
+## Comparisons
 
-Very handy for comparisons, but is simply an *alias* for `==`.
+Comparisons return a boolean value.
 
-So
-```yml
-{% if rank.req('money').done equals false %}
-```
-And
-```yml
-{% if rank.req('money').done == false %}
-```
-Output the same
+- `==` - Equals
+  - `{% if rank.req('money').progress == 1500 %}`<br>True if `rank.req('money').progress` is exactly 1500.<br><br>`equals` is an *alias* for `==`.<br>So<br>`{% if rank.req('money').done equals false %}`<br>And<br>`{% if rank.req('money').done == false %}`<br>Output the same.
+- `>=` - Greater than or equal to
+  - `{% if rank.req('money').progress >= 1500 %}`<br>True if `rank.req('money').progress` is greater than or equal to 1500.
+
+- `>`  - Greater than
+  - `{% if rank.req('money').progress > 1500 %}`<br>True if `rank.req('money').progress` is greater than 1500.
+
+- `<=` - Lesser than or equal to
+  - `{% if rank.req('money').progress <= 1500 %}`<br>True if `rank.req('money').progress` is less or equal to 1500.
+
+- `<`  - Lesser than
+  - `{% if rank.req('money').progress < 1500 %}`<br>True if `rank.req('money').progress` is less than 1500.
+
+- `!=` - Does not equal
+  - `{% if rank.req('money').progress != 1500 %}`<br>True if `rank.req('money').progress` is not 1500.
 
 ## And
 
@@ -57,25 +64,3 @@ OrExample:
       This is the output if NEITHER one is satisfied!
       {% endif %}
 ```
-
-## Comparisons
-
-Comparisons return a boolean value.
-
-- `==` - Equals
-  - `{% if rank.req('money').progress == 1500 %}`<br>True if `rank.req('money').progress` is exactly 1500.
-
-- `>=` - Greater than or equal to
-  - `{% if rank.req('money').progress >= 1500 %}`<br>True if `rank.req('money').progress` is greater than or equal to 1500.
-
-- `>`  - Greater than
-  - `{% if rank.req('money').progress > 1500 %}`<br>True if `rank.req('money').progress` is greater than 1500.
-
-- `<=` - Lesser than or equal to
-  - `{% if rank.req('money').progress <= 1500 %}`<br>True if `rank.req('money').progress` is less or equal to 1500.
-
-- `<`  - Lesser than
-  - `{% if rank.req('money').progress < 1500 %}`<br>True if `rank.req('money').progress` is less than 1500.
-
-- `!=` - Does not equal
-  - `{% if rank.req('money').progress != 1500 %}`<br>True if `rank.req('money').progress` is not 1500.

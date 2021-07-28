@@ -1,9 +1,12 @@
 # Relevant Pebble Pages
-<br>[Basic Usage](https://pebbletemplates.io/wiki/guide/basic-usage/#syntax-reference)
-<br>[Comparisons](https://pebbletemplates.io/wiki/operator/comparisons/)
-<br>[Logic](https://pebbletemplates.io/wiki/operator/logic/)
-<br>[Math](https://pebbletemplates.io/wiki/operator/math/)
-<br>[Filters and Ternary](https://pebbletemplates.io/wiki/operator/others/)
-<br>[Set](https://pebbletemplates.io/wiki/tag/set/)
-<br>[For](https://pebbletemplates.io/wiki/tag/for/)
-<br>[If](https://pebbletemplates.io/wiki/tag/if/)
+## [Basic Usage](https://pebbletemplates.io/wiki/guide/basic-usage/#syntax-reference)
+Only the pebble scripting part of the basic usage page is applicable. Java, XML, HTML, and other languages are irrelevant to using pebble in Rankup.
+## [Math](https://pebbletemplates.io/wiki/operator/math/)
+## [If](https://pebbletemplates.io/wiki/tag/if/)
+Related: [Comparisons](https://pebbletemplates.io/wiki/operator/comparisons/) and [Logic](https://pebbletemplates.io/wiki/operator/logic/)
+## [Filters and Ternary](https://pebbletemplates.io/wiki/operator/others/)
+# Professional Level Structures
+## [Set](https://pebbletemplates.io/wiki/tag/set/)
+Enables creation of your own values.
+## [For](https://pebbletemplates.io/wiki/tag/for/)
+Useful for traversing provided fields.

@@ -1,9 +1,9 @@
 # Relevant Pebble Pages
-[Basic Usage](https://pebbletemplates.io/wiki/guide/basic-usage/#syntax-reference)
-https://pebbletemplates.io/wiki/operator/comparisons/
-https://pebbletemplates.io/wiki/operator/logic/
-https://pebbletemplates.io/wiki/operator/math/
-https://pebbletemplates.io/wiki/operator/others/
-https://pebbletemplates.io/wiki/tag/set/
-https://pebbletemplates.io/wiki/tag/for/
-https://pebbletemplates.io/wiki/tag/if/
+<br>[Basic Usage](https://pebbletemplates.io/wiki/guide/basic-usage/#syntax-reference)
+<br>[Comparisons](https://pebbletemplates.io/wiki/operator/comparisons/)
+<br>[Logic](https://pebbletemplates.io/wiki/operator/logic/)
+<br>[Math](https://pebbletemplates.io/wiki/operator/math/)
+<br>[Filters and Ternary](https://pebbletemplates.io/wiki/operator/others/)
+<br>[Set](https://pebbletemplates.io/wiki/tag/set/)
+<br>[For](https://pebbletemplates.io/wiki/tag/for/)
+<br>[If](https://pebbletemplates.io/wiki/tag/if/)

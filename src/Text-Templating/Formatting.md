@@ -1,7 +1,3 @@
-# Formatting
-
-Here you can find all the information you need to know about how and what you can format.
-
 ## Requirements
 
 Methods tell the placeholder engine what part of the result you want.
@@ -17,7 +13,7 @@ Suffix | Description | Example
 
 ## Filters
 
-<a href="https://pebbletemplates.io/wiki/filter/abbreviate/" target="_blank">Filters</a> serve to format the original result to fit your purpose better. The following filters were custom-made for Rankup: `simple`, `money` and `percent`. They use the number formatting found in the `placeholders` section of Rankup's `config.yml`. The pipe symbol `|` and the filter name will apply it. Here are some examples:
+<a href="https://pebbletemplates.io/wiki/filter/abbreviate/" target="_blank">Filters</a> alter a result's output. The following filters were custom-made for Rankup: `simple`, `money` and `percent`. They use the number formatting found in the `placeholders` section of Rankup's `config.yml`. The pipe symbol `|` and the filter name will apply it. Here are some examples:
 
 Filter | Description | Example
 ------ | ----------- | -------
@@ -25,4 +21,4 @@ Filter | Description | Example
 `money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total \| money }}`
 `simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total \| simple }}`
 
-Using filters is recommended for displaying any non-integer number to a player, otherwise the formatting may not be as desired (for example you can get something like 0.2000000001 or 4.0). The `simple` filter is recommended for most use cases.
+Using filters is recommended for displaying any non-integer number, otherwise the formatting may be too exact (for example, `0.2000000001` or `4.0`). The `simple` filter is recommended for most use cases.

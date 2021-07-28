@@ -17,12 +17,7 @@ Suffix | Description | Example
 
 ## Filters
 
-Filters serve to format the original result to fit your purpose better. The following filters were custom-made for Rankup.
-> Find the built-in filters [here](https://pebbletemplates.io/wiki/filter/abbreviate/).
-
-Filters are ways to convert numbers into more readable options. Rankup provides three filters, `simple`, `money` and `percent`. These use the number formatting found in the `placeholders` section of Rankup's `config.yml`.
-
-You can use filters with a pipe symbol `|` and then the name of the filter. Here are some examples:
+<a href="https://pebbletemplates.io/wiki/filter/abbreviate/" target="_blank">Filters</a> serve to format the original result to fit your purpose better. The following filters were custom-made for Rankup: `simple`, `money` and `percent`. They use the number formatting found in the `placeholders` section of Rankup's `config.yml`. The pipe symbol `|` and the filter name will apply it. Here are some examples:
 
 Filter | Description | Example
 ------ | ----------- | -------

@@ -22,8 +22,8 @@
 ### Do I need to add a command to manually change a player's group?
 > No, Rankup automatically changes a player's groups when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).<br>
 > [Learn how to use `permission-rankup: true`](./Advanced-Configuration/Permission-Rankup.md)
-### Does this clear a player's other groups or just change their rankup group?
-> Rankup only changes the groups specified by the given rankup step in your [rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml) when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).
+### Does Rankup clear a player's other groups?
+> No. Rankup only changes the groups specified by the given rankup step in your [rankups.yml](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml) when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default). When [`permission-rankup: true`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47), you can change those groups manually. See the [Permission Rankup](./Advanced-Configuration/Permission-Rankup.md) page for more information.
 ### When I /rankup and/or /prestige, I don't get any rank or prestige. What do I do?
 > This is a known issue if using GroupManager. GroupManager does not support Vault correctly, as it has not been updated since 1.7.  
 > If you are on any permission manager not supported by Vault, like GroupManager or PermissionsEx, there are steps to [migrate to LuckPerms, the permissions plugin used in this wiki's example configurations, here](https://luckperms.net/wiki/Migration).  
@@ -37,6 +37,8 @@
 Update your version of Rankup.
 ### Can I have a GUI for `/ranks`?
 > Yes, [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L23-L25) is available in Rankup 3.10 or newer. `/prestiges` do not have a dedicated gui. However, both Ranks and Prestiges can use the [ConfirmationGUI](./Basic-Configuration/Confirmation-GUI.md) when [enabled](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L49-L51).
+### Why aren't my placeholders replaced when I /ranks or /prestiges?
+> The [Old Config Placeholders](./Config-Placeholders.md#config-placeholders) are not supported beyond version 3.12. You must replace all of the old placeholders with their new variants. We recommend using a simple `find all and replace with` operation in notepad or your code editor of choice to continue using your files. You can find examples of the new placeholders on the [Config Placeholders](./Config-Placeholders.md#config-placeholders) page or in the [rankup3 repository on github](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/)
 # YAML Questions
 ### How should I make changes to the plugin files?
 > Use a text editor like Vim when editing the files to "syntax highlight" or colour the functional code. You should edit the plugin's files in a text editor with YAML syntax highlighting whenever possible.

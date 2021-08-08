@@ -1,7 +1,4 @@
-# Permission Rankup
-
-### What is it?
-[`permission-rankup`](https://github.com/okx-code/Rankup3/blob/49942e5497de6da0c5fd20fe4deed2fd49620bc9/src/main/resources/config.yml#L41-L47) is a setting in the [`config.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml).
+# [`permission-rankup`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) is a setting in the [`config.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml).
 
 ### Usecases
 - Your permission plugin doesn't (properly) support Vault. 
@@ -10,9 +7,9 @@
 - You don't want to create groups.
 
 ### What does it do?
-By default, `permission-rankup` is set to `false`. In this case, Rankup will do all the work of checking if the player is on the ladder and moving the player from one group to the next automatically via Vault.
+By default, [`permission-rankup` is set to `false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47). In this case, Rankup will do all the work of checking if the player is on the ladder and moving the player from one group to the next automatically via Vault.
 
-When `permisison-rankup` is set to `true`, Rankup will check if the player is on the ladder by checking the player for the `rankup.rank.<rank>` node. The player will **not** be moved automatically when all requirements are met and they `/rankup`. You will need to use [`commands:`](../Rankups-and-Prestiges/Optionals.md#1-commands) to move the player between groups or permission nodes accordingly.
+When [`permission-rankup: true`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47), Rankup will check if the player is on the ladder by checking the player for the `rankup.rank.<rank>` node. The player will **not** be moved automatically when all requirements are met and they `/rankup`. You will need to use [`commands:`](../Rankups-and-Prestiges/Optionals.md#1-commands) to move the player between groups or permission nodes accordingly.
 
 <details>
 	<summary>permission node format: <code>rankup.rank.rank-name</code></summary>

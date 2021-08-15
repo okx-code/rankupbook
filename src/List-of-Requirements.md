@@ -17,7 +17,7 @@ If a player doesn't have enough to meet any `D=yes` requirement, none will be ta
 | `world` | text | no | no | Requires a player to be in<br>any of the worlds listed,<br>separated by spaces. | `world my_world_nether my_world_the_end`
 | `player-kills` | number | no | no | Players killed.<br>Uses the Minecraft statistic. | `player-kills 15`
 | `total-mob-kills` | number | no | no | The total amount of<br>mob kills a player has. | `total-mob-kills 500`
-| `mob-kills` | number | yes | no | [Mobs](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/package-summary.html) of the<br>specified type killed.<br>Uses the Minecraft statistic. | `mob-kills Skeleton 100`
+| `mob-kills` | number | yes | no | [Mobs](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html) of the<br>specified type killed.<br>Uses the Minecraft statistic. | `mob-kills Skeleton 100`
 | `item` | number | yes | yes | The amount of [items](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)<br>a player currently has. | `item DIAMOND 64`
 | `itemh` | number | yes | no | As prior, but<br>does not deduct the [items](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html). | `itemh GLASS 64`
 | `use-item` | number | yes | no | The amount of times<br>a player has used an [item](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html). | `use-item DIAMOND_SWORD 200`

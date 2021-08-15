@@ -32,9 +32,9 @@ Usually the preferred method.
 - Same/Similar requirements for each rankup step
 - Managing a ladder with lots of rankup steps
 ### Instructions
-In your `rankups.yml` **or** locale file add `lore:` under the `complete`, `current`, and `incomplete` sections inside [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54) section. Add the entire `ranksgui:` section if it isn't present.
+In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current:`, and `incomplete:` inside [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54). Add the `ranksgui:` section if it isn't present.
 
-Alternatively, for _**each**_ rankup step copy the following:
+Alternatively, for _**each**_ rankup step in `rankups.yml` copy the following:
 ```yaml
 # there is a Copy to clipboard button at the far edge of this box ->
   rankup: # Make sure you do not have a duplicate `rankup`.
@@ -59,7 +59,7 @@ Alternatively, for _**each**_ rankup step copy the following:
           Lore
       # fill: can use lore: too!
 ```
-We recommend you check out [our FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information about _multi-line_ syntax.
+We recommend the [FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information on _multi-line_ syntax used in this `lore:` example.
 
 ## Customize Your Items!
-- Make `material:` for `incomplete`, `current`, and `complete` to customize the items your rankups use at each state and even per step! Item names must match the name in the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)** for materials.
+- Make `material:` for `incomplete:`, `current:`, and `complete:` to customize the items your rankups use at each state and even per step! Item names must match the name in the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)** for materials.

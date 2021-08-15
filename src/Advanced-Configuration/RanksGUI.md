@@ -1,7 +1,6 @@
 # RanksGUI Settings
-RanksGUI has some setting you can tweak to get the desired look for your ranksGUI. This is the explanation of what they do.
+Default values can be found in the `master` branch in the github repository [here](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54).
 
-###### The settings in question.
 ```yaml
 ranksgui:
   title: "Ranks"
@@ -10,25 +9,23 @@ ranksgui:
   width: 7
 ```
 ### Title
-Title is the text that you can see above in the GUI. You can apply color codes to it.
+`title:` is the text at the top of the inventory GUI. You can apply color codes to it.
 
 ### Rows
-Rows are the amount of horizontal lines in the GUI. Rankup by default has 3, but the maximum is 6. The minimum is 1. Unfortunately Minecraft doesn't allow for bigger GUIs.
+`rows:` defines the number of rows in the inventory GUI. `rows:`  is lower and upper bounded by 1 and 6. Any number in this range is allowed. The Minecraft Inventory doesn't allow for GUIs bigger than 6.
 
 ### Offset
-Offset defines the slot where the ranks will begin. By default it's 10, but it can be anywhere inside the range of 0 to 53. Anything outside of that range will cause errors.
+`offset:` defines the slot where the ranks will begin in the inventory. 0 would start the ranks in the very first slot of the inventory (from top left to bottom right). Rankup's default is 10, which is on the second row. This value can be anywhere inside the range of 0 to `rows:` times `width:` minus one. Example: `rows: 6` `width: 9` -> (6 * 9) - 1 = 53. Any number outside of your configuration's valid range will cause a range error.
 
 ### Width
-Width is how many ranks are on each `row`. The default is 7, but the range can be between 1 and 9. Since a row has an odd amount of slots, we recommend you also pick an odd number to maintain symmetry.
+`width:` defines the number of tiles occupied by ranks in each row. The default is 7 and the number can range from 1 to 9 inclusive.
 
 ###### Visualization of the `offset` range and amount of `rows`.
-![](https://i.imgur.com/rlLlcrp.png)
+![Visualization of the `offset` range and amount of `rows`.](https://i.imgur.com/rlLlcrp.png)
 
 # How To Add Lore
-- In [`rankups.yml`](../Advanced-Configuration/RanksGUI.md#In-the-Rankupsyml)
-- In the [`locale`](../Advanced-Configuration/RanksGUI.md#In-the-locale)
 
-### In the `Rankups.yml`.
+### In `Rankups.yml`
 Usually the preferred method.
 
 ### Usecases
@@ -36,25 +33,21 @@ Usually the preferred method.
 - Increased control over lore
 - Per-rankup ranksgui settings.
 
+### In a <a href="https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale" target="_blank">`locale`</a>
+(<a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml" target="_blank">`en.yml`</a> is the default locale)
+
+### Usecases
+- Applying changes to the GUI Globally
+- Same/Similar requirements for each rankup step
+
 ### Instructions
-- In your `rankups.yml`
+In your `rankups.yml` **or** locale file add `lore:` under the `complete`, `current`, and `incomplete` sections inside [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54) section. Add the entire `ranksgui:` section if it isn't present.
 
-For _**each**_ rankup step do the following:
-- Make sure you do not have a duplicate `rankup`.
-- Copy the below configuration.
-  - Read the _comments_ carefully!
-
-We recommend you check out [our FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information about _multi-line_ syntax.
-
+Alternatively, for _**each**_ rankup step copy the following:
 ```yaml
-Header:
-  rank: 'currentRank'
-  next: 'nextRank'
-  requirements:
-    - 'yourRequirementsHere'
-# The following notes will not impact anything and can safely be removed.
-  rankup: # IMPORTANT: Copy from here if you DO NOT have this section already.
-    ranksgui: # Copy from here if you already have a "rankup" section.
+# there is a Copy to clipboard button at the far edge of this box ->
+  rankup: # Make sure you do not have a duplicate `rankup`.
+    ranksgui:
       title: "Ranks"
       rows: 3
       offset: 10
@@ -62,53 +55,20 @@ Header:
       complete:
         material: GREEN_STAINED_GLASS_PANE
         name: "&aRank &7{{ next.rank }} &a(completed)"
-        lore:
+        lore: "Very Lore"
       current:
         material: ORANGE_STAINED_GLASS_PANE
         name: "&dRankup to &7{{ next.rank }}"
-        lore:
+        lore: "Much\nLore"
       incomplete:
         material: RED_STAINED_GLASS_PANE
         name: "&cRank &7{{ next.rank }} &c(requires rankup)"
-        lore:
+        lore: |-
+          Wow
+          Lore
+      # fill: can use lore: too!
 ```
-### In the locale
+We recommend you check out [our FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information about _multi-line_ syntax.
 
-### Usecases
-- Global changed for the GUI
-- Same requirements for each rankup step.
-
-### Instructions
-- In your [`locale`](https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale). ([`en.yml`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml) by default)
-
-Scroll down to [`line 38`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54).
-- Under the `complete`, `current` and `incomplete` sections.
-- Under `name`. (On the same level of _indentation_)
-- Add the text `lore:`
-
-It should look like this:
-```yml
-  ranksgui: # You can completely replace the "ranksgui" section you currently have.
-    title: "Ranks"
-    rows: 3
-    offset: 10
-    width: 7
-    complete:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRank &7{{ next.rank }} &a(completed)"
-      lore:
-    current:
-      material: ORANGE_STAINED_GLASS_PANE
-      name: "&dRankup to &7{{ next.rank }}"
-      lore:
-    incomplete:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cRank &7{{ next.rank }} &c(requires rankup)"
-      lore:
-    fill:
-      material: BLACK_STAINED_GLASS_PANE
-      name: ' '
-```
-
-### Customize your Ranksgui!
-- Make `material` for `incomplete`, `current` and `complete` the same material but different for each rankup step so when you open the GUI each rank has its own item. materials must match the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)**
+### Customize Your Items!
+- Make `material:` for `incomplete`, `current`, and `complete` to customize the items your rankups use at each state and even per step! Item names must match the name in the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)** for materials.

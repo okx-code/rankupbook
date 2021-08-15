@@ -1,5 +1,5 @@
 # RanksGUI Settings
-Default values can be found in the `master` branch in the github repository <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54" target="_blank">here</a>.
+Default values can be found on the `master` branch in the github repository <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54" target="_blank">here</a>.
 
 ```yaml
 ranksgui:
@@ -20,17 +20,10 @@ ranksgui:
 ![Visualization of the maximum `offset:`, `rows:`, and `width:`.](https://i.imgur.com/rlLlcrp.png)
 ## How To Add Lore
 #### In `rankups.yml`
-Usually the preferred method.
-#### Usecases
-- Individual lore for each rankup step.
-- Increased control over lore
-- Per-rankup ranksgui settings.
+Usually the preferred method. Provides settings per-rankup to override the locale.
 #### In a <a href="https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale" target="_blank">`locale`</a>
 
-#### Usecases
-- Changing all rankup step GUIs from a single file like <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml" target="_blank">`en.yml`</a>
-- Same/Similar requirements for each rankup step
-- Managing a ladder with lots of rankup steps
+Allows changing all rankup step GUIs from a single file like <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml" target="_blank">`en.yml`</a>. This is especially useful for configurations where requirements for each rankup step are all the same/similar or when managing a ladder with lots of rankup steps.
 ### Instructions
 In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current:`, and `incomplete:` inside [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54). Add the `ranksgui:` section if it isn't present.
 
@@ -57,7 +50,7 @@ Alternatively, for _**each**_ rankup step in `rankups.yml` copy the following:
         lore: |-
           Wow
           Lore
-      # fill: can use lore: too!
+      # fill: can use all of material: name: lore: too!
 ```
 We recommend the [FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information on _multi-line_ syntax used in this `lore:` example.
 

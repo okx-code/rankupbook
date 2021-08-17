@@ -25,9 +25,9 @@ Usually the preferred method. Provides settings per-rankup to override the local
 
 Allows changing all rankup step GUIs from a single file like <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml" target="_blank">`en.yml`</a>. This is especially useful for configurations where requirements for each rankup step are all the same/similar or when managing a ladder with lots of rankup steps.
 ### Instructions
-In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current:`, and `incomplete:` inside [`ranksgui:`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54). Add the `ranksgui:` section if it isn't present.
+In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current:`, and `incomplete:` inside <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54" target="_blank">`ranksgui:`</a>. Add the `ranksgui:` section if it isn't present.
 
-Alternatively, for _**each**_ rankup step in `rankups.yml` copy the following:
+Alternatively, for _**each**_ rankup step in `rankups.yml` paste a copy the following:
 ```yaml
 # there is a Copy to clipboard button at the far edge of this box ->
   rankup: # Make sure you do not have a duplicate `rankup`.
@@ -55,4 +55,4 @@ Alternatively, for _**each**_ rankup step in `rankups.yml` copy the following:
 We recommend the [FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information on _multi-line_ syntax used in this `lore:` example.
 
 ## Customize Your Items!
-- Make `material:` for `incomplete:`, `current:`, and `complete:` to customize the items your rankups use at each state and even per step! Item names must match the name in the **[Spigot ENUM](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)** for materials.
+- Make `material:` for `incomplete:`, `current:`, and `complete:` to customize the items your rankups use at each state and even per step! Item names must match the name in the <a href="https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html" target="_blank">**Spigot ENUM**</a> for materials.

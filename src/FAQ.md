@@ -18,7 +18,7 @@
 > Then use the migration information included with your permission plugin to maintain players' rankups on the new host.
 ### When I /rankup it still says `You need {{ rank.requirement('money').total | money }} money to rankup.`
 > You can read about why this message is displayed in [this section of the Configuration Example](./Basic-Configuration/Your-First-Rank.md).  
-> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration#Wrong-Message.md).
+> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration/Wrong-Message.md).
 ### Do I need to add a command to manually change a player's group?
 > No, Rankup automatically changes a player's groups when [`permission-rankup: false`](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L41-L47) (default).<br>
 > [Learn how to use `permission-rankup: true`](./Advanced-Configuration/Permission-Rankup.md)

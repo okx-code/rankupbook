@@ -46,7 +46,7 @@ yes | no
 You may have named your ranks exactly how you wanted them, but been unable to apply formatting or color codes directly to your `rank:` or `next:`.  
 The rankup `display-name:` feature is where you can do so and is recommended for providing a unique appearance to ranks, separate from your group/permission manager. This feature does not require a toggle in the configuration to be activated. Instead, you may simply add `display-name:` to your rankups in the rankups.yml.
  
-`display-name:` provides the `{{next.name}}` and `{{name.rank}}`. This is similar to `rank:` but the placeholders `{{next.rank}}` and `{{rank.rank}}` are distinct from the prior.  
+`display-name:` provides the `{{next.name}}` and `{{rank.name}}`. This is similar to `rank:` but the placeholders `{{next.rank}}` and `{{rank.rank}}` are distinct from the prior.  
 
 `display-name:` more specifically provides the `{{rank.name}}` placeholder to **the current `rank:`** while `{{next.name}}` gets the `next:` **rankup's** `display-name:`.  
 If either `{{rank.name}}` or `{{next.name}}` cannot find a `display-name:` the values from their non-`.name` variants will appear instead.

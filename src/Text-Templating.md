@@ -2,9 +2,9 @@
 
 ## What Is This?
 
-### Text Templating uses [Pebble](https://pebbletemplates.io/). All Pebble scripting functions and variables are accessible in Rankup 3.12+.
+### Text Templating uses [Pebble](./Pebble/templates.html). All Pebble scripting functions and variables are accessible in Rankup 3.12+.
 
-This engine provides many useful scripting features within rankups, prestiges, and locales. By embedding scripts, you can create complex structures inside Rankup which were previously impossible. Pebble placeholders are replacing the legacy placeholders like `{PLAYER}` and `{MONEY}`. You can find those on the [Config Placeholders](Config-Placeholders.html#config-placeholders) page.
+This engine provides many useful scripting features within rankups, prestiges, and locales. By embedding scripts, you can create complex structures inside Rankup which were previously impossible. Pebble placeholders are replacing the legacy placeholders like `{PLAYER}` and `{MONEY}`. You can find those on the [Config Placeholders](./Config-Placeholders.html#config-placeholders) page.
 
 ## Context Reference
 

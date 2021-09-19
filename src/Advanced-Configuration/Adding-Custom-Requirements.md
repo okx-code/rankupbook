@@ -4,7 +4,7 @@
 
 #### **IMPORTANT:** Make sure the plugin you want to use supports **PlaceholderAPI** (PAPI), if it doesn't you won't be able to use it.
 
-First of all, you'll need to find a placeholder from their <a href="https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders" target="_blank">wiki/ecloud</a>. The placeholder needs to output a **raw number**. That means no periods, dots, or commas.  
+First of all, you'll need to find a placeholder from their [wiki/ecloud](../GitHub/PAPI/Placeholders.html). The placeholder needs to output a **raw number**. That means no periods, dots, or commas.  
 For example, if the placeholder outputs it like this it won't work:
 
 `1000 = 1,000 or 1000.00`

@@ -7,12 +7,12 @@ For example, with **[Config Placeholders](./Config-Placeholders.md#config-placeh
 `{{ rank.requirement('block-break', 'STONE').total | simple }}`
 `{{ rank.requirement('block-break#STONE').total | simple }}`
 
-Or in [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/): 
+Or in [PlaceholderAPI](../Spigot/PAPI.html): 
 
 `%rankup_requirement_block-break#STONE%`
 #### Read [this page](./PAPI-Placeholders.md) for more information about Rankup PAPI placeholders.
 
-Use the spigot enum pages for [entities](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/package-summary.html) and [items](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/material/package-summary.html) when declared in requirements.
+Use the spigot enum pages for [entities](../Spigot/Docs/entity.html) and [items](../Spigot/Docs/materials.html) when declared in requirements.
 
 ## PAPI placeholders inside Rankup's internal placeholders
 
@@ -57,5 +57,5 @@ Old Placeholder | Placeholder | Derived From | Description
 `{AMOUNT_NEEDED <requirement>}` | `{{ rank.requirement('<requirement>').remaining }}` | [N/A](./List-of-Requirements.md#list) | The amount of the requirement a player<br>has left.
 `{PERCENT_DONE <requirement>}` | <code>{{ rank.requirement('<requirement>').percent \| percent }}</code> | [N/A](./List-of-Requirements.md#list) |
 `{PERCENT_LEFT <requirement>}` | <code>{{ (1 - rank.requirement('<requirement>').percent) \| percent }}</code> | [N/A](./List-of-Requirements.md#list) | |
-`{SECONDS_LEFT}` | `{{ seconds.remaining }}` | [N/A](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L53-L55) | The amount of seconds left on a rankup<br>or prestige cooldown.
-`{SECONDS}` | `{{ seconds }}` | [N/A](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L53-L55) | The total length of the cooldown, in<br>seconds.
+`{SECONDS_LEFT}` | `{{ seconds.remaining }}` | [N/A](../GitHub/Rankup3/config/Cooldown.html) | The amount of seconds left on a rankup<br>or prestige cooldown.
+`{SECONDS}` | `{{ seconds }}` | [N/A](../GitHub/Rankup3/config/Cooldown.html) | The total length of the cooldown, in<br>seconds.

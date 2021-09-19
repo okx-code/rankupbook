@@ -1,6 +1,6 @@
 # Confirmation GUI
 Hmm, we hover over the emerald block and it says "Confirm. Rankup to member", but it doesn't say anything about needing the xp levels. Let's do something about that!
-Just like with `requirements-not-met: <text>`, we can use [Option 1](../Basic-Configuration/Wrong-Message.md#option-1)or [Option 2](../Basic-Configuration/Wrong-Message.md#option-2) to remedy the confirmation `gui:`. For this example we'll start with [Option 2](../Basic-Configuration/Wrong-Message.md#option-2).  
+Just like with `requirements-not-met: <text>`, we can use [Option 1](../Basic-Configuration/Wrong-Message.md#option-1) or [Option 2](../Basic-Configuration/Wrong-Message.md#option-2) to remedy the confirmation `gui:`. For this example we'll start with [Option 2](../Basic-Configuration/Wrong-Message.md#option-2).  
 Go back to your `locale/` file and find the `gui:` section under `rankup:`.  
 ![Confirm. Rankup to member.](https://i.imgur.com/US7layr.png)  
 ### The gui: settings used in the image above:

@@ -3,7 +3,7 @@ Firstly, to get an instance of the plugin, use
 ```java
 JavaPlugin.getPlugin(sh.okx.rankup.Rankup.class)
 ```
-[Rankups](https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/ranks/RankList.java) can be retrieved through `Rankup#getRankups()`
+[Rankups](./GitHub/Rankup3/RankListCode.html) can be retrieved through `Rankup#getRankups()`
 
 ## Events
 
@@ -11,7 +11,7 @@ Rankup provides a `PlayerRankupEvent` and a `PlayerPrestigeEvent` from versions 
 
 ## Custom requirements
 
-If you would like to register your own requirements through Rankup, listen to the event [`sh.okx.rankup.events.RankupRegisterEvent`](https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/events/RankupRegisterEvent.java).
+If you would like to register your own requirements through Rankup, listen to the event [`sh.okx.rankup.events.RankupRegisterEvent`](./GitHub/Rankup3/RankRegisterEventCode.html).
 
 When it is called, you can use `RankupRegisterEvent#addRequirement` to register requirements.
 
@@ -45,8 +45,8 @@ public class GamemodeRequirement extends Requirement {
 }
 ```
 
-If your requirement is not a true or false value and is instead a progessive number (eg money) you can extend [`sh.okx.rankup.requirements.ProgessiveRequirement`](https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/requirements/ProgressiveRequirement.java) and the method `double Requirement#getProgess(Player)`. From there you can just return the number (ie a player's money).
+If your requirement is not a true or false value and is instead a progessive number (eg money) you can extend [`sh.okx.rankup.requirements.ProgessiveRequirement`](./GitHub/Rankup3/ProgressiveRequirementCode.html) and the method `double Requirement#getProgess(Player)`. From there you can just return the number (ie a player's money).
 
-If you would like to do something once a player ranks up with a rank using your requirement, you may also implement  [`sh.okx.rankup.requirements.DeductibleRequirement`](https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/requirements/DeductibleRequirement.java). 
+If you would like to do something once a player ranks up with a rank using your requirement, you may also implement  [`sh.okx.rankup.requirements.DeductibleRequirement`](./GitHub/Rankup3/DeductibleRequirementCode.html). 
 
-If you need any help, please, contact me on [Rankup's Discord server](https://discord.gg/H4Wqu4D).
+If you need any help, please, contact me on [Rankup's Discord server](./Discord/Okx-Corner.html).

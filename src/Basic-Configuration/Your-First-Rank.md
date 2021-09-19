@@ -2,16 +2,16 @@
 ### Each Rankup or Prestige is a step on their respective ladder.
 ### Each Prestige can also slide players down or up the Rankup ladder.
 ### `/ranks` displays the entire Rankup "Ladder" or discrete set of available Rankup steps.
-### `/prestiges` displays the entire Prestige "Ladder" [when enabled](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/config.yml#L21).
+### `/prestiges` displays the entire Prestige "Ladder" [when enabled](../GitHub/Rankup3/config/Prestiges.html).
 ## Starting to Format
-* [Each rankup needs a `heading:`, `rank:`, `next:`, and `requirements:` to be valid.](../Rankups-and-prestiges/How-to-rankups.yml.md#these-are-the-4-required-sections-in-the-rankupsyml-file-necessary-for-a-rankup-to-be-considered-valid-individually)
+* [Each rankup needs a `heading:`, `rank:`, `next:`, and `requirements:` to be valid.](../Rankups-and-prestiges/How-to-Rankups.yml.html#these-are-the-4-required-sections-in-the-rankupsyml-file-necessary-for-a-rankup-to-be-considered-valid-individually)
 * You can only have one starter rank as multiple _"roots"_ aren't possible. Multiple roots will cause the following error:
 `[Server] ERROR [Rankup] Multiple root rankup nodes detected (a root rankup nodes is a rankup that does not have anything that ranks up to it). This may lead to inconsistent behaviour.`
 * The last rankup of a ladder (all the ranks) should refer to the last rank in `next:`. This rank should not be the `rank:` of any other step.
 * The prior also applies to prestiges' `rank:` and `next:`.  
 **IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](../FAQ.md#yaml-questions).  
 
-**[LuckPerms](https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/)** is strongly recommended and will be used throughout the below examples to manage our groups.
+**[LuckPerms](../Spigot/LuckPerms.html)** is strongly recommended and will be used throughout the below examples to manage our groups.
 
 ### First Example
 This example will provide the basis for the entire tutorial.
@@ -33,11 +33,11 @@ defaultToMember:
 Follow the links provided in 1 through 5 to see more detailed descriptions of these sections.  
 
 After replacing the default example in rankups.yml with the [first example](../Basic-Configuration/Your-First-Rank.md#first-example), now we're ready to `/pru reload` or `/rankup3 reload` to apply the changes while the server is running.
-###### The plugin used to be called PrisonRankup, which is why [pru is still an alias](https://github.com/okx-code/Rankup3/blob/master/src/main/resources/plugin.yml#L13-L16).
+###### The plugin used to be called PrisonRankup, which is why [pru is still an alias](../GitHub/Rankup3/plugin/PRU.html).
 ## Group Management
 Assuming all users start with the 'default' group, anyone should be able to immediately see the rankup as `Current` or in-progress!  
 Before trying to complete the rankup, let's create the group `member`, otherwise Rankup won't change the player's groups.  
-To create our group we'll be using the **[LuckPerms creategroup](https://luckperms.net/wiki/General-Commands#lp-creategroup-name-weight-displayname)** command.
+To create our group we'll be using the **[LuckPerms creategroup](../LuckPerms/Wiki/General-Commands/creategroup.html)** command.
 ```
 /lp creategroup member
 ```

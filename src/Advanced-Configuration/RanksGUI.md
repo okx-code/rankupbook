@@ -1,5 +1,5 @@
 # RanksGUI Settings
-Default values can be found on the `master` branch in the github repository <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54" target="_blank">here</a>.
+Default values can be found on the `master` branch in the github repository [here](../GitHub/Rankup3/locale/en/RanksGUI.html).
 
 ```yaml
 ranksgui:
@@ -16,16 +16,15 @@ ranksgui:
 `offset:` defines the slot where the ranks will begin in the inventory. 0 would start the ranks in the very first slot of the inventory (from top left to bottom right). Rankup's default is 10, which is on the second row. This value can be anywhere inside the range of 0 to `rows:` times `width:` minus one. Example: `rows: 6` `width: 9` -> (`6` * `9`) - 1 = 53. Any number outside of your configuration's valid range will cause a range error.
 #### Width
 `width:` defines the number of tiles occupied by ranks in each row. The default is 7 and the number can range from 1 to 9 inclusive.
-###### Visualization of the maximum `offset:`, `rows:`, and `width:`.
-![Visualization of the maximum `offset:`, `rows:`, and `width:`.](https://i.imgur.com/rlLlcrp.png)
+###### Visualization of the maximum number of tiles using `offset:`, `rows:`, and `width:`.
+![](https://i.imgur.com/rlLlcrp.png)
 ## How To Add Lore
 #### In `rankups.yml`
 Usually the preferred method. Provides settings per-rankup to override the locale.
-#### In a <a href="https://github.com/okx-code/Rankup3/tree/master/src/main/resources/locale" target="_blank">`locale`</a>
-
-Allows changing all rankup step GUIs from a single file like <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml" target="_blank">`en.yml`</a>. This is especially useful for configurations where requirements for each rankup step are all the same/similar or when managing a ladder with lots of rankup steps.
+#### In a [`locale`](../GitHub/Rankup3/locale.html)
+Allows changing all rankup step GUIs from a single file like [`en.yml`](../GitHub/Rankup3/locale/en.html). This is especially useful for configurations where requirements for each rankup step are all the same/similar or when managing a ladder with lots of rankup steps.
 ### Instructions
-In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current:`, and `incomplete:` inside <a href="https://github.com/okx-code/Rankup3/blob/master/src/main/resources/locale/en.yml#L38-L54" target="_blank">`ranksgui:`</a>. Add the `ranksgui:` section if it isn't present.
+In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current:`, and `incomplete:` inside [`ranksgui:`](../GitHub/Rankup3/locale/en/RanksGUI.html). Add the `ranksgui:` section if it isn't present.
 
 Alternatively, for _**each**_ rankup step in `rankups.yml` paste a copy the following:
 ```yaml
@@ -55,4 +54,4 @@ Alternatively, for _**each**_ rankup step in `rankups.yml` paste a copy the foll
 We recommend the [FAQ on _YAML questions_](../FAQ.md#how-do-i-write-multi-line-messages) for more information on _multi-line_ syntax used in this `lore:` example.
 
 ## Customize Your Items!
-- Make `material:` for `incomplete:`, `current:`, and `complete:` to customize the items your rankups use at each state and even per step! Item names must match the name in the <a href="https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html" target="_blank">**Spigot ENUM**</a> for materials.
+- Make `material:` for `incomplete:`, `current:`, and `complete:` to customize the items your rankups use at each state and even per step! Item names must match the name in the [**Spigot ENUM**](../Spigot/Docs/materials.html) for materials.

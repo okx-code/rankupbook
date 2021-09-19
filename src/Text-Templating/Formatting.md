@@ -13,7 +13,7 @@ Suffix | Description | Example
 
 ## Filters
 
-<a href="https://pebbletemplates.io/wiki/filter/abbreviate/" target="_blank">Filters</a> alter a result's output. The following filters were custom-made for Rankup: `simple`, `money` and `percent`. They use the number formatting found in the `placeholders` section of Rankup's `config.yml`. The pipe symbol `|` and the filter name will apply it. Here are some examples:
+[Filters](/Pebble/filters.html) alter a result's output. The following filters were custom-made for Rankup: `simple`, `money` and `percent`. They use the number formatting found in the `placeholders` section of Rankup's `config.yml`. The pipe symbol `|` and the filter name will apply it. Here are some examples:
 
 Filter | Description | Example
 ------ | ----------- | -------

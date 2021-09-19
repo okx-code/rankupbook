@@ -1,19 +1,16 @@
 # Progress Bars
 ![](https://i.imgur.com/LcHp0Mx.png)
 
-### Requirements:
-- Have **[PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)** installed.
-- Have the **[Progress](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders#progress)** extension installed.
+### Requires:
+- **[PlaceholderAPI](../Spigot/PAPI.html)**
 ***
-#### I will not explain how to make your own progress bar. Instead, I will provide you with the link to the **[Progress wiki](https://github.com/aBooDyy/Progress-Expansion)** so you can learn to make your own.
+#### I will not explain how to make your own progress bar. Instead, I will provide you with the link to the **[Progress wiki](../GitHub/Progress-Expansion.html)** so you can learn to make your own.
 
-## Installation Process.
-1. Install PlaceholderAPI (PAPI).
- - **[PlaceholderAPI Spigot page](https://www.spigotmc.org/resources/placeholderapi.6245/)**.
-2. Install Progress extension.
- - Execute `/papi ecloud download progress`.
-3. Reload PlaceholderAPI.
- - Execute `/papi reload`.
+## Expansion Installation
+1. Installing Progress Expansion
+ - Execute `/papi ecloud download progress`
+2. Reload PlaceholderAPI.
+ - Execute `/papi reload`
 
 ### Important Notes:
 - You can't use decimals.
@@ -78,7 +75,7 @@ For requirements with sub-requirements, use the Rankup placeholder itself like s
 
 `%progress_bar_{PERCENT_DONE mob-kills#ENDER_DRAGON}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`  
 
-In this case, the requirement is to kill ender dragons. [Unlike previously with `m:`, the maximum amount doesn't matter as it is a percentage](https://github.com/aBooDyy/Progress-Expansion#m).  
+In this case, the requirement is to kill ender dragons. [Unlike previously with `m:`, the maximum amount doesn't matter as it is a percentage](../GitHub/Progress-Examples.html).  
 ###### Example Bars with Sub-Requirements:
 ```yaml
 rankName:

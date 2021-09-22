@@ -79,8 +79,8 @@ secondline
 ```  
 Of these two, the first is recommended by Okx.  
 The other newline behavior options detailed in [https://yaml-multiline.info/](./Validators/Multiline.html) are not recommended for beginners and are not included in default configurations.
-# [Discord Server](./Discord/Okx-Corner.html) Questions
-## Help! I was kicked from the discord server!
+# Discord Server Questions
+## Help! I was kicked from the [Discord Server](./Discord/Okx-Corner.html)!
 > When you rejoin, make sure to read the #readme channel and pinned messages in the support channels **before asking or replying**.
-## Help! I was banned from the discord server!
+## Help! I was banned from the [Discord Server](./Discord/Okx-Corner.html)!
 > You can send Okx a spigot message to request an unban. Access is not guaranteed for those who violate the server's or Discord's rules.

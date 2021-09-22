@@ -40,6 +40,7 @@ enable = false
 "/GitHub/Rankup3/rankups/rank.html" = "https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml#L12"
 "/GitHub/Rankup3/rankups/next.html" = "https://github.com/okx-code/Rankup3/blob/master/src/main/resources/rankups.yml#L14"
 "/GitHub/Rankup3/RankRegisterEventCode.html" = "https://github.com/okx-code/Rankup3/blob/master/src/main/java/sh/okx/rankup/events/RankupRegisterEvent.java"
+"/GitHub/Rankup3/plugin/Auto-Rankup.html" = "https://github.com/okx-code/Rankup3/blob/master/src/main/resources/plugin.yml#L59-L60"
 "/GitHub/Rankup3/plugin/PRU.html" = "https://github.com/okx-code/Rankup3/blob/master/src/main/resources/plugin.yml#L13-L16"
 "/GitHub/Rankup3/resources.html" = "https://github.com/okx-code/Rankup3/tree/master/src/main/resources"
 "/GitHub/Paper/website.html" = "https://papermc.io/"

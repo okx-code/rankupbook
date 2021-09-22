@@ -1,4 +1,4 @@
-# Progress Bars
+# PAPI Progress Bars
 ![](https://i.imgur.com/LcHp0Mx.png)
 
 ### Requires:
@@ -16,11 +16,9 @@
 - You can't use decimals.
 - As long as you use percentages, the maximum should always be `100`.
 - Placeholder (external) requirements require a different usage.
-  - [Explanation.](../Advanced-Configuration/Progress-Bars.md#progress-bars-with-placeholders)
 - Rankup requirements that require sub-requirements will need their sub-requirements specified.
-  - [Explanation.](../Advanced-Configuration/Progress-Bars.md#progress-bars-with-sub-requirements)
 
-##### The configuration below produced [the text in the first Progress Bar image](../Advanced-Configuration/Progress-Bars.md#progress-bars).
+##### The configuration below produced [the text in the first Progress Bar image](../Advanced-Configuration/PAPI-Progress-Bars.md#papi-progress-bars).
 ```yaml
 rankName:
   rank: 'currentRank'

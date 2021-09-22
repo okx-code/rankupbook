@@ -28,7 +28,6 @@ In your `rankups.yml` **or** locale file add `lore:` under `complete:`, `current
 
 Alternatively, for _**each**_ rankup step in `rankups.yml` paste a copy the following:
 ```yaml
-# there is a Copy to clipboard button at the far edge of this box ->
   rankup: # Make sure you do not have a duplicate `rankup`.
     ranksgui:
       title: "Ranks"

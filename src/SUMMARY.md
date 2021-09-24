@@ -12,7 +12,7 @@
     - [RanksGUI](./Advanced-Configuration/RanksGUI.md)
     - [Color-Change When Completed](./Advanced-Configuration/Color-Change-When-Complete.md)
     - [Pebble Progress Bars](./Advanced-Configuration/Pebble-Progress-Bars.md)
-    - [PAPI Progress Bars](./Advanced-Configuration/PAPI-Progress-Bars.md)
+    - [PAPI Progress Bars]()
     - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
     - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
 

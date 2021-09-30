@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Tutorial on managing players in dual group settings.">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 # Who's That {{rank}}!
 > This setup is extremely specific and for advanced users and niche scenarios only. When setup incorrectly, it may require manual correction of any affected users' groups.
 You've got your ranks, prestiges, and are able to rankup in testing but need your players in distinct rank AND prestige permission groups. This section will detail exactly how to get rankless players not only into a rank, but also a prestige without `commands:`.

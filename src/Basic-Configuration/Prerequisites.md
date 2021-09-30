@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Minimum Requirements and Installation Guide!">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 # Minimum Requirements to use Rankup:
 * Vault
 * Vault-Compatible Group Management Plugin

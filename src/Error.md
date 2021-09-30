@@ -1,3 +1,9 @@
+<html>
+  <head>
+    <meta name="description" content="You found a dead link!">
+  </head>
+</html>
+
 # Oh no...
 Looks like the page you were looking for doesn't exist!
 

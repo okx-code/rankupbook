@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Reference for the provided PAPI Placeholders.">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 ## MVdW Placeholders
 To use these placeholders in FeatherBoard (or any plugin using MVdW placeholders) you must use `{placeholderapi_<placeholder>}` instead of `%placeholder%`. For example, you might use `{placeholderapi_rankup_current_rank}` instead of `%rankup_current_rank%` in FeatherBoard.
 

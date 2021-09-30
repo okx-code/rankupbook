@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Tutorial for adding custom requirements to a rankup using PAPI!">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 # Adding Custom Requirements
 
 > Need more customization? If you can write Java, see [Developers](../For-Developers.md)

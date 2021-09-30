@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Welcome to the Rankup3 wiki! Maintained by NicBOMB and flurbudurbur.">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 # Welcome!
 Welcome to the Rankup3 wiki created by Okx!
 

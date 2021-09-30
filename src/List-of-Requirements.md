@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Reference table of Requirements including all built-ins and Soft-Dependent requirements.">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 ## List
 If a player doesn't have enough to meet any `D=yes` requirement, none will be taken.
 #### Scroll down for soft-dependent requirements.

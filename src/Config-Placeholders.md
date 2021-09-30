@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Reference for Requirements including all built-ins and their usage.">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 ## Sub-requirements in placeholders
 
 Requirements that support sub-requirements are used in the format `<requirement> <sub-requirement> <amount>`. In placeholders, sub-requirements are `<requirement>#<sub-requirement>`.

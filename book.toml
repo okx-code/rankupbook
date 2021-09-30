@@ -61,6 +61,7 @@ enable = false
 "/Pebble/Math.html" = "https://pebbletemplates.io/wiki/operator/math/"
 "/Pebble/For.html" = "https://pebbletemplates.io/wiki/tag/for/"
 "/Pebble/If.html" = "https://pebbletemplates.io/wiki/tag/if/"
+"/Pebble/Iterable.html" = "https://pebbletemplates.io/wiki/test/iterable/"
 "/Pebble/Comparisons.html" = "https://pebbletemplates.io/wiki/operator/comparisons/"
 "/Pebble/Logic.html" = "https://pebbletemplates.io/wiki/operator/logic/"
 "/Pebble/Set.html" = "https://pebbletemplates.io/wiki/tag/set/"

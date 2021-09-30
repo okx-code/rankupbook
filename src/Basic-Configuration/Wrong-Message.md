@@ -1,3 +1,10 @@
+<html>
+  <head>
+    <meta name="description" content="Introduction to customizing rankup's messages!">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+  </head>
+</html>
+
 # Wrong Message
 ### You have 2 options to change messages:
 1. Add a section to each rankup overriding the messages from the locale to display the correct text. This is the method recommended by the plugin's author Okx.  

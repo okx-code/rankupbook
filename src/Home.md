@@ -19,6 +19,10 @@ A step-by-step walk-through to get started with Rankup3!
 Instructions to configure messages and other interactions.
 
 # Reference
+
+## [Commands](./Commands.md)
+Identifies and describes all commands provided by Rankup3.
+
 ## [Rankups & Prestiges](./Rankups-and-Prestiges.md)
 Outlines for each configuration files' sections.
 Includes formatting/indentation guidelines for rankups and prestiges.

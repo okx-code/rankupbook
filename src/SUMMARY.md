@@ -16,6 +16,8 @@
     - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
     - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
 
+- [Commands](./Commands.md)
+
 - [File Reference](./Rankups-and-Prestiges.md)
     - [Changing The Rankups.yml](./Rankups-and-Prestiges/How-to-Rankups.yml.md)
     - [Changing The Prestiges.yml](./Rankups-and-Prestiges/How-to-Prestiges.yml.md)

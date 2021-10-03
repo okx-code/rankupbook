@@ -39,8 +39,7 @@ defaultToMember:
 
 Follow the links provided in 1 through 5 to see more detailed descriptions of these sections.  
 
-After replacing the default example in rankups.yml with the [first example](../Basic-Configuration/Your-First-Rank.md#first-example), now we're ready to `/pru reload` or `/rankup3 reload` to apply the changes while the server is running.
-###### The plugin used to be called PrisonRankup, which is why [pru is still an alias](../GitHub/Rankup3/plugin/PRU.html).
+After replacing the default example in rankups.yml with the [first example](../Basic-Configuration/Your-First-Rank.md#first-example), now we're ready to `/rankup3 reload` to apply the changes while the server is running.
 ## Group Management
 Assuming all users start with the 'default' group, anyone should be able to immediately see the rankup as `Current` or in-progress!  
 Before trying to complete the rankup, let's create the group `member`, otherwise Rankup won't change the player's groups.  

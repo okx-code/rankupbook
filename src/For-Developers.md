@@ -21,7 +21,7 @@ If you would like to register your own requirements through Rankup, listen to th
 
 When it is called, you can use `RankupRegisterEvent#addRequirement` to register requirements.
 
-Please note that this event can be called multiple times, such as when `/pru reload` is run. 
+Please note that this event can be called multiple times, such as when `/rankup3 reload` is run. 
 
 ### Creating requirements
 

@@ -8,6 +8,7 @@
     - [Confirmation GUI](./Basic-Configuration/Confirmation-GUI.md)
 
 - [Tutorials](./Advanced-Configuration/Back-to-Basics.md)
+    - [Playtime Formatting](./Advanced-Configuration/Playtime-Formatting.md)
     - [Adding Custom Requirements](./Advanced-Configuration/Adding-Custom-Requirements.md)
     - [RanksGUI](./Advanced-Configuration/RanksGUI.md)
     - [Color-Change When Completed](./Advanced-Configuration/Color-Change-When-Complete.md)

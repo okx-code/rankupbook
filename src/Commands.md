@@ -21,8 +21,8 @@ Command         | permission         | config                                   
 # Admin Commands
 
 > The following commands are only available to [OPs and console by default](./GitHub/Rankup3/plugin/Admin.html).  
-> If OPs are disabled, a player with `rankup.admin` will get the same affect as being an OP.
-> Specifically, `rankup.admin` grants [`rankup.checkversion`, `rankup.reload`, `rankup.force`, and `rankup.notify`](./GitHub/Rankup3/plugin/Admin.html).
+> If OPs are disabled, a player with `rankup.admin` can access the same commands as an OP.  
+> Specifically, `rankup.admin` grants [`rankup.checkversion`, `rankup.reload`, `rankup.force`, and `rankup.notify`](./GitHub/Rankup3/plugin/Admin.html).  
 > The plugin used to be called PrisonRankup, which is why [`/pru` is still an alias for `/rankup3`](./GitHub/Rankup3/plugin/PRU.html).  
 > Therefore, any `/rankup3` command can substitute `rankup3` for `pru`, like `/pru reload`.  
 
@@ -35,7 +35,7 @@ N/A                                        | `rankup.notify`       | This permis
 `/rankup3 forcerankup <player>`            | `rankup.force`        | Moves the specified player up the rankup ladder regardless of requirements. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/forcerankup.html)
 `/rankup3 forceprestige <player>`          | `rankup.force`        | Moves the specified player up the prestige ladder regardless of requirements. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/forceprestige.html)
 `/rankup3 rankdown <player>`               | `rankup.force`        | Moves the specified player down the rankup ladder. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/rankdown.html)
-`/rankup3 playtime get <player>`           | `rankup.playtime`<br>or<br>`rankup.playtime.get` | Prints the player's total playtime. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/playtime-get.html)
+`/rankup3 playtime get <player>`           | `rankup.playtime` or `rankup.playtime.get` | Prints the player's total playtime. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/playtime-get.html)
 `/rankup3 playtime set <player> <minutes>` | `rankup.playtime`     | Modifies the player's total playtime using the minecraft statistic. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/playtime-set.html)
 `/rankup3 playtime add <player> <minutes>` | `rankup.playtime`     | Modifies the player's total playtime using the minecraft statistic. | [Implementation](./GitHub/Rankup3/Java/commands/InfoCommand/playtime-add.html)
 

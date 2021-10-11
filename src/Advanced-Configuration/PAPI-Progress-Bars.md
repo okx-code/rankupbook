@@ -44,12 +44,12 @@ rankName:
 ```
 
 ## Versions
-### If you use Rankup's [internal/config](../Config-Placeholders.md) placeholders, they won't work outside of any Rankup context, like a scoreboard or in tab. Use Rankup's [PAPI placeholders](../PAPI-Placeholders.md#config-papi-placeholders) for that instead.
+### If you use Rankup's [pebble placeholders](../Placeholders.md#placeholders), they won't work outside of any Rankup context, like a scoreboard or in the tab menu. Use the [placeholders from Rankup's PAPI Expansion](../Placeholders.html#papi-placeholders) for external access.
 #### Rankup's config placeholder version
 > `%progress_bar_{PERCENT_DONE money}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
 #### Rankup's PAPI placeholder version
 > `%progress_bar_{rankup_requirement_money_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
-#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard. Does not include MVdW placeholders, click [here](../PAPI-Placeholders.md#mvdw-placeholders) to find out how to adapt the current placeholder to work with MVdW.
+#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard.
 
 ### Progress Bars with Placeholders.
 External requirements require a different approach.

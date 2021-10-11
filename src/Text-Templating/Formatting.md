@@ -10,7 +10,7 @@
 Methods tell the placeholder engine what part of the result you want.
 
 Suffix | Description | Example
---- | --- | --- 
+- | - | -
 `done` | True or false depending on if the requirement is complete. | `{{ rank.requirement('money').done }}`
 `total` | Displays total amount required. | `{{ rank.requirement('money').total }}`
 `progress` | Amount done of a requirement. | `{{ rank.requirement('money').progress }}`
@@ -20,10 +20,12 @@ Suffix | Description | Example
 
 ## Filters
 
-[Filters](../Pebble/filters.html) alter a result's output. The following filters were custom-made for Rankup: `simple`, `money` and `percent`. They use the number formatting found in the `placeholders` section of Rankup's `config.yml`. The pipe symbol `|` and the filter name will apply it. Here are some examples:
+> The pipe symbol `|` and the filter name will apply it.  
+> [Filters](../Pebble/filters.html) alter a result's output.  
+> The number formatting of `simple`, `money` and `percent` are customizable in [the `placeholders:` section of config.yml.](../GitHub/Rankup3/config/Placeholders.html)  
 
 Filter | Description | Example
------- | ----------- | -------
+- | - | -
 `percent` | Formats result to be ##.#. Use with `percent` method. | `{{ rank.requirement('money').percent \| percent }}`
 `money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total \| money }}`
 `simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total \| simple }}`

@@ -73,7 +73,7 @@ CommandsExample: # "heading:"
     - 'title {{player}} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen
     - 'title {{player}} title {"text":"Rankup!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
 ```  
-You may define as many commands as you like in the list. They support ***all [config placeholders](../Config-Placeholders.md) and [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)*** as well.
+You may define as many commands as you like in the list. They support ***all [Placeholders](../Placeholders.md) including [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)***.
 
 ### 2. display-name:
 You may have named your ranks exactly how you wanted them, but been unable to apply formatting or color codes directly to your `rank:` or `next:`.  
@@ -94,7 +94,7 @@ DisplayNameExample:
 ```
 
 ### 3. `rankup:`
-`rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept [config placeholders](../Config-Placeholders.md) and all [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)! `rankup:` is not available in prestiges [(see below)](./How-to-prestiges.yml.md#message-me).  
+`rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept all [Placeholders](../Placeholders.md) including all [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)! `rankup:` is not available in prestiges [(see below)](./How-to-prestiges.yml.md#message-me).  
 ```yaml
 member:
   rank: 'guest'

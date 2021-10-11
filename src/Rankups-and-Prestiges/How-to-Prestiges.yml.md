@@ -26,7 +26,7 @@ first: # heading:
 ```
 In this example, when a player completes B rank, they will be able to /prestige to P1. If you are using group-based rankups ([`permission-rankup: false`](../GitHub/Rankup3/config/Permission-Rankup.html), they will be removed from group B (the `from:` group), and added to the group A (the `to:` group) and the P1 group (the `next:` group).
 ## Message Me!
-Similar to customizing locale messages with `rankup:`, prestiges use the `prestige:` to customize messages per-prestige by following the same structure of the section by the same name in the locale. All message fields accept [config placeholders](../Config-Placeholders.md) and all [PlaceholderAPI](../GitHub/PAPI/Placeholders.html) placeholders! `prestige:` is not available in rankups.
+Similar to customizing locale messages with `rankup:`, prestiges use the `prestige:` to customize messages per-prestige by following the same structure of the section by the same name in the locale. All message fields accept all [Placeholders](../Placeholders.md) including all [PlaceholderAPI](../GitHub/PAPI/Placeholders.html) placeholders! `prestige:` is not available in rankups.
 
 ```yaml
 prestige2: # heading:
@@ -77,7 +77,7 @@ CommandsExample: # "heading:"
     - 'title {{player}} subtitle {"text":"Congratulations!","bold":true,"color":"aqua"}' # adds a subtitle to the player's screen
     - 'title {{player}} title {"text":"Rankup!","bold":true,"color":"light_purple"}' # adds a title to the player's screen
 ```  
-You may define as many commands as you like in the list. They support ***all [config placeholders](../Config-Placeholders.md) and [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)*** as well.
+You may define as many commands as you like in the list. They support ***all [placeholders](../Placeholders.md) including [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)***.
 
 ### 2. prestige:
 `prestige:` is similar to `rankup` but for the `prestiges.yml` instead. You have around the same amount of customisability because the two sections share a lot of options. All messages in `prestige` support placeholders, both internal and PAPI placeholders.

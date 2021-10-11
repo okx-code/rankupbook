@@ -23,6 +23,7 @@ body {
 code {
     font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
     font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
+    white-space: nowrap; /* protect code from wrapping to make selecting and copying easier. */
 }
 
 /* Don't change font size in headers. */
@@ -36,8 +37,8 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 .hide-boring .boring { display: none; }
 .hidden { display: none !important; }
 
-h2, h3 { margin-top: 2.5em; }
-h4, h5 { margin-top: 2em; }
+h2, h3 { margin-top: 1em; }
+h4, h5 { margin-top: 0.5em; }
 
 .header + .header h3,
 .header + .header h4,
@@ -103,14 +104,15 @@ h6:target::before {
 }
 
 table {
+    width: auto;
+    display: block;
+    overflow-x: auto;
     margin-top: 5px;
     border-collapse: collapse;
-    white-space: nowrap;
 }
 table td {
     padding: 2px 10px;
     border: 1px var(--table-border-color) solid;
-    white-space: nowrap;
 }
 table thead {
     background: var(--table-header-bg);
@@ -118,8 +120,8 @@ table thead {
 }
 table thead td {
     font-weight: 700;
-    white-space: nowrap;
     border: none;
+    white-space: nowrap;
 }
 table thead th {
     padding: 3px 20px;
@@ -127,7 +129,6 @@ table thead th {
 }
 table thead tr {
     border: 1px var(--table-header-bg) solid;
-    white-space: nowrap;
 }
 /* Alternate background colors for rows */
 table tbody tr:nth-child(2n) {
@@ -136,6 +137,7 @@ table tbody tr:nth-child(2n) {
 
 
 blockquote {
+    width: auto;
     margin: 20px 0;
     padding: 0 20px;
     color: var(--fg);

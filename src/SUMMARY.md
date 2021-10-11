@@ -29,9 +29,7 @@
 
 - [Requirements](./List-of-Requirements.md)
 
-- [Placeholders](./Config-Placeholders.md)
-
-- [PAPI](./PAPI-Placeholders.md)
+- [Placeholders](./Placeholders.md)
 
 - [FAQ](./FAQ.md)
 

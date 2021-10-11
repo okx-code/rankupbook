@@ -57,10 +57,10 @@
 > Otherwise, verify your groups are named identically to the rankup step's [`rank:`](./GitHub/Rankup3/rankups/rank.html) and [`next:`](./GitHub/Rankup3/rankups/next.html) in your [rankups.yml](./GitHub/Rankup3/rankups.html).  
 > If using `/prestige` verify prestiges have [been enabled in config.yml](./GitHub/Rankup3/config/Prestiges.html).  
 ### Why Aren't Placeholders Replaced When Executing `/ranks` and/or `/prestiges`?
-> The [Old Config Placeholders](./Config-Placeholders.md#config-placeholders) are not supported beyond version 3.12.  
-> You must replace all of the old placeholders with their new variants.  
-> We recommend using a simple `find all and replace with` operation in notepad or your code editor of choice to continue using your files.  
-> You can find examples of the new placeholders on the [Config Placeholders](./Config-Placeholders.md#config-placeholders) page or in the [rankup3 repository on github](./GitHub/Rankup3/resources.html).  
+> If your files use `Old Placeholders`, you should upgrade to their new `Pebble Placeholder` variants.  
+> The [Old Config Placeholders](./Placeholders.md#Placeholders) may not be supported in future versions.  
+> We recommend using a simple `find all and replace with` operation on each `Old Placeholder` in notepad or your code editor of choice to prepare your files with the `Pebble Placeholders`.  
+> You can find examples comparing the new and old placeholders [at the bottom of the Config Placeholders](./Placeholders.md#money-placeholders) page.  
 ### Why Don't Players Automatically Rankup When [`autorankup-interval:`](/GitHub/Rankup3/config/AutoRankup-Interval.html) is Non-Zero?
 > Players also need the permission `rankup.auto`. Though [enabled by default](./GitHub/Rankup3/plugin/Auto-Rankup.html), you may have negated it.
 ### Does `/prestiges` Have a GUI Similar to `ranksgui:`?

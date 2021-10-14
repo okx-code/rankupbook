@@ -23,7 +23,6 @@ body {
 code {
     font-family: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
     font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
-    white-space: nowrap; /* protect code from wrapping to make selecting and copying easier. */
 }
 
 /* Don't change font size in headers. */

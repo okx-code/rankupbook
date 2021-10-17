@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta name="description" content="Reference table of Requirements including all built-ins and Soft-Dependent requirements.">
+    <meta name="description" content="Reference table of all Requirements including Soft-Dependents and their usage.">
     <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
   </head>
 </html>

@@ -7,7 +7,7 @@
 Rankup has an API which can be easily hooked in to.
 Firstly, to get an instance of the plugin, use
 ```java
-JavaPlugin.getPlugin(sh.okx.rankup.Rankup.class)
+JavaPlugin.getPlugin(sh.okx.rankup.RankupPlugin.class)
 ```
 [Rankups](./GitHub/Rankup3/RankListCode.html) can be retrieved through `Rankup#getRankups()`
 

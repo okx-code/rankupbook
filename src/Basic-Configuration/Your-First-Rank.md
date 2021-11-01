@@ -18,8 +18,6 @@
 * The prior also applies to prestiges' `rank:` and `next:`.  
 **IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](../FAQ.md#yaml-questions).  
 
-**[LuckPerms](../Spigot/LuckPerms.html)** is strongly recommended and will be used throughout the below examples to manage our groups.
-
 ### First Example
 This example will provide the basis for the entire tutorial.
 ```yaml

@@ -11,12 +11,12 @@ Methods tell the placeholder engine what part of the result you want.
 
 Suffix | Description | Example
 - | - | -
-`done` | True or false depending on if the requirement is complete. | `{{ rank.requirement('money').done }}`
-`total` | Displays total amount required. | `{{ rank.requirement('money').total }}`
-`progress` | Amount done of a requirement. | `{{ rank.requirement('money').progress }}`
-`remaining` | Amount left of a requirement. | `{{ rank.requirement('money').remaining }}`
-`percent` | Goes from 0 to 100. | `{{ rank.requirement('money').percent }}`
-`quotient` | Like percent, but goes from 0 to 1. | `{{ rank.requirement('money').quotient }}`
+`done` | True or false depending on if the requirement is complete. | <code>{{ rank.requirement('money').done }}</code>
+`total` | Displays total amount required. | <code>{{ rank.requirement('money').total }}</code>
+`progress` | Amount done of a requirement. | <code>{{ rank.requirement('money').progress }}</code>
+`remaining` | Amount left of a requirement. | <code>{{ rank.requirement('money').remaining }}</code>
+`percent` | Goes from 0 to 100. | <code>{{ rank.requirement('money').percent }}</code>
+`quotient` | Like percent, but goes from 0 to 1. | <code>{{ rank.requirement('money').quotient }}</code>
 
 ## Filters
 
@@ -26,8 +26,8 @@ Suffix | Description | Example
 
 Filter | Description | Example
 - | - | -
-`percent` | Formats result to be ##.#. Use with `percent` method. | `{{ rank.requirement('money').percent \| percent }}`
-`money` | Formats result to be ###,###.##. | `{{ rank.requirement('money').total \| money }}`
-`simple` | Formats result to be whole numbers. | `{{ rank.requirement('xp-level').total \| simple }}`
+`percent` | Formats result to be ##.#. Use with `percent` method. | <code>{{ rank.requirement('money').percent \| percent }}</code>
+`money` | Formats result to be ###,###.##. | <code>{{ rank.requirement('money').total \| money }}</code>
+`simple` | Formats result to be whole numbers. | <code>{{ rank.requirement('xp-level').total \| simple }}</code>
 
 Using filters is recommended for displaying any non-integer number, otherwise the formatting may be too exact (for example, `0.2000000001` or `4.0`). The `simple` filter is recommended for most use cases.

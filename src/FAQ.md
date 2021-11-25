@@ -64,10 +64,10 @@
 > Rankup will **NEVER** send detailed errors to *chat*.  
 > Share only the errors from console in [discord](#discord-server-questions) when troubleshooting after receiving this message in chat.  
 ### Rankup3 Errors at Startup and `/rankup3 reload`! What's Wrong?
-> Always execute `/rankup3 reload` from or while watching your server console.  
+> Always execute `/rankup3 reload` from, or while watching, your server console.  
 > This way you can see any error as it gets generated.  
-> Read through the error's human readable text.  
-> The plugin will often describe file parsing errors in the console by providing line and column numbers to the problem in your file.  
+> Read through the error's readable text.  
+> The plugin will often describe parsing errors in the console by providing line and column numbers to the problem in your file.  
 > You can also validate your yaml syntax with a validation service like **[CodeBeautify](./Validators/CodeBeautify.html)**.  
 ### Why Does `/rankup` say <code class="hljs">Sorry, but we could not find any rankups for the group(s) you are in. Use /ranks to list the rankups.</code>?
 > The sender of `/rankup` does not belong to a permission group listed in your `rankups.yml`.  
@@ -80,6 +80,9 @@
 ### <code class="hljs">[Server] INFO Caused by: java.lang.ArrayIndexOutOfBoundsException: Index (number) out of bounds for length (number)</code>
 > If you see this line in your error, your GUI has been misconfigured.  
 > Check that all fields of your `ranksgui:` and `gui:` are accurate and will [create a valid GUI](./Advanced-Configuration/RanksGUI.md#gui-sizing).  
+### <code class="hljs">Unable to parse message, please check console</code>
+> If you see this line in your error, one of your messages has been misconfigured.  
+> The error in console is now entirely readable text describing solutions to this error.
 # Requirement Questions
 ### How do I Convert `playtime-minutes` to Hours or Days?
 > Use math operators in a pebble template to change the output of the placeholder.

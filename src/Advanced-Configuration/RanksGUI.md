@@ -12,18 +12,25 @@ Default values can be found on the `master` branch in the github repository [her
 ranksgui:
   title: "Ranks"
   rows: 3
-  offset: 10
   width: 7
+  offset: 10
 ```
 #### Title
 `title:` is the text at the top of the inventory GUI. You can apply color codes to it.
 #### Rows
 `rows:` defines the number of rows in the inventory GUI. `rows:`  is lower and upper bounded by 1 and 6. Any number in this range is allowed. The Minecraft Inventory doesn't allow for GUIs bigger than 6.
-#### Offset
-`offset:` defines the slot where the ranks will begin in the inventory. 0 would start the ranks in the very first slot of the inventory (from top left to bottom right). Rankup's default is 10, which is on the second row. This value can be anywhere inside the range of 0 to `rows:` times `width:` minus one. Example: `rows: 6` `width: 9` -> (`6` * `9`) - 1 = 53. Any number outside of your configuration's valid range will cause a range error.
 #### Width
 `width:` defines the number of tiles occupied by ranks in each row. The default is 7 and the number can range from 1 to 9 inclusive.
-###### Visualization of the maximum number of tiles using `offset:`, `rows:`, and `width:`.
+#### Offset
+`offset:` defines the slot where the ranks will begin in the inventory. 0 would start the ranks in the very first slot of the inventory (from top left to bottom right). Rankup's default is 10, which is on the second row.
+## GUI Sizing
+Your configuration will provide for a limited range of valid tiles in the inventory to represent rankup steps on the ladder.  
+The maximum number of rankup steps which can be displayed is limited to a double chest's inventory (54).  
+Using more than 54 rankup steps or misconfiguring the GUI will [cause a range error](../FAQ.md#code-classhljsserver-info-caused-by-javalangarrayindexoutofboundsexception-index-number-out-of-bounds-for-length-number).  
+Tiles in the inventory not occupied by a rankup step will use `fill:`.  
+The `offset:` value depends on `rows:` and `width:`. Its valid range is always 0 to (`rows:` times `width:`) minus one.  
+Example: When `rows: 6` and `width: 9` then (`6` * `9`) - 1 = 53.  
+###### Visualization of the maximum number of tiles using `offset: 0`, `rows: 6`, and `width: 9`.
 ![](https://i.imgur.com/rlLlcrp.png)
 ## How To Add Lore
 #### In `rankups.yml`
@@ -39,8 +46,8 @@ Alternatively, for _**each**_ rankup step in `rankups.yml` paste a copy the foll
     ranksgui:
       title: "Ranks"
       rows: 3
-      offset: 10
       width: 7
+      offset: 10
       complete:
         material: GREEN_STAINED_GLASS_PANE
         name: "&aRank &7{{ next.rank }} &a(completed)"

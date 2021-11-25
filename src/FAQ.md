@@ -18,12 +18,17 @@
 > When migrating, first you should make a copy of all the files in your `/plugins/rankup` directory to use on the new host.  
 > Then use the migration information included with your permission plugin to maintain players' rankups on the new host.  
 # Starter Questions
+### Why Does `/rankup` say `You need <amnt> money to rankup.`
+> You can read about why this message is displayed in [this section of the Configuration Example](./Basic-Configuration/Your-First-Rank.md).  
+> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration/Wrong-Message.md).  
+### How Does Rankup Handle Prefixes?
+> Rankup does not manage prefixes! Consult your permission group and/or chat plugins.  
+> If you followed this wiki's recommendation to use LuckPerms, you can learn about [Prefixes and Suffixes on the LuckPerms wiki!](./LuckPerms/Wiki/Prefix.html)  
+> LuckPerms can also support multiple prefixes via [Prefix Stacking](./LuckPerms/Wiki/Stacking.html)  
 ### Where are a players' rankups stored in Rankup?
-> Rankup doesn't save them! Instead, your permission plugin stores a player's group information and provides it to Vault.  
-> Rankup uses what's provided to Vault to place a player on the ladder if possible. (example: a player's primary-group in LP)  
-### Why Does `/rankup` <code class="hljs">not find any rankups for the group(s) you are in.</code>?
-> The sender of `/rankup` does not belong to a permission group as listed in your `rankups.yml`.
-> Fix your `rankups.yml` to utilize the correct group name or change the player's permission groups in your permission manager to match their progress on the rankup ladder.  
+> Rankup doesn't save them!  
+> Instead, your permission plugin stores a player's group information and provides it to Vault.  
+> Rankup uses what's provided to Vault to place a player on the ladder if possible. (example: a player's primary-group in LuckPerms)  
 ### Do I need to add a command to manually change a player's group?
 > No, Rankup automatically changes a player's groups when [`permission-rankup: false`](./GitHub/Rankup3/config/Permission-Rankup.html) (default).  
 > [Learn about when and how to use `permission-rankup: true`.](./Advanced-Configuration/Permission-Rankup.md)  
@@ -32,32 +37,14 @@
 > Rankup only applies/removes the groups specified in a rankup step written in your [rankups.yml](./GitHub/Rankup3/rankups.html) when [`permission-rankup: false`](./GitHub/Rankup3/config/Permission-Rankup.html) (default).  
 > When [`permission-rankup: true`](./GitHub/Rankup3/config/Permission-Rankup.html), *you* change those groups manually.  
 > See the [Permission Rankup](./Advanced-Configuration/Permission-Rankup.md) page for more information.  
-### Why Does `/rankup` say `You need <amnt> money to rankup.`
-> You can read about why this message is displayed in [this section of the Configuration Example](./Basic-Configuration/Your-First-Rank.md).  
-> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration/Wrong-Message.md).  
-### Why Does Rankup3 Error at Startup?
-> The plugin will often describe file parsing errors in the console by providing line and column numbers to the problem in your file.  
-> You can also validate your yaml syntax with a validation service like **[CodeBeautify](./Validators/CodeBeautify.html)**.  
-### When Executing `/rankup3 reload`, What Actually Gets Reloaded?
-> Files like the `rankups.yml`, `prestiges.yml`, and selected locale are reloaded as described in the [Commands Reference](./Commands.html#admin-commands).  
-> However, the reload command [executes the reload function](./GitHub/Rankup3/Java/commands/InfoCommand/reload.html) which only [reads all the prior listed files **and** `config.yml`](./GitHub/Rankup3/Java/Reload.html).
-> The only contents of `config.yml` which *should* get repopulated during a reload at runtime are `autorankup-interval:` and `permission-rankup:`, but it's recommended to fully restart if changing *any* `config.yml` content.
-### Executing `/rankup3 reload` Failed! What's Wrong?
-> Always execute `/rankup3 reload` from or while watching console.  
-> This way you can see any error as it gets generated.  
-> Read through the error's human readable text.  
-> It often contains a message describing the cause of the error in your file.  
-> You should always **read the console** after starting your server or a command fails.  
-> Rankup will **NEVER** send detailed errors to *chat*.  
-### Why Does `/rankup` and/or `/prestige`, not Apply a Rank or Prestige?
+### Why Does my Rank/Prestige not Change After `/rankup` or `/prestige`?
 > This is a known issue if using GroupManager. GroupManager does not support Vault correctly, as it has not been updated since 1.7.  
 > If you are on any permission manager not supported by Vault, like GroupManager or PermissionsEx, there are steps to [migrate to LuckPerms, the permissions plugin used in this wiki's example configurations](./LuckPerms/Wiki/Migration.html).  
-### Why Doesn't Executing `/rankup` and/or `/prestige` Change my Rank/Prestige?
-> Make sure the group you want to rankup to actually exists in your Vault-Compatible group management plugin and has the same name.  
-> Otherwise, verify your groups are named identically to the rankup step's [`rank:`](./GitHub/Rankup3/rankups/rank.html) and [`next:`](./GitHub/Rankup3/rankups/next.html) in your [rankups.yml](./GitHub/Rankup3/rankups.html).  
-> If using `/prestige` verify prestiges have [been enabled in config.yml](./GitHub/Rankup3/config/Prestiges.html).  
-### Why Aren't Placeholders Replaced When Executing `/ranks` and/or `/prestiges`?
-> Try updating Rankup3! A new placeholder engine was added in version 3.12.
+> Otherwise, make sure the group you want to rankup to actually exists in your Vault-Compatible group management plugin.  
+> Verify the group is named identically to the rankup step's [`rank:`](./GitHub/Rankup3/rankups/rank.html) and [`next:`](./GitHub/Rankup3/rankups/next.html) in your [rankups.yml](./GitHub/Rankup3/rankups.html).  
+> If using `/prestige`, also verify prestiges have [been enabled in config.yml](./GitHub/Rankup3/config/Prestiges.html).  
+### Why Aren't Placeholders Replaced in Messages From `/ranks`, `/rankup`, `/prestiges`, and `/prestige`?
+> Try updating Rankup3! A new placeholder engine was added in version 3.12.  
 > If your files use Old Placeholders, upgrade to their new Pebble Placeholder variants.  
 > Though the [Old Placeholders](./Placeholders.md#Placeholders) remain supported, they offer fewer customization options.  
 > We recommend using a 'find all and replace with' operation on each Old Placeholder for the new Pebble Placeholders.  
@@ -65,7 +52,34 @@
 ### Why Don't Players Automatically Rankup When [`autorankup-interval:`](/GitHub/Rankup3/config/AutoRankup-Interval.html) is Non-Zero?
 > Players also need the permission `rankup.auto`. Though [enabled by default](./GitHub/Rankup3/plugin/Auto-Rankup.html), you may have negated it.
 ### Does `/prestiges` Have a GUI Similar to `ranksgui:`?
-> Though [`ranksgui:`](./GitHub/Rankup3/config/RanksGUI.html) is available in Rankup 3.10 or newer, `/prestiges` has no dedicated gui.
+> Though [`ranksgui:`](./GitHub/Rankup3/config/RanksGUI.html) is available in Rankup 3.10 or newer, `/prestiges` currently has no dedicated gui.
+### When Executing `/rankup3 reload`, What Actually Gets Reloaded?
+> Files like the `rankups.yml`, `prestiges.yml`, and selected locale are reloaded as described in the [Commands Reference](./Commands.html#admin-commands).  
+> However, the reload command [executes the reload function](./GitHub/Rankup3/Java/commands/InfoCommand/reload.html) which only [reads all the prior listed files **and** `config.yml`](./GitHub/Rankup3/Java/Reload.html).
+> The only contents of `config.yml` which *should* get repopulated during a reload at runtime are `autorankup-interval:` and `permission-rankup:`, but it's recommended to fully restart if changing *any* `config.yml` content.
+# Error Questions
+### A command replied <code class="hljs">An internal error occurred while attempting to perform this command</code>
+> You should always **read the console** after a command fails **and** while starting your server.  
+> This message is only used to indicate a problem. It provides no information intentionally.  
+> Rankup will **NEVER** send detailed errors to *chat*.  
+> Share only the errors from console in [discord](#discord-server-questions) when troubleshooting after receiving this message in chat.  
+### Rankup3 Errors at Startup and `/rankup3 reload`! What's Wrong?
+> Always execute `/rankup3 reload` from or while watching your server console.  
+> This way you can see any error as it gets generated.  
+> Read through the error's human readable text.  
+> The plugin will often describe file parsing errors in the console by providing line and column numbers to the problem in your file.  
+> You can also validate your yaml syntax with a validation service like **[CodeBeautify](./Validators/CodeBeautify.html)**.  
+### Why Does `/rankup` say <code class="hljs">Sorry, but we could not find any rankups for the group(s) you are in. Use /ranks to list the rankups.</code>?
+> The sender of `/rankup` does not belong to a permission group listed in your `rankups.yml`.  
+> Fix your `rankups.yml` to utilize the correct group name or permission node or change the player's permission groups in your permission manager to match their actual progress on the rankup ladder.  
+### <code class="hljs">Multiple root rankup nodes detected (a root rankup nodes is a rankup that does not have anything that ranks up to it). This may lead to inconsistent behaviour.</code>
+> You can only have one rankup ladder!  
+> Each rank at the bottom/beginning of a ladder is called a _"root"_ node. The root node indicates the start of a rankup ladder.  
+> For each error listing a conflicting root node, you have `1 + error count` root nodes.  
+> Fit unwanted root node back into the primary rankup ladder or remove the extraneous node and all rankup steps along its ladder of `next:` nodes if they exist.  
+### <code class="hljs">[Server] INFO Caused by: java.lang.ArrayIndexOutOfBoundsException: Index (number) out of bounds for length (number)</code>
+> If you see this line in your error, your GUI has been misconfigured.  
+> Check that all fields of your `ranksgui:` and `gui:` are accurate and will [create a valid GUI](./Advanced-Configuration/RanksGUI.md#gui-sizing).  
 # Requirement Questions
 ### How do I Convert `playtime-minutes` to Hours or Days?
 > Use math operators in a pebble template to change the output of the placeholder.

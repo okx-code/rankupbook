@@ -1,5 +1,5 @@
 # The Landing Page
-[Home](./Home.md)
+[Home](./index.html)
 
 - [Quick Start](./Basic-Configuration.md)
     - [Prerequisites](./Basic-Configuration/Prerequisites.md)

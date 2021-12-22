@@ -1,1 +1,0 @@
-https://okx.sh/rankup/

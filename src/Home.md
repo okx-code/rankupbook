@@ -47,5 +47,6 @@ The Rankup3 wiki is being updated and maintained by NicBOMB and flurbudurbur.
 
 # Test Coverage
 
-Unit tests: https://okx.sh/rankuptest/
-Mutation tests: https://okx.sh/rankuppitest/
+Unit tests: [](https://okx.sh/rankuptest/)
+
+Mutation tests: [](https://okx.sh/rankuppitest/)

@@ -6,8 +6,8 @@
   <div style="float: right">
     <h3>Table of Contents</h3>
     <a href="#1-heading">Heading</a><br>
-    <a href="#2-rank">Rank</a><br>
-    <a href="#3-next">Next</a><br>
+    <a href="#2-rank-and-next">Rank and Next</a><br>
+    <a href="#3-finding-group-names">Finding Group Names</a><br>
     <a href="#4-requirements">Requirements</a><br>
     <h4>Optionals</h4>
     <a href="#1-commands">Commands</a><br>
@@ -26,14 +26,12 @@ However, the heading is considered `completely unused` because it is never seen 
 The step's name is unimportant, but **must be unique from every other heading**. If two headings have the same name, only one is used, typically the first.  
 **An important note**: headings may be named anything, not just "heading".  
 Throughout the wiki various heading names are used for different examples.  
-### 2. `rank:`
+### 2. `rank:` and `next:`
 `rank:` defines the permission group a player must currently have to access this rankup, is mandatory in all Rankups **and Prestiges** except for the first prestige, and provides the placeholder `{{ rank.rank }}`.
-### 3. `next:`
 `next:` defines the permission group a player will move to after completing the rankup, is mandatory in all Rankups **and Prestiges**, and provides the placeholder `{{ next.rank }}`.
-
-The permission groups specified in `rank:` and `next:` should all use the name of the groups provided to Vault by your permission manager. For example, in LuckPerms the `'<name>'` of the group's `displayname.<name>` should be used in place of its internal name unless the display name/node isn't present.  
-Do **NOT** `rank: 'displayname.<name>'`. Use `rank: '<name>'` exactly (case-sensitive) instead of the group's name (like the luckperms `default` group). This means they should be text (alpha-numeric with no special symbols nor unicode). 
-
+### 3. Finding Group Names
+The permission groups specified in `rank:`, `next:`, [`to:` and `from:`](How-to-Prestiges.yml.html#on-from-and-to) should all use the name of the groups provided to Vault by your permission manager. For example, in LuckPerms the `'<name>'` of the group's `displayname.<name>` should be used in place of its internal name unless the display name/node isn't present.  
+Do **NOT** `rank: 'displayname.<name>'`. Use `rank: '<name>'` exactly (case-sensitive) instead of the group's name (like the luckperms `default` group). This means they should be text (alpha-numeric with no special symbols nor unicode).  
 If you are using [`permission-rankup: true`](../GitHub/PAPI/Placeholders.html) you should still avoid special symbols and/or unicode in these fields, as they may interfere with other plugins using vault.
 ### 4. `requirements:`
 The `requirements:` section defines a list of required parameters the player needs to satify in order to move up the ladder (Rankup or Prestige) from *rank* to *next*.  

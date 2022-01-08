@@ -15,7 +15,7 @@
     - [Pebble Progress Bars](./Advanced-Configuration/Pebble-Progress-Bars.md)
     - [PAPI Progress Bars]()
     - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
-    - [Who's That `{{rank}}`](./Advanced-Configuration/Who-is-that-rank.md)
+    - [Dual Track Setup](./Advanced-Configuration/Dual-Track-Setup.md)
 
 - [Commands](./Commands.md)
 

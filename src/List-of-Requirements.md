@@ -9,10 +9,10 @@
 If a player doesn't have enough to meet any `D=yes` requirement, none will be taken.
 #### Scroll down for soft-dependent requirements.
 
-> **`S` means "supports sub-requirements?".**<br>
-> **`D` means "is deductible?".**
+> **`Subreq` indicates the requirement uses [sub-requirement syntax](./Placeholders.md#sub-requirements-in-placeholders).**<br>
+> **`Deduct` indicates the requirement will deduct the specified amount from the player.**
 
-| Name | Format | S | D | Description | Example
+| Name | Format | Subreq | Deduct | Description | Example
 | ---- | ------ | ---------------- | --------- | ----------- | -------
 | `money` | number | no | yes | Takes the specified amount<br>from the player's balance. | `money 1000`
 | `moneyh` | number | no | no | Checks the player's balance for<br>at least the specified amount. | `moneyh 10000`
@@ -39,7 +39,7 @@ If a player doesn't have enough to meet any `D=yes` requirement, none will be ta
 These requirements expect another plugin dependency to be installed as well.
 **If you don't have the plugin you're using a requirement from installed, THEY WILL NOT WORK**
 
-| Name | Format | S | D | Description | Example
+| Name | Format | Subreq | Deduct | Description | Example
 | ---- | ------ | ---------------- | --------- | ----------- | -------
 | `placeholder` | text | no | no | Operation can be any of:<br>`=`, `<`, `>`, `<=`, `>=`, `==`<br>Compares the PAPI with the<br>string via the operation.<br>`=` doesn't convert<br>the data type of<br>the string<br>or placeholder.<br>All other operations will<br>convert to a double first. | `placeholder %papi_placeholder% <operation> string`<br>`placeholder %server_tps% >= 19`
 | `mcmmo` | number | yes | no | Requires a player to have<br>a certain level in an<br>[McMMO Skill](./GitHub/McMMO/CorePrimarySkillTypes.html) [also named here](./GitHub/McMMO/DesignDoc.html). | `mcmmo skillname number`<br>`mcmmo archery 1000`

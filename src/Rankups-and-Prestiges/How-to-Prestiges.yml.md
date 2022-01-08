@@ -7,15 +7,19 @@
 
 # How to `Prestiges.yml`
 ## Each `heading:` in prestiges.yml defines a Prestige from the current `rank:` group to the `next:` group, transitionary `from:` group `to:` group sections, and some `requirements:`.  
-### Prestiges [when enabled in config.yml](../GitHub/Rankup3/config/Prestige.html) are similar to Rankups but require 1 to 2 more headings than [the minimal Rankup example](./How-to-Rankups.yml.html#an-example-of-the-minimum-required-fields-with-a-default-configyml-and-non-empty-requirements).  
+### Prestiges [when enabled in config.yml](../GitHub/Rankup3/config/Prestige.html) are similar to Rankups but require 1 to 2 more headings than [the minimal Rankup example](./How-to-Rankups.yml.md#an-example-of-the-minimum-required-fields-with-a-default-configyml-and-non-empty-requirements).  
 #### Unlike Ranks, Prestiges do not currently support the GUI list features.
+## On `rank:` and `next:`
+See the prior documentation of [`rank:`](./How-to-Rankups.yml.md#2-rank) and [`next:`](How-to-Rankups.yml.md#3-next).
 ## On `from:` and `to:`  
 If you have group-based rankup disabled ([`permission-rankup: true`](../GitHub/Rankup3/config/Permission-Rankup.html)), these options are not mandatory and will do nothing if used.  
 The `from:` and `to:` sections are only used in prestiges.  
-`from:` defines the group on the Rankup ladder a player needs to prestige at.  
+`from:` defines the group on the Rankup ladder a player may prestige at.  
 `to:` defines the group on the Rankup ladder a player is moved to on completion.  
-The permission groups specified in `to:` and `from:` should all use the name of the groups provided to Vault by your permission manager. For example, in LuckPerms the `<name>` of the group's `displayname.<name>` should be used in place of its internal name unless the display name/node isn't present.  
-Do **NOT** `to: 'displayname.<name>'`. Use `to: '<name>'` exactly (case-sensitive) instead of the group's name (like the luckperms `default` group). This means they should be text (alpha-numeric with no special symbols nor unicode).
+Specify groups by following the same rules as [`rank:`](./How-to-Rankups.yml.md#2-rank) and [`next:`](How-to-Rankups.yml.md#3-next).
+The zero-ith or first prestige is different from latter prestiges because it _requires only 1 permission group_ (`from:`) but _adds 2 groups_ (`to:` and `next:`).  
+More on this in the [Dual Track Setup](../Advanced-Configuration/Dual-Track-Setup.md) tutorial.
+Subsequent prestiges require both `from:` and `rank:` to be specified.
 ```yaml
 first: # heading:
   from: 'B' # the required and removed on completion permission group

@@ -10,13 +10,13 @@
 ### Prestiges [when enabled in config.yml](../GitHub/Rankup3/config/Prestige.html) are similar to Rankups but require 1 to 2 more headings than [the minimal Rankup example](./How-to-Rankups.yml.md#an-example-of-the-minimum-required-fields-with-a-default-configyml-and-non-empty-requirements).  
 #### Unlike Ranks, Prestiges do not currently support the GUI list features.
 ## On `rank:` and `next:`
-See the prior documentation of [`rank:` and `next:`](How-to-Rankups.yml.md#3-finding-grou-names).
+See the prior documentation of [`rank:` and `next:`](./How-to-Rankups.yml.md#2-rank-and-next).
 ## On `from:` and `to:`  
 If you have group-based rankup disabled ([`permission-rankup: true`](../GitHub/Rankup3/config/Permission-Rankup.html)), these options are not mandatory and will do nothing if used.  
 The `from:` and `to:` sections are only used in prestiges.  
 `from:` defines the group on the Rankup ladder a player may prestige at.  
 `to:` defines the group on the Rankup ladder a player is moved to on completion.  
-Specify groups by following the same rules as [`rank:`](./How-to-Rankups.yml.md#2-rank) and [`next:`](How-to-Rankups.yml.md#3-next).
+Specify groups by following the same rules as [`rank:` and `next:`](./How-to-Rankups.yml.md#3-finding-group-names).
 The zero-ith or first prestige is different from latter prestiges because it _requires only 1 permission group_ (`from:`) but _adds 2 groups_ (`to:` and `next:`).  
 More on this in the [Dual Track Setup](../Advanced-Configuration/Dual-Track-Setup.md) tutorial.
 Subsequent prestiges require both `from:` and `rank:` to be specified.

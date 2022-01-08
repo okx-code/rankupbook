@@ -16,7 +16,7 @@
 ### What does it do?
 By default, [`permission-rankup` is set to `false`](../GitHub/Rankup3/config/Permission-Rankup.html). In this case, Rankup will do all the work of checking if the player is on the ladder and moving the player from one group to the next automatically via Vault.
 
-When [`permission-rankup: true`](../GitHub/Rankup3/config/Permission-Rankup.html), Rankup will check if the player is on the ladder by checking the player for the `rankup.rank.<rank>` node. The player will **not** be moved automatically when all requirements are met and they `/rankup`. You will need to use [`commands:`](../Rankups-and-Prestiges/Optionals.md#1-commands) to move the player between groups or permission nodes accordingly.
+When [`permission-rankup: true`](../GitHub/Rankup3/config/Permission-Rankup.html), Rankup will check if the player is on the ladder by checking the player for the `rankup.rank.<rank>` node. The player will **not** be moved automatically when all requirements are met and they `/rankup`. You will need to use [`commands:`](../Rankups-and-Prestiges/How-to-Rankups.yml.md#1-commands) to move the player between groups or permission nodes accordingly.
 
 <details>
 	<summary>permission node format: <code>rankup.rank.rank-name</code></summary>

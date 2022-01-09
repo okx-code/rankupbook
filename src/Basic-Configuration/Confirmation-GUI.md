@@ -40,7 +40,7 @@ beginner:
   rank: 'default'
   next: 'member'
   requirements:
-  - xp-level 5
+    - xp-level 5
   rankup:
     requirements-not-met: "&cYou have {{ rank.requirement('xp-level').progress }}, and need {{ rank.requirement('xp-level').total }} xp levels to rankup!"
     gui:

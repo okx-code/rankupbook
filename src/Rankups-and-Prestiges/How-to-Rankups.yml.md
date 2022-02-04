@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta name="description" content="Reference for Rankups.yml including all mandatory and optional sections.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname">
+    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname, Color">
   </head>
   <div style="float: right">
     <h3>Table of Contents</h3>
@@ -90,6 +90,10 @@ DisplayNameExample:
   display-name: '&2A&r is &4Boring'
   requirements: []
 ```
+
+#### 2.1 Color Codes:
+Rankup supports RGB color codes like `&#hexnum` in 1.16+.  
+Otherwise, use old native codes [(`§4` or `&4`)](../Minecraft/Wiki/Color-Codes.html) or [bukkit codes (`§x§9§D§6§5§F§F`)](../Spigot/Docs/chat-color.html).
 
 ### 3. `rankup:`
 `rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept all [Placeholders](../Placeholders.md) including all [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)! `rankup:` is not available in prestiges [(see below)](./How-to-prestiges.yml.md#message-me).  

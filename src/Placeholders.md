@@ -30,7 +30,7 @@
 > - `{{ rank.requirement('block-break#STONE').total }}`  
 > Or in [PlaceholderAPI](./Spigot/PAPI.html):  
 > - `%rankup_requirement_block-break#STONE%`  
-> Use the spigot enum pages for [entities](./Spigot/Docs/entity.html) and [items](./Spigot/Docs/materials.html) when declared in requirements.  
+> Use the spigot enum pages for [mobs](./Spigot/Docs/mobs.html) and [items](./Spigot/Docs/materials.html) when declared in requirements.  
 
 # Placeholders
 > **NOTE:** When a `Placeholder` outputs an unwanted decimal, like `{{ rank.requirement('xp-level').total }}` printing `5.0`, use a [filter to control the decimals](./Text-Templating/Formatting.html#filters).

@@ -96,7 +96,7 @@ Rankup supports RGB color codes like `&#hexnum` in 1.16+.
 Otherwise, use old native codes [(`§4` or `&4`)](../Minecraft/Wiki/Color-Codes.html) or [bukkit codes (`§x§9§D§6§5§F§F`)](../Spigot/Docs/chat-color.html).
 
 ### 3. `rankup:`
-`rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept all [Placeholders](../Placeholders.md) including all [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)! `rankup:` is not available in prestiges [(next chapter)](./How-to-prestiges.yml.md#2-prestige).  
+`rankup:` This section follows the same structure of the section by the same name in the locale and allows you to create custom messages for each rankup separate from the locale. All message fields accept all [Placeholders](../Placeholders.md) including all [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)! The `rankup:` keyword is not available in `prestiges.yml`. Use [`prestige:`](./How-to-prestiges.yml.md#2-prestige) instead.  
 ```yaml
 member:
   rank: 'guest'

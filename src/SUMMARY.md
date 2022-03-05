@@ -4,7 +4,7 @@
 - [Quick Start](./Basic-Configuration.md)
     - [Prerequisites](./Basic-Configuration/Prerequisites.md)
     - [Your First Rank](./Basic-Configuration/Your-First-Rank.md)
-    - [Wrong Message](./Basic-Configuration/Wrong-Message.md)
+    - [Customization](./Basic-Configuration/Customization.md)
     - [Confirmation GUI](./Basic-Configuration/Confirmation-GUI.md)
 
 - [Tutorials](./Advanced-Configuration/Back-to-Basics.md)

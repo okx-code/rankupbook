@@ -84,7 +84,7 @@ CommandsExample: # "heading:"
 You may define as many commands as you like in the list. They support ***all [placeholders](../Placeholders.md) including [PlaceholderAPI placeholders](../GitHub/PAPI/Placeholders.html)***.
 
 ### 2. prestige:
-`prestige:` is similar to `rankup` but for the `prestiges.yml` instead. You have around the same amount of customisability because the two sections share a lot of options. All messages in `prestige` support placeholders, both internal and PAPI placeholders.
+`prestige:` is the complementary keyword to [`rankup:`](./How-to-Rankups.yml.md#3-rankup) used in Prestiges. See the prior chapter for usage instructions.
 ```yaml
 prestige1:
   next: 'P1'

@@ -9,7 +9,7 @@
 Throughout the plugin, the following two methods allow you to manage the messages, other text, and items presented to the player:
 1. Add a section to each rankup individually, overriding the selected locale file.
 2. Edit the `locale` selected in your [`config.yml`](../GitHub/Rankup3/config/Locale.html).
-3. Use the new Pebble Engine to template text and specify when templates should be displayed.
+
 ###### These options apply to rankups.yml, prestiges.yml, and all locale files.
 ### Option 1:  
 ```yaml

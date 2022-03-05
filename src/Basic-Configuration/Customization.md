@@ -5,11 +5,12 @@
   </head>
 </html>
 
-# Wrong Message
-### You have 2 options to change messages:
-1. Add a section to each rankup overriding the messages from the locale to display the correct text. This is the method recommended by the plugin's author Okx.  
-2. Edit the `locale` for your language of choice. We will be using `plugins/rankup/locale/en.yml`. Editing the locale requires significantly more planning as these messages may affect **all rankup steps** unless overridden by option 1.  
-###### These options also apply to prestiges in prestiges.yml
+### 2 Customization Options:
+Throughout the plugin, the following two methods allow you to manage the messages, other text, and items presented to the player:
+1. Add a section to each rankup individually, overriding the selected locale file.
+2. Edit the `locale` selected in your [`config.yml`](../GitHub/Rankup3/config/Locale.html).
+3. Use the new Pebble Engine to template text and specify when templates should be displayed.
+###### These options apply to rankups.yml, prestiges.yml, and all locale files.
 ### Option 1:  
 ```yaml
 rankup:

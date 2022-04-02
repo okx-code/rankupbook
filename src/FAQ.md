@@ -90,7 +90,7 @@
 > See the [custom requirements tutorial](./Advanced-Configuration/Adding-Custom-Requirements.md) or [developer page](./For-Developers.md).
 # YAML Questions
 ### How should I make changes to the plugin files?
-> Use a source code editor like Emacs/Vim/Atom/Sublime Text/Visual Studio Code/etc. when editing the files to "syntax highlight" or color the functional code.  
+> Use a source code editor like Kate/Atom/Visual Studio Code/etc. when editing the files to "syntax highlight" or color the functional code.  
 > You should edit the plugin's files in an editor with YAML syntax highlighting whenever possible.  
 ### Which Sections Provided in `rankups.yml` and/or `prestiges.yml` Should be Replaced/Removed?
 > You must remove, replace, or integrate any functional code from the examples otherwise you may encounter unexpected results/errors.  

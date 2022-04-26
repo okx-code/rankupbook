@@ -26,6 +26,7 @@
 - [Placeholder Engine](./Text-Templating.md)
     - [Formatting](./Text-Templating/Formatting.md)
     - [References](./Text-Templating/Pebbles.md)
+    - [Snippets](./Text-Templating/Snippets.md)
 
 - [Requirements](./List-of-Requirements.md)
 

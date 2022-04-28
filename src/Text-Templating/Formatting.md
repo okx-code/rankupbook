@@ -9,8 +9,10 @@
 
 Methods tell the placeholder engine what part of the result you want.
 
-Suffix | Description | Example
-- | - | -
+> Only methods used to display a value regarding a requirement are listed below. For more or different methods, refer to the [Placeholder Engine](../Text-Templating.md) page.
+
+| Method | Description | Example |
+| --- | --- | --- |
 `done` | True or false depending on if the requirement is complete. | <code>{{ rank.requirement('money').done }}</code>
 `total` | Displays total amount required. | <code>{{ rank.requirement('money').total }}</code>
 `progress` | Amount done of a requirement. | <code>{{ rank.requirement('money').progress }}</code>
@@ -25,9 +27,11 @@ Suffix | Description | Example
 > The number formatting of `simple`, `money` and `percent` are customizable in [the `placeholders:` section of config.yml.](../GitHub/Rankup3/config/Placeholders.html)  
 
 Filter | Description | Example
-- | - | -
+--- | --- | ---
+`simple` | Formats result to be whole numbers. | <code>{{ rank.requirement('xp-level').total \| simple }}</code>
 `percent` | Formats result to be ##.#. Use with `percent` method. | <code>{{ rank.requirement('money').percent \| percent }}</code>
 `money` | Formats result to be ###,###.##. | <code>{{ rank.requirement('money').total \| money }}</code>
-`simple` | Formats result to be whole numbers. | <code>{{ rank.requirement('xp-level').total \| simple }}</code>
+`shortmoney` | Formats result to a letter | <code>{{rank.requirement('money').total \| shortmoney }}</code>
+
 
 Using filters is recommended for displaying any non-integer number, otherwise the formatting may be too exact (for example, `0.2000000001` or `4.0`). The `simple` filter is recommended for most use cases.

@@ -9,7 +9,8 @@
 
 ### Usecases
 - Your permission plugin doesn't (properly) support Vault. 
-  - GroupManager.
+  - <details><summary>GroupManager.</summary><p>GroupManager doesn't properly support Vault.</p></details>
+  - <details><summary>UltraPermissions.</summary><p>UltraPermissions doesn't properly support Vault.</p></details>
 - Per-Server rankups for BungeeCord servers.
 - You don't want to create groups.
 

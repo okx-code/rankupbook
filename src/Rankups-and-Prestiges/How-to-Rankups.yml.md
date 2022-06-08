@@ -32,7 +32,7 @@ Throughout the wiki various heading names are used for different examples.
 ### 3. Finding Group Names
 The permission groups specified in `rank:`, `next:`, [`to:` and `from:`](How-to-Prestiges.yml.html#on-from-and-to) should all use the name of the groups provided to Vault by your permission manager. For example, in LuckPerms the `'<name>'` of the group's `displayname.<name>` should be used in place of its internal name unless the display name/node isn't present.  
 Do **NOT** `rank: 'displayname.<name>'`. Use `rank: '<name>'` exactly (case-sensitive) instead of the group's name (like the luckperms `default` group). This means they should be text (alpha-numeric with no special symbols nor unicode).  
-If you are using [`permission-rankup: true`](../GitHub/PAPI/Placeholders.html) you should still avoid special symbols and/or unicode in these fields, as they may interfere with other plugins using vault.
+If you are using [`permission-rankup: true`](../GitHub/Rankup3/config/Permission-Rankup.html) you should still avoid special symbols and/or unicode in these fields, as they may interfere with other plugins using vault.
 ### 4. `requirements:`
 The `requirements:` section defines a list of required parameters the player needs to satify in order to move up the ladder (Rankup or Prestige) from *rank* to *next*.  
 The list of requirements can be disabled with `requirements: []`.  

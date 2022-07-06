@@ -76,7 +76,7 @@ For requirements with sub-requirements, use the Rankup placeholder itself like s
 
 `%progress_bar_{rankup_requirement_mob-kills#ENDER-DRAGON_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`  
 
-In this case, the requirement is to kill ender dragons. [Unlike previously with `m:`, the maximum amount doesn't matter as it is a percentage](https://github.com/aBooDyy/Progress-Expansion#m).  
+In this case, the requirement is to kill ender dragons. <a href="https://github.com/aBooDyy/Progress-Expansion#m" target="_blank">Unlike previously with <code>m:</code>, the maximum amount doesn't matter as it is a percentage</a>.  
 ###### Example Bars with Sub-Requirements:
 ```yaml
 rankName:

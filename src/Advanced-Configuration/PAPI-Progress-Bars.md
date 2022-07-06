@@ -37,27 +37,23 @@ rankName:
     requirements-not-met: |-
       &4&m+                                       +
       &cYou need
-      &c- &d&l$%rankup_money_formatted% &c&l- &b[%progress_bar_{PERCENT_DONE money}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%&b]
-      &c- &d&l%rankup_requirement_xp-level% &5&lXP levels &c&l- &b[%progress_bar_{PERCENT_DONE xp-level}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%&b]
+      &c- &d&l$%rankup_money_formatted% &c&l- &b[%progress_bar_{rankup_requirement_money_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%&b]
+      &c- &d&l%rankup_requirement_xp-level% &5&lXP levels &c&l- &b[%progress_bar_{rankup_requirement_xp-level_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%&b]
       &cto rankup from &7&l%rankup_current_rank%&r&c to &e&l%rankup_next_rank%&r&c!
       &4&m+                                       +
 ```
 
-## Versions
-### If you use Rankup's [pebble placeholders](../Placeholders.md#placeholders), they won't work outside of any Rankup context, like a scoreboard or in the tab menu. Use the [placeholders from Rankup's PAPI Expansion](../Placeholders.html#papi-placeholders) for external access.
-#### Rankup's config placeholder version
-> `%progress_bar_{PERCENT_DONE money}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
-#### Rankup's PAPI placeholder version
+## The placeholder
 > `%progress_bar_{rankup_requirement_money_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`
-#### Note: these two placeholders above will work identically. The only difference is that the PAPI version can be used outside of a Rankup context, like a scoreboard.
+#### Note: This placeholder will work anywhere where a PAPI placeholder is supported. This includes other plugins.
 
 ### Progress Bars with Placeholders.
 External requirements require a different approach.
 
 `%progress_bar_{FreeRPG_globalLevel}_c:&d|_p:&d|_r:&3|_l:20_m:25000_fullbar:&a&lCompleted!%`
 
-Instead of using the `{PERCENT_DONE <requirement>}` provided by Rankup, simply use the PAPI placeholder wrapped with `{}` instead of `%%`.  
-Then for the `m:` (maximum) of the Progress placeholder, use the same number as in the `requirements:` listed in the corresponding Rankup.
+Simply use the PAPI placeholder wrapped with `{}` instead of `%%`.  
+Then for the `m:` (maximum) of the Progress placeholder, use the same number as in the `requirements:` listed in the corresponding Rankup step.
 
 ###### Example Bars with Placeholders:
 ```yaml
@@ -78,9 +74,9 @@ rankName:
 ### Progress Bars with Sub-Requirements.
 For requirements with sub-requirements, use the Rankup placeholder itself like so:  
 
-`%progress_bar_{PERCENT_DONE mob-kills#ENDER_DRAGON}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`  
+`%progress_bar_{rankup_requirement_mob-kills#ENDER-DRAGON_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%`  
 
-In this case, the requirement is to kill ender dragons. [Unlike previously with `m:`, the maximum amount doesn't matter as it is a percentage](../GitHub/Progress-Examples.html).  
+In this case, the requirement is to kill ender dragons. [Unlike previously with `m:`, the maximum amount doesn't matter as it is a percentage](https://github.com/aBooDyy/Progress-Expansion#m).  
 ###### Example Bars with Sub-Requirements:
 ```yaml
 rankName:
@@ -92,7 +88,7 @@ rankName:
     requirements-not-met: |-
       &4&m+                                       +
       &cYou need
-      &c- &d&l7 &5&lEnderdragon kills &c&l- &b[%progress_bar_{PERCENT_DONE mob-kills#ENDER_DRAGON}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%&b]
+      &c- &d&l7 &5&lEnderdragon kills &c&l- &b[%progress_bar_{rankup_requirement_mob-kills#ENDER-DRAGON_percent_done}_c:&d|_p:&d|_r:&3|_l:20_m:100_fullbar:&a&lCompleted!%&b]
       &cto rankup from &7&l%rankup_current_rank%&r&c to &e&l%rankup_next_rank%&c!
       &4&m+                                       +
 ```

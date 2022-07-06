@@ -13,7 +13,7 @@
     - [RanksGUI](./Advanced-Configuration/RanksGUI.md)
     - [Color-Change When Completed](./Advanced-Configuration/Color-Change-When-Complete.md)
     - [Pebble Progress Bars](./Advanced-Configuration/Pebble-Progress-Bars.md)
-    - [PAPI Progress Bars]()
+    - [PAPI Progress Bars](./Advanced-Configuration/PAPI-Progress-Bars.md)
     - [Permission-Rankup](./Advanced-Configuration/Permission-Rankup.md)
     - [Dual Track Setup](./Advanced-Configuration/Dual-Track-Setup.md)
 

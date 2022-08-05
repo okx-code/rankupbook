@@ -1,13 +1,17 @@
-# The Landing Page
 [Home](./Home.md)
 
-- [Quick Start](./Basic-Configuration.md)
+# Quick Start
+
+[Overview](./Basic-Configuration.md)
     - [Prerequisites](./Basic-Configuration/Prerequisites.md)
     - [Your First Rank](./Basic-Configuration/Your-First-Rank.md)
     - [Customization](./Basic-Configuration/Customization.md)
     - [Confirmation GUI](./Basic-Configuration/Confirmation-GUI.md)
 
-- [Tutorials](./Advanced-Configuration/Back-to-Basics.md)
+
+# Tutorials
+
+[Reflection on Material](./Advanced-Configuration/Back-to-Basics.md)
     - [Playtime Formatting](./Advanced-Configuration/Playtime-Formatting.md)
     - [Adding Custom Requirements](./Advanced-Configuration/Adding-Custom-Requirements.md)
     - [RanksGUI](./Advanced-Configuration/RanksGUI.md)

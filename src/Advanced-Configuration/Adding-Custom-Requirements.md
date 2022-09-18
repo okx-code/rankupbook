@@ -18,7 +18,7 @@ example:
   rankup:
     requirements-not-met: |-
       You need:
-      {{ rank.requirement('placeholder', 'statistic_hours_played') }} hours of playtime.
+      {{ rank.requirement('placeholder', 'statistic_hours_played').total | simple }} hours of playtime.
       to rank up to {{ next.rank }}!
 ```
 

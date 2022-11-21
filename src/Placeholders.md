@@ -1,12 +1,8 @@
-<html>
-  <head>
-    <meta name="description" content="Reference for all Placeholders provided by Rankup3 and their usage.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-  <style>
-    code { white-space: nowrap !important; } /* protect code from wrapping to make selecting and copying easier. */
-  </style>
-</html>
+<meta name="description" content="Reference for all Placeholders provided by Rankup3 and their usage.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+<style>
+  code { white-space: nowrap !important; } /* protect code from wrapping to make selecting and copying easier. */
+</style>
 
 # Kinds of Placeholders
 > There are 2 kinds of supported placeholders:

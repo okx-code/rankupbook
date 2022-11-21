@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Tutorial for detecting requirement status!">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
-
+<meta name="description" content="Tutorial for detecting requirement status!">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 # Change Requirement Chat Color When Completed!
 
 ![](https://i.imgur.com/djubbyW.png)

@@ -1,9 +1,5 @@
-<html>
-    <head>
-        <title>Pebble Snippets - Official Rankup Wiki</title>
-        <meta name="description" content="Handy bits of PebbleScript for specific scenarios">
-    </head>
-</html>
+<title>Pebble Snippets - Official Rankup Wiki</title>
+<meta name="description" content="Handy bits of PebbleScript for specific scenarios">
 
 # Pebble Snippets
 

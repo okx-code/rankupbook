@@ -1,9 +1,5 @@
-<html>
-    <head>
-        <title>Playtime Formatting - Official Rankup Wiki</title>
-        <meta name="description" content="How and why to format the playtime-minutes requirement.">
-    </head>
-</html>
+<title>Playtime Formatting - Official Rankup Wiki</title>
+<meta name="description" content="How and why to format the playtime-minutes requirement.">
 
 # Playtime Formatting
 

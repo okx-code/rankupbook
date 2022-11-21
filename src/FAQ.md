@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Responses to the most frequently asked questions.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige, Installation">
-  </head>
-</html>
-
+<meta name="description" content="Responses to the most frequently asked questions.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige, Installation">
 # Installation Questions
 ### What Rankup version do I need for Minecraft version 1.18/1.17/1.16/1.15/1.14/1.13/1.12/1.11/1.10/1.9/1.8/1.7?
 > The latest Rankup version supports all Minecraft Spigot server versions. Only Minecraft Versions 1.13+ support all Rankup features.  

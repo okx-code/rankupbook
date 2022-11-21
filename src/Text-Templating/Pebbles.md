@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Useful links to articles in the Pebble wiki!">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
-
+<meta name="description" content="Useful links to articles in the Pebble wiki!">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 ## Relevant Pebble Pages
 ### [Basic Usage](../Pebble/Basic-Usage.html)
 Only the pebble scripting part of the basic usage page is applicable. Java, XML, HTML, and other languages are irrelevant to using pebble in Rankup.

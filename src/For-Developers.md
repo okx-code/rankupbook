@@ -1,9 +1,4 @@
-<html>
-  <head>
-    <meta name="description" content="Information for developers.">
-  </head>
-</html>
-
+<meta name="description" content="Information for developers.">
 Rankup has an API which can be easily hooked in to.
 Firstly, to get an instance of the plugin, use
 ```java

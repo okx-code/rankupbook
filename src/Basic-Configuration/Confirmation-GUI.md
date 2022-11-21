@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Tutorial on implementing the ConfirmationGUI screen for ranks and prestiges.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
-
+<meta name="description" content="Tutorial on implementing the ConfirmationGUI screen for ranks and prestiges.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 # Confirmation GUI
 Hmm, we hover over the emerald block and it says "Confirm. Rankup to member", but it doesn't say anything about needing the xp levels. Let's do something about that!
 Just like with `requirements-not-met: <text>`, we can use [Option 1](../Basic-Configuration/Wrong-Message.md#option-1) or [Option 2](../Basic-Configuration/Wrong-Message.md#option-2) to remedy the confirmation `gui:`. For this example we'll start with [Option 2](../Basic-Configuration/Wrong-Message.md#option-2).  

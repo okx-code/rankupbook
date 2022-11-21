@@ -1,9 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Introduction to customizing rankup's messages!">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
+<meta name="description" content="Introduction to customizing rankup's messages!">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 
 ### 2 Customization Options:
 Throughout the plugin, the following two methods allow you to manage the messages, other text, and items presented to the player:

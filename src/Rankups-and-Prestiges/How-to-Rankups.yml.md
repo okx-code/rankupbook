@@ -1,9 +1,6 @@
-<html>
-  <head>
-    <meta name="description" content="Reference for Rankups.yml including all mandatory and optional sections.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname, Color">
-  </head>
-  <div style="float: right">
+<meta name="description" content="Reference for Rankups.yml including all mandatory and optional sections.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname, Color">
+<div style="float: right">
     <h3>Table of Contents</h3>
     <a href="#1-heading">Heading</a><br>
     <a href="#2-rank-and-next">Rank and Next</a><br>
@@ -14,7 +11,6 @@
     <a href="#2-display-name">Display-Name</a><br>
     <a href="#3-rankup">Rankup</a><br>
   </div>
-</html>
 
 # How To `Rankups.yml`  
 ## Each `heading:` in rankups.yml defines a Rankup from the current `rank:` group to the `next:` group which has some `requirements:`.  

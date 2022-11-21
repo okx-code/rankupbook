@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Reference for provided Pebble Placeholders.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
-
+<meta name="description" content="Reference for provided Pebble Placeholders.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 # Placeholder Engine
 
 ## What Is This?

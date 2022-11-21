@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Reference for rankup's provided Pebble Formatting suffixes and filters.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
-
+<meta name="description" content="Reference for rankup's provided Pebble Formatting suffixes and filters.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 ## Requirements
 
 Methods tell the placeholder engine what part of the result you want.

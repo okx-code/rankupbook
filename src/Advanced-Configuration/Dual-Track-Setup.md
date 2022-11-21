@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <meta name="description" content="Tutorial on managing players in dual group settings.">
-    <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
-  </head>
-</html>
-
+<meta name="description" content="Tutorial on managing players in dual group settings.">
+<meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
 # Dual-Track-Setup
 > This tutorial is for advanced users only.  
 

@@ -9,11 +9,11 @@ jobs:
                         - uses: actions/checkout@v2
                         - name: Copy to mirror repository
                           run: |
-                            echo $SSH_PRIVATE_KEY > ~/.ssh/serversshkey
-                            chmod 600 ~/.ssh/serversshkey
+                            echo $SSH_PRIVATE_KEY > ~/serversshkey
+                            chmod 600 ~/serversshkey
                             git push --mirror ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_TARGET}
                           env:
-                            GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i /tmp/serversshkey"
+                            GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i ~/serversshkey"
                             SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
                             REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
                             REMOTE_USER: ${{ secrets.REMOTE_USER }}

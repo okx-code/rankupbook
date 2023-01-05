@@ -11,7 +11,7 @@ jobs:
                           run: |
                             echo "$SSH_PRIVATE_KEY" > ~/serversshkey
                             chmod 600 ~/serversshkey
-                            git push --mirror "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_TARGET}"
+                            git push --mirror "${REMOTE_USER}@${REMOTE_HOST}:${TARGET}"
                           env:
                             GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i ~/serversshkey"
                             SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}

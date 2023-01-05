@@ -9,7 +9,7 @@ jobs:
                         - uses: actions/checkout@v2
                         - name: Copy to mirror repository
                           run: |
-                            echo $SSH_PRIVATE_KEY > ~/serversshkey
+                            echo "$SSH_PRIVATE_KEY" > ~/serversshkey
                             chmod 600 ~/serversshkey
                             git push --mirror ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_TARGET}
                           env:

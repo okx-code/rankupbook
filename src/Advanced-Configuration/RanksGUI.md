@@ -1,5 +1,6 @@
 <meta name="description" content="Tutorial on implementing the RanksGUI screen!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # RanksGUI Settings
 Default values can be found on the `master` branch in the github repository [here](../GitHub/Rankup3/locale/en/RanksGUI.html).
 

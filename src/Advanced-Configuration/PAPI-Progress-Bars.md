@@ -1,5 +1,6 @@
 <meta name="description" content="Tutorial on making progress bars for rankup requirements with PAPI!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # PAPI Progress Bars
 ![](https://i.imgur.com/LcHp0Mx.png)
 

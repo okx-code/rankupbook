@@ -1,5 +1,6 @@
 <meta name="description" content="Reference table of all Requirements including Soft-Dependents and their usage.">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 ## List
 If a player doesn't have enough to meet any `D=yes` requirement, none will be taken.
 #### Scroll down for soft-dependent requirements.

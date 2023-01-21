@@ -1,5 +1,6 @@
 <meta name="description" content="Reference for all commands provided by Rankup3.">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige, Commands">
+
 # Player Commands
 > The following commands are available to [all players, OPs, and console by default](./GitHub/Rankup3/plugin/Player.html).  
 > Rankup3's commands are available after the plugin is [enabled](./GitHub/Rankup3/Java/EnableRankupPlugin.html) by your server.  

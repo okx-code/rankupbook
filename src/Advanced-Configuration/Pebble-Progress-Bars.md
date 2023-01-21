@@ -1,5 +1,6 @@
 <meta name="description" content="Tutorial on making progress bars for rankup requirements with Pebble!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # Pebble Progress Bars
 
 ## Warning:

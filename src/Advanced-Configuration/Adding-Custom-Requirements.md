@@ -1,5 +1,6 @@
 <meta name="description" content="Tutorial for adding custom requirements to a rankup using PAPI!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # Adding PAPI Requirements
 
 It's possible to use a PAPI placeholder as a requirement with the format `- 'placeholder <PAPI Placeholder>'`.

@@ -1,5 +1,6 @@
 <meta name="description" content="A list of suggested readings before proceeding!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # Back to Basics
 If you've followed the Configuration Example, you should now know how to make ranks and use the commands in Rankup3.
 You should

@@ -1,5 +1,6 @@
 <meta name="description" content="A walkthrough to create your first rankup!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # Your First Rank
 ### Each Rankup or Prestige is a step on their respective ladder.
 ### Each Prestige can also slide players down or up the Rankup ladder.

@@ -1,5 +1,6 @@
 <meta name="description" content="Primer and Tutorial for Permission-Rankup!">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Prestige">
+
 # [`permission-rankup`](../GitHub/Rankup3/config/Permission-Rankup.html) is a setting in the [`config.yml`](../GitHub/Rankup3/config.html).
 
 ### Usecases

@@ -1,5 +1,6 @@
 <meta name="description" content="Reference for Prestiges.yml including all mandatory and optional sections.">
 <meta name="keywords" content="Rankup, Minecraft, Plugin, Spigot, Optionals, Commands, Prestige, Displayname">
+
 # How to `Prestiges.yml`
 ## Each `heading:` in prestiges.yml defines a Prestige from the current `rank:` group to the `next:` group, transitionary `from:` group `to:` group sections, and some `requirements:`.  
 ### Prestiges [when enabled in config.yml](../GitHub/Rankup3/config/Prestige.html) are similar to Rankups but require 1 to 2 more headings than [the minimal Rankup example](./How-to-Rankups.yml.md#an-example-of-the-minimum-required-fields-with-a-default-configyml-and-non-empty-requirements).  

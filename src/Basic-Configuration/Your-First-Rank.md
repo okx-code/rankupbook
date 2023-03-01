@@ -17,7 +17,7 @@
 ### `/prestiges` displays the entire Prestige "Ladder" [when enabled](../GitHub/Rankup3/config/Prestiges.html)
 
 ## Starting to Format
-* [Each rankup needs a `heading:`[^1], `rank:`[^2], `next:`[^3], and `requirements:`[^4] to be valid.](../Rankups-and-prestiges/How-to-Rankups.yml.html#these-are-the-4-required-sections-in-the-rankupsyml-file-necessary-for-a-rankup-to-be-considered-valid-individually)
+* Each rankup needs a `heading:`[^1], `rank:`[^2], `next:`[^3], and `requirements:`[^4] to be [valid.](../Rankups-and-prestiges/How-to-Rankups.yml.html#these-are-the-4-required-sections-in-the-rankupsyml-file-necessary-for-a-rankup-to-be-considered-valid-individually)
 * The last rankup of a ladder (all the ranks) should refer to the last rank in `next:`. This rank should not be the `rank:` of any other step.
 * The prior also applies to prestiges' `rank:` and `next:`.  
 **IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](../FAQ.md#yaml-questions).

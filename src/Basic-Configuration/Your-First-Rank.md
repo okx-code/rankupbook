@@ -23,8 +23,11 @@
 **IMPORTANT:** If you change the configuration file while the server is running, some settings may not be applied until the next restart. However, you can safely work on the rankups.yml, prestiges.yml, and locale files while the server is running and use the command `/rankup3 reload` or `/pru reload` to apply saved changes from those files. **Reloading Rankup with the command will not cause issues**. Errors may occur while reloading when the files contain [invalid user-generated YAML code](../FAQ.md#yaml-questions).
 
 [^1]: `head:`: The ***unique*** ID used to identify the rankup step.
+
 [^2]: `rank:`: The group name your player will be for them to count as that rankup step.
+
 [^3]: `next:`: The group name your player will be after succesfully ranking up.
+
 [^4]: `requirements:`: the conditions the player must satisfy in order to be able to rank up.
 
 ### First Example

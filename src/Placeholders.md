@@ -4,6 +4,8 @@
   code { white-space: nowrap !important; } /* protect code from wrapping to make selecting and copying easier. */
 </style>
 
+<iframe src="https://flurbudurbur.github.io/Rankup-Placeholder-Creator/" frameborder="0" width="100%" height="400px"></iframe>
+
 # Kinds of Placeholders
 > There are 2 kinds of supported placeholders:
 > - [Pebble](./Text-Templating.html) (preferred)  

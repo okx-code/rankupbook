@@ -45,7 +45,7 @@
 > Though the [Old Placeholders](./Placeholders.md#Placeholders) remain supported, they offer fewer customization options.  
 > We recommend using a 'find all and replace with' operation on each Old Placeholder for the new Pebble Placeholders.  
 > You can find examples comparing the Pebble Placeholders and Old Placeholders [at the bottom of the Config Placeholders page.](./Placeholders.md#money-placeholders)  
-### Why Don't Players Automatically Rankup When [`autorankup-interval:`](/GitHub/Rankup3/config/AutoRankup-Interval.html) is Non-Zero?
+### Why Don't Players Automatically Rankup When [`autorankup-interval:`](./GitHub/Rankup3/config/AutoRankup-Interval.html) is Non-Zero?
 > Players also need the permission `rankup.auto`. Though [enabled by default](./GitHub/Rankup3/plugin/Auto-Rankup.html), you may have negated it.
 ### Does `/prestiges` Have a GUI Similar to `ranksgui:`?
 > Though [`ranksgui:`](./GitHub/Rankup3/config/RanksGUI.html) is available in Rankup 3.10 or newer, `/prestiges` currently has no dedicated gui.

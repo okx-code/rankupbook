@@ -16,7 +16,7 @@
 # Starter Questions
 ### Why Does `/rankup` say `You need <amnt> money to rankup.`
 > You can read about why this message is displayed in [this section of the Configuration Example](./Basic-Configuration/Your-First-Rank.md).  
-> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration/Wrong-Message.md).  
+> You can read about how to change the message's contents in [this section of the Configuration Example](./Basic-Configuration/Customization.md).  
 ### How Does Rankup Handle Prefixes?
 > Rankup does not manage prefixes! Consult your permission group and/or chat plugins.  
 > If you followed this wiki's recommendation to use LuckPerms, you can learn about [Prefixes and Suffixes on the LuckPerms wiki!](./LuckPerms/Wiki/Prefix.html)  

@@ -14,6 +14,6 @@ Another way to further customize your placeholder with a [filter](../Text-Templa
 
 | Time Format | Operation | Raw Placeholder                                   | Filtered Placeholder                                            |
 | ----------- | --------- | ------------------------------------------------- | --------------------------------------------------------------- |
-| Seconds     | `* 60`    | `{{ rank.req('playtime-minutes').total * 60 }}`   | `{{ ( rank.req('playtime-minutes').total * 60 ) | simple }}`   |
-| Hours       | `/ 60`    | `{{ rank.req('playtime-minutes').total / 60 }}`   | `{{ ( rank.req('playtime-minutes').total / 60 ) | simple }}`   |
-| Days        | `/ 1440`  | `{{ rank.req('playtime-minutes').total / 1440 }}` | `{{ ( rank.req('playtime-minutes').total / 1440 ) | simple }}` |
+| Seconds     | `* 60`    | `{{ rank.req('playtime-minutes').total * 60 }}`   | <code>{{ ( rank.req('playtime-minutes').total * 60 ) \| simple }}</code>   |
+| Hours       | `/ 60`    | `{{ rank.req('playtime-minutes').total / 60 }}`   | <code>{{ ( rank.req('playtime-minutes').total / 60 ) \| simple }}</code>   |
+| Days        | `/ 1440`  | `{{ rank.req('playtime-minutes').total / 1440 }}` | <code>{{ ( rank.req('playtime-minutes').total / 1440 ) \| simple }}</code> |

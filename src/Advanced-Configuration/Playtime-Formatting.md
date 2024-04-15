@@ -8,12 +8,12 @@ When you use the playtime requirement, you might want a different format than Ra
 ## Default Values & Desired Results
 The default output of the unformatted `playtime-minutes` placeholder is `<amount>.0`. The placeholder `{{ rank.req('playtime-minutes').total }}` outputs minutes by default. If you want to change that, you'll need to use math to either divide or multiply the output of the `playtime-minutes` requirement to get your desired result.
 
-Another way to further customize your placeholder is to format it with a [filter](../Text-Templating/Formatting.md#filters). We recommend you use the `simple` filter. Keep in mind that the filter must be appended at the complete end. The following placeholders won't include the filter, so if you want it you'll have to add it yourself.
+Another way to further customize your placeholder with a [filter](../Text-Templating/Formatting.md#filters). We recommend you use the `simple` filter. Keep in mind that the  must be appended at the complete end. Be sure to use the _Filtered Placeholders_ from the table below if you want that.
 
 ### Values
 
-| Time Format | Number   | Placeholder                                       |
-| ----------- | -------- | ------------------------------------------------- |
-| Seconds     | `* 60`   | `{{ rank.req('playtime-minutes').total * 60 }}`   |
-| Hours       | `/ 60`   | `{{ rank.req('playtime-minutes').total / 60 }}`   |
-| Days        | `/ 1440` | `{{ rank.req('playtime-minutes').total / 1440 }}` |
+| Time Format | Operation | Raw Placeholder                                   | Filtered Placeholder                                            |
+| ----------- | --------- | ------------------------------------------------- | --------------------------------------------------------------- |
+| Seconds     | `* 60`    | `{{ rank.req('playtime-minutes').total * 60 }}`   | `{{ ( rank.req('playtime-minutes').total * 60 ) \| simple }}`   |
+| Hours       | `/ 60`    | `{{ rank.req('playtime-minutes').total / 60 }}`   | `{{ ( rank.req('playtime-minutes').total / 60 ) \| simple }}`   |
+| Days        | `/ 1440`  | `{{ rank.req('playtime-minutes').total / 1440 }}` | `{{ ( rank.req('playtime-minutes').total / 1440 ) \| simple }}` |

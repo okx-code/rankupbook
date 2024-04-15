@@ -22,7 +22,7 @@ ranksgui:
 ## GUI Sizing
 Your configuration will provide for a limited range of valid tiles in the inventory to represent rankup steps on the ladder.  
 The maximum number of rankup steps which can be displayed is limited to a double chest's inventory (54).  
-Using more than 54 rankup steps or misconfiguring the GUI will [cause a range error](../FAQ.md#code-classhljsserver-info-caused-by-javalangarrayindexoutofboundsexception-index-number-out-of-bounds-for-length-number).  
+Using more than 54 rankup steps or misconfiguring the GUI will [cause a range error](../FAQ.md#server-info-caused-by-javalangarrayindexoutofboundsexception-index-number-out-of-bounds-for-length-number).  
 Tiles in the inventory not occupied by a rankup step will use `fill:`.  
 The `offset:` value depends on `rows:` and `width:`. Its valid range is always 0 to (`rows:` times `width:`) minus one.  
 Example: When `rows: 6` and `width: 9` then (`6` * `9`) - 1 = 53.  
